@@ -37,6 +37,40 @@ export const themen = [
         tipp: "GI = Geschwindigkeit des Blutzuckeranstiegs"
       },
       {
+        frage: "Wie viele kcal liefern die Makronährstoffe pro Gramm?",
+        antwort: "• Kohlenhydrate: 4 kcal/g\n• Proteine: 4 kcal/g\n• Fette: 9 kcal/g\n• Alkohol (kein Nährstoff): 7 kcal/g\n\nFett hat mehr als doppelt so viele Kalorien wie KH oder Protein — deshalb ist Fett so kalorienreich.",
+        tipp: "Merke: KH=4, P=4, F=9 — Fett hat am meisten!"
+      },
+      {
+        frage: "Was sind essentielle Nährstoffe?",
+        antwort: "Nährstoffe, die der Körper NICHT selbst herstellen kann und deshalb über die Nahrung aufnehmen muss.\n\nBeispiele:\n• Essentielle Aminosäuren (8–9 Stück, z.B. Leucin, Valin)\n• Essentielle Fettsäuren (Omega-3, Omega-6)\n• Alle Vitamine und Mineralstoffe\n\nNicht-essentiell = Körper kann es selbst bauen (z.B. Glukose aus KH oder Fett)",
+        tipp: "Essentiell = muss von außen kommen"
+      },
+      {
+        frage: "Warum sind Proteine für Sportler besonders wichtig?",
+        antwort: "Proteine bestehen aus Aminosäuren — dem Baustoff für Muskeln.\n\nFunktionen:\n• Muskelaufbau und -reparatur nach dem Training\n• Baustoff für Enzyme, Hormone und Antikörper\n• Sättigung (höchste Sättigungswirkung aller Makros)\n\nEmpfehlung Sportler: ca. 1,6–2,2 g Protein pro kg Körpergewicht/Tag\nGute Quellen: Fleisch, Fisch, Eier, Hülsenfrüchte, Milchprodukte"
+      },
+      {
+        frage: "Was sind die 4 Säulen der Gesundheit?",
+        antwort: "1. Gesundes, echtes Essen\n2. Ausreichend Bewegung\n3. Genügend Schlaf und Regeneration\n4. Effektives Stressmanagement\n\nAlle 4 Säulen sind gleich wichtig — fällt eine weg, leidet das ganze System.",
+        tipp: "Merke: Essen · Bewegung · Schlaf · Stress"
+      },
+      {
+        frage: "Was sind Vitamine — und was ist der Unterschied fettlöslich vs. wasserlöslich?",
+        antwort: "Vitamine sind essentielle Mikronährstoffe, die der Körper nicht selbst herstellen kann.\n\nFettlöslich (A, D, E, K):\n• Gespeichert im Körperfett — Überdosierung möglich!\n• Brauchen Fett zur Aufnahme\n\nWasserlöslich (C, alle B-Vitamine):\n• Werden täglich ausgeschieden → regelmäßig zuführen\n• Überdosierung kaum möglich",
+        tipp: "Fettlöslich: ADEK · Wasserlöslich: C und alle B"
+      },
+      {
+        frage: "Was ist die Energiebilanz — und was bedeutet sie für das Gewicht?",
+        antwort: "Energiebilanz = Kalorieneinnahme minus Kalorienverbrauch.\n\n• Positiv (mehr rein als raus) → Gewicht steigt\n• Negativ (mehr raus als rein) → Gewicht sinkt\n• Ausgeglichen → Gewicht bleibt gleich\n\nDas ist das fundamentalste Prinzip der Ernährung. Alles andere (Mahlzeitenfrequenz, Timing) ist sekundär.",
+        tipp: "Kaloriendefizit → Abnehmen. Kalorienüberschuss → Zunehmen."
+      },
+      {
+        frage: "Was ist Biologische Wertigkeit (BW) bei Proteinen?",
+        antwort: "Maß dafür, wie gut der Körper ein Nahrungsprotein in körpereigenes Protein umwandeln kann.\n\nReferenz: Vollei = BW 100\n• Molke (Whey): 104–110 ✅ (höchste)\n• Vollei: 100\n• Fleisch/Fisch: ~85–90\n• Kartoffel + Ei (kombiniert): bis 137!\n\nKombination verschiedener Proteinquellen erhöht die BW.",
+        tipp: "Kombis schlagen Einzelquellen — Kartoffel+Ei ist king"
+      },
+      {
         frage: "Was ist KEIN Prüfungsinhalt laut Dozent?",
         antwort: "• Keine komplizierten Berechnungen\n• Keine Formeln auswendig lernen\n• Keine langen Antworten — kurze Erklärungen reichen\n• Keine Fallstudien\n• Keine schwierigen Fachbegriffe\n\nZiel: Grundlagen verstehen und einfach erklären können!"
       }
@@ -108,6 +142,52 @@ export const themen = [
         ],
         richtig: 2,
         erklaerung: "Der Dozent betont: kurze, verständliche Erklärungen reichen. Keine Formeln, keine Fallstudien, keine komplizierten Berechnungen."
+      },
+      {
+        frage: "Wie viele kcal liefert 1 Gramm Fett?",
+        optionen: ["4 kcal", "5 kcal", "7 kcal", "9 kcal"],
+        richtig: 3,
+        erklaerung: "Fett liefert 9 kcal/g — mehr als doppelt so viel wie Kohlenhydrate oder Protein (je 4 kcal/g). Alkohol liefert 7 kcal/g."
+      },
+      {
+        frage: "Was bedeutet 'essentiell' bei Nährstoffen?",
+        optionen: [
+          "Der Körper braucht sie nicht",
+          "Der Körper kann sie nicht selbst herstellen",
+          "Sie liefern besonders viel Energie",
+          "Sie sind nur für Sportler wichtig"
+        ],
+        richtig: 1,
+        erklaerung: "Essentiell = der Körper kann diesen Nährstoff nicht selbst produzieren und muss ihn über die Nahrung aufnehmen. Gilt für essentielle Aminosäuren, Fettsäuren, Vitamine und Mineralstoffe."
+      },
+      {
+        frage: "Wie viel Protein braucht ein Kraftsportler pro Tag (pro kg Körpergewicht)?",
+        optionen: ["0,5–0,8 g/kg", "1,0–1,2 g/kg", "1,6–2,2 g/kg", "3,0–4,0 g/kg"],
+        richtig: 2,
+        erklaerung: "Für Muskelaufbau und -erhalt empfiehlt die Sporternährung ca. 1,6–2,2 g Protein pro kg Körpergewicht täglich."
+      },
+      {
+        frage: "Welche Vitamine sind fettlöslich?",
+        optionen: ["A, C, E, K", "A, D, E, K", "B, C, D, E", "A, B, D, K"],
+        richtig: 1,
+        erklaerung: "Die fettlöslichen Vitamine sind A, D, E und K (Merkwort: ADEK). Sie werden im Körperfett gespeichert und brauchen Fett zur Aufnahme."
+      },
+      {
+        frage: "Was passiert bei einer dauerhaft negativen Energiebilanz?",
+        optionen: [
+          "Das Gewicht bleibt konstant",
+          "Das Gewicht steigt",
+          "Das Gewicht sinkt",
+          "Muskeln wachsen schneller"
+        ],
+        richtig: 2,
+        erklaerung: "Negative Energiebilanz = mehr Kalorien verbraucht als gegessen → Körper greift auf Energiespeicher zurück → Gewicht sinkt. Das ist das Grundprinzip jeder Diät."
+      },
+      {
+        frage: "Welche Proteinkombination hat die höchste biologische Wertigkeit?",
+        optionen: ["Whey + Casein", "Fleisch + Fisch", "Kartoffel + Ei", "Reis + Bohnen"],
+        richtig: 2,
+        erklaerung: "Kartoffel + Ei erreicht eine biologische Wertigkeit von bis zu 137 — höher als Einzelquellen wie Vollei (100) oder Whey (104–110), weil sich die Aminosäureprofile optimal ergänzen."
       },
       {
         frage: "Was sind die 3 Makronährstoffe?",
