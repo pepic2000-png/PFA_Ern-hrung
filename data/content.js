@@ -571,5 +571,154 @@ export const themen = [
         erklaerung: "3–6g Kreatin täglich reichen aus. Mehr bringt keinen Vorteil — bei gefüllten Muskelspeichern wird überschüssiges Kreatin einfach ausgeschieden."
       }
     ]
+  },
+  {
+    id: "wasser_verdauung",
+    titel: "Wasser & Verdauung",
+    farbe: "#2471a3",
+    icon: "💧",
+    karten: [
+      {
+        frage: "Welche Funktionen hat Wasser im Körper?",
+        antwort: "Wasser ist die 5. Bilanz der Ernährung und lebenswichtig:\n\n• Lösungs- und Transportmittel für Nährstoffe\n• Regulierung der Körpertemperatur (Schwitzen)\n• Bestandteil aller Körperflüssigkeiten (Blut, Lymphe, Verdauungssäfte)\n• Notwendig für alle Stoffwechselvorgänge\n• Schmiert Gelenke und Knorpel\n• Entgiftung über Nieren\n\nDer Körper besteht zu ca. 60–70% aus Wasser.",
+        tipp: "Wasser = 0 kcal, aber essentiell! Es ist die 5. Bilanz der Ernährung."
+      },
+      {
+        frage: "Wie viel Wasser braucht man täglich?",
+        antwort: "Richtwert: ca. 30–40 ml pro kg Körpergewicht/Tag\n\nBeispiel 70 kg Person: ca. 2,1–2,8 Liter/Tag\n\nMehr Bedarf bei:\n• Sport / Schwitzen\n• Hitze\n• Krankheit\n• Hohem Proteinkonsum\n• Ballaststoffreicher Ernährung\n\nMangel führt zu: Leistungsabfall, Konzentrationsprobleme, Kopfschmerzen",
+        tipp: "Bereits 2% Wasserverlust = spürbare Leistungseinbuße!"
+      },
+      {
+        frage: "Was ist PAL und was ist NEAT?",
+        antwort: "PAL = Physical Activity Level\n→ Gesamter Aktivitätsfaktor für den Tag (= Basis für TDEE-Berechnung)\n\nNEAT = Non-Exercise Activity Thermogenesis\n→ Kalorienerverbrauch durch ALLE Aktivitäten AUSSER gezieltem Sport:\n• Gehen, Stehen, Treppensteigen\n• Hausarbeit, Einkaufen\n• Nervös mit dem Fuß wippen\n\n→ NEAT ist oft unterschätzt — kann hunderte kcal täglich ausmachen!\n→ Sitzendes Verhalten senkt NEAT drastisch",
+        tipp: "NEAT macht bei aktiven Menschen oft mehr aus als das Sportstudio!"
+      },
+      {
+        frage: "Welche Organe sind am Verdauungsprozess beteiligt?",
+        antwort: "Von oben nach unten:\n\n1. Mundhöhle — Kauen, Speichemischung (Amylase)\n2. Speiseröhre (Ösophagus) — Transport\n3. Magen — Quetscht, mischt mit Magensäure und Enzymen\n4. Dünndarm — Hauptort der Nährstoff-Resorption ins Blut/Lymphe\n5. Bauchspeicheldrüse — Enzyme für alle Makronährstoffe\n6. Leber — Produziert Galle (Fettverdauung)\n7. Gallenblase — Speichert Galle\n8. Dickdarm — Entzieht Wasser und Mineralstoffe, Ballaststoffabbau\n9. Rektum + Anus — Ausscheidung"
+      },
+      {
+        frage: "Wo werden die Makronährstoffe hauptsächlich resorbiert?",
+        antwort: "Alle drei Makronährstoffe werden hauptsächlich im DÜNNDARM resorbiert:\n\n• Kohlenhydrate → werden zu Glukose aufgespalten → ins Blut\n• Proteine → werden zu Aminosäuren aufgespalten → ins Blut\n• Fette → werden zu Fettsäuren + Glycerol → in die Lymphe (dann Blut)\n\nBauchspeicheldrüse liefert die Enzyme dafür.\nLeber verarbeitet anschließend die resorbierten Nährstoffe."
+      }
+    ],
+    quiz: [
+      {
+        frage: "Was ist NEAT?",
+        optionen: [
+          "Ein Proteinshake-Typ",
+          "Kalorienerverbrauch durch alle Aktivitäten außer gezieltem Sport",
+          "Eine Methode zur Körperfettmessung",
+          "Ein Maß für die Proteinqualität"
+        ],
+        richtig: 1,
+        erklaerung: "NEAT = Non-Exercise Activity Thermogenesis. Das ist der Kalorienverbrauch durch Alltagsbewegungen — oft unterschätzt aber sehr bedeutend!"
+      },
+      {
+        frage: "Wofür steht PAL?",
+        optionen: [
+          "Protein Absorption Level",
+          "Physical Activity Level",
+          "Protein Amino Load",
+          "Physical Aerobic Limit"
+        ],
+        richtig: 1,
+        erklaerung: "PAL = Physical Activity Level. Er ist der Multiplikator für den Grundumsatz (BMR) zur Berechnung des Tagesbedarfs (TDEE)."
+      },
+      {
+        frage: "Wo werden Nährstoffe hauptsächlich ins Blut aufgenommen?",
+        optionen: ["Im Magen", "Im Dickdarm", "Im Dünndarm", "In der Leber"],
+        richtig: 2,
+        erklaerung: "Der Dünndarm ist der Hauptort der Resorption — Kohlenhydrate und Proteine ins Blut, Fette über die Lymphe."
+      },
+      {
+        frage: "Welches Organ produziert die Galle für die Fettverdauung?",
+        optionen: ["Bauchspeicheldrüse", "Magen", "Leber", "Dünndarm"],
+        richtig: 2,
+        erklaerung: "Die Leber produziert Galle. Die Gallenblase speichert sie und gibt sie bei Bedarf in den Dünndarm ab."
+      },
+      {
+        frage: "Bereits wie viel % Wasserverlust führt zu spürbarem Leistungsabfall?",
+        optionen: ["0,5%", "1%", "2%", "5%"],
+        richtig: 2,
+        erklaerung: "Bereits 2% Wasserverlust (z.B. 1,4 Liter bei 70 kg) führt zu messbarem Leistungsabfall, Konzentrationsproblemen und Kopfschmerzen."
+      }
+    ]
+  },
+  {
+    id: "energiesysteme",
+    titel: "Energiesysteme & Stoffwechsel",
+    farbe: "#1e8449",
+    icon: "🔋",
+    karten: [
+      {
+        frage: "Was sind die 3 Energiesysteme des Körpers?",
+        antwort: "1. ATP-CP System (anaerob alaktazid)\n   → 0–10 Sekunden, sehr intensiv\n   → Phosphokreatin → ATP\n   → Beispiel: Sprint, Gewichtheben\n\n2. Glykolytisches System (anaerob laktazid)\n   → 10 Sek – 2 Minuten\n   → Glukose → Pyruvat → Laktat\n   → Beispiel: 400m Lauf\n\n3. Oxidatives System (aerob)\n   → Ab ca. 2 Minuten, unbegrenzt\n   → Glukose + Fett + O₂ → ATP + CO₂ + H₂O\n   → Beispiel: Marathonlauf, Radfahren"
+      },
+      {
+        frage: "Was ist der Unterschied zwischen aerobem und anaerobem Stoffwechsel?",
+        antwort: "Aerob (mit Sauerstoff):\n• Vollständige Verbrennung von KH und Fett\n• Produkte: CO₂ + H₂O + viel ATP\n• Langsame aber effiziente Energiegewinnung\n• Dauerhaft aufrechtzuerhalten\n\nAnaerob (ohne Sauerstoff):\n• Unvollständige Verbrennung von KH\n• Produkt: Laktat\n• Schnelle aber begrenzte Energiegewinnung\n• Führt schnell zu Erschöpfung\n\n→ Je intensiver die Belastung, desto mehr anaerob!",
+        tipp: "Merke: Aerob = Ausdauer, Anaerob = Kraft/Sprint"
+      },
+      {
+        frage: "Was ist ATP und warum ist es wichtig?",
+        antwort: "ATP = Adenosintriphosphat\n\n→ Die direkte Energiewährung des Körpers!\nJede Muskelkontraktion braucht ATP.\n\nATP-Bildungsrate (mmol/min):\n• ATP/CP anaerob: 4,4 (schnellste!)\n• Glykogen anaerob: 3,0\n• Glykogen Muskel aerob: 1,0\n• Glykogen Leber aerob: 0,4\n• Freie Fettsäuren aerob: 0,4 (langsamste)\n\n→ Fett liefert die meiste Energie, aber am langsamsten!"
+      },
+      {
+        frage: "Was ist Carboloading und wann macht es Sinn?",
+        antwort: "Carboloading = gezielte Auffüllung der Glykogenspeicher vor Wettkampf\n\nEffekt:\n• Vor KH-Loading: ~100 mmol/kg Muskel\n• Nach KH-Loading: ~190 mmol/kg Muskel\n→ Nahezu Verdoppelung der Glykogenspeicher!\n\nWann sinnvoll:\n• Ausdauerbelastungen > 90 Minuten\n• 1–3 Tage vor dem Wettkampf\n• Verschiedene Methoden (mit/ohne Entleerungsphase)\n\nFatloading: Fettanteil > 60%, nur bei Belastungen > 6 Stunden, unter med. Überwachung"
+      },
+      {
+        frage: "Wie unterscheiden sich die Energiespeicher bei Sportlern vs. Nicht-Sportlern?",
+        antwort: "Kohlenhydrate (Glykogen):\n• Normalperson: ~320g = 1.280 kcal\n• Ausdauertrainierte: ~520g = 2.080 kcal\n\nFette:\n• Normalperson in Fettzellen: ~15 kg = 140.000 kcal\n• Ausdauertrainierte: ~8 kg = 75.000 kcal (weniger Körperfett, mehr intramuskulär)\n\n→ Training erhöht die Glykogenspeicher um 60%!\n→ Fettspeicher liefern immer die meiste Energie"
+      }
+    ],
+    quiz: [
+      {
+        frage: "Welches Energiesystem liefert Energie für einen 100m Sprint?",
+        optionen: [
+          "Oxidatives System (aerob)",
+          "ATP-CP System (anaerob alaktazid)",
+          "Glykolytisches System mit Laktat",
+          "Fettstoffwechsel"
+        ],
+        richtig: 1,
+        erklaerung: "Ein 100m Sprint dauert ~10 Sekunden → ATP-CP System. Es liefert Energie ohne Sauerstoff und ohne Laktatproduktion."
+      },
+      {
+        frage: "Was entsteht beim anaeroben Kohlenhydratstoffwechsel?",
+        optionen: ["CO₂ + H₂O", "ATP + O₂", "Laktat", "Glykogen"],
+        richtig: 2,
+        erklaerung: "Anaerober KH-Stoffwechsel: Glukose → Pyruvat → Laktat. Laktat ist das Abbauprodukt, das bei Muskelerschöpfung entsteht."
+      },
+      {
+        frage: "Welches System hat die höchste ATP-Bildungsrate?",
+        optionen: [
+          "Freie Fettsäuren aerob (0,4)",
+          "Glykogen Muskel aerob (1,0)",
+          "Glykogen anaerob (3,0)",
+          "ATP/CP anaerob (4,4)"
+        ],
+        richtig: 3,
+        erklaerung: "Das ATP/CP-System hat mit 4,4 mmol/min die höchste Bildungsrate — deshalb ist es für maximale Kraft ideal, aber es erschöpft sich nach ~10 Sekunden."
+      },
+      {
+        frage: "Wie viel mehr Glykogen können Ausdauertrainierte speichern?",
+        optionen: ["Gleich viel", "Ca. 20% mehr", "Ca. 60% mehr", "Doppelt so viel"],
+        richtig: 2,
+        erklaerung: "Ausdauertrainierte speichern ca. 520g vs. 320g bei Normalpersonen — das sind ca. 60% mehr Glykogen!"
+      },
+      {
+        frage: "Wann macht Carboloading Sinn?",
+        optionen: [
+          "Vor jeder Trainingseinheit",
+          "Bei Belastungen unter 30 Minuten",
+          "Bei Ausdauerbelastungen über 90 Minuten",
+          "Nur für Kraftsportler"
+        ],
+        richtig: 2,
+        erklaerung: "Carboloading lohnt sich erst bei Ausdauerbelastungen über 90 Minuten — darunter reichen normale Glykogenspeicher aus."
+      }
+    ]
   }
 ];
