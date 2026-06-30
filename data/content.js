@@ -70,10 +70,6 @@ export const themen = [
         antwort: "Maß dafür, wie gut der Körper ein Nahrungsprotein in körpereigenes Protein umwandeln kann.\n\nReferenz: Vollei = BW 100\n• Molke (Whey): 104–110 ✅ (höchste)\n• Vollei: 100\n• Fleisch/Fisch: ~85–90\n• Kartoffel + Ei (kombiniert): bis 137!\n\nKombination verschiedener Proteinquellen erhöht die BW.",
         tipp: "Kombis schlagen Einzelquellen — Kartoffel+Ei ist king"
       },
-      {
-        frage: "Was ist KEIN Prüfungsinhalt laut Dozent?",
-        antwort: "• Keine komplizierten Berechnungen\n• Keine Formeln auswendig lernen\n• Keine langen Antworten — kurze Erklärungen reichen\n• Keine Fallstudien\n• Keine schwierigen Fachbegriffe\n\nZiel: Grundlagen verstehen und einfach erklären können!"
-      }
     ],
     quiz: [
       {
@@ -131,17 +127,6 @@ export const themen = [
         ],
         richtig: 1,
         erklaerung: "Grundumsatz = Ruheenergie. Leistungsumsatz (TDEE) = Grundumsatz + Alltagsbewegung + Sport. Je aktiver du bist, desto höher der Leistungsumsatz."
-      },
-      {
-        frage: "Welche Aussage über die Prüfung ist laut Dozent richtig?",
-        optionen: [
-          "Formeln müssen auswendig gelernt werden",
-          "Lange, detaillierte Antworten werden erwartet",
-          "Grundlagen verstehen und kurz erklären reicht",
-          "Fallstudien werden abgefragt"
-        ],
-        richtig: 2,
-        erklaerung: "Der Dozent betont: kurze, verständliche Erklärungen reichen. Keine Formeln, keine Fallstudien, keine komplizierten Berechnungen."
       },
       {
         frage: "Wie viele kcal liefert 1 Gramm Fett?",
