@@ -1,5 +1,128 @@
 export const themen = [
   {
+    id: "pruefungsrelevant",
+    titel: "⭐ Prüfungsrelevant",
+    farbe: "#f59e0b",
+    icon: "🎯",
+    karten: [
+      {
+        frage: "Was sind die 5 Bilanzen der Ernährung?",
+        antwort: "1. Energie-Bilanz\n2. Makronährstoff-Bilanz\n3. Vitamine\n4. Mineralstoffe\n5. Wasser",
+        tipp: "Diese 5 Bilanzen kommen direkt in der Prüfung!"
+      },
+      {
+        frage: "Was sind die 3 Makronährstoffe?",
+        antwort: "1. Kohlenhydrate (KH) — z.B. Reis, Brot, Kartoffeln\n2. Fette — z.B. Öle, Nüsse, Avocado\n3. Proteine — z.B. Fleisch, Eier, Hülsenfrüchte",
+        tipp: "Makronährstoffe = die großen Drei. Jeder liefert Energie."
+      },
+      {
+        frage: "Wie teilt man Fette ein?",
+        antwort: "• Gesättigte Fettsäuren — z.B. Butter, Fleisch (fest bei Raumtemperatur)\n• Einfach ungesättigte — z.B. Olivenöl (flüssig, hitzestabil)\n• Mehrfach ungesättigte — z.B. Omega-3 (Fisch), Omega-6 (Sonnenblumenöl)\n\nFaustregel: Je flüssiger bei Zimmertemperatur, desto gesünder."
+      },
+      {
+        frage: "Was ist der Grundumsatz (BMR)?",
+        antwort: "Die Energie, die der Körper in vollständiger Ruhe verbraucht — nur um zu überleben (Atmung, Herzschlag, Wärme).\n\nTypisch: ca. 1.500–2.000 kcal/Tag je nach Person.\n\nEinflussfaktoren: Körpergröße, Gewicht, Alter, Muskelmasse."
+      },
+      {
+        frage: "Was ist der Leistungsumsatz und wie unterscheidet er sich vom Grundumsatz?",
+        antwort: "Grundumsatz = Energie im totalen Ruhezustand.\nLeistungsumsatz = Grundumsatz + Bewegungsenergie (TDEE).\n\nSprich: Wer sich mehr bewegt, hat einen höheren Leistungsumsatz.\n\nBeispiel: BMR 1.800 kcal + Sport + Alltag = TDEE 2.400 kcal"
+      },
+      {
+        frage: "Was ist Insulin — kurz erklärt?",
+        antwort: "Insulin ist ein Hormon der Bauchspeicheldrüse.\n\nAufgabe: Senkt den Blutzucker, indem es Zucker aus dem Blut in die Zellen schleust (Muskeln, Leber, Fettgewebe).\n\nNach kohlenhydratreicher Mahlzeit → Blutzucker steigt → Insulin wird ausgeschüttet → Blutzucker sinkt."
+      },
+      {
+        frage: "Was ist der Glykämische Index (GI)?",
+        antwort: "Maß dafür, wie schnell ein kohlenhydrathaltiges Lebensmittel den Blutzucker ansteigen lässt.\n\nHoher GI (>70): Weißbrot, Zucker → schneller Anstieg → schneller Abfall → Heißhunger\nNiedriger GI (<55): Haferflocken, Hülsenfrüchte → langsamer, stabiler Anstieg\n\nReferenzwert: Traubenzucker = GI 100",
+        tipp: "GI = Geschwindigkeit des Blutzuckeranstiegs"
+      },
+      {
+        frage: "Was ist KEIN Prüfungsinhalt laut Dozent?",
+        antwort: "• Keine komplizierten Berechnungen\n• Keine Formeln auswendig lernen\n• Keine langen Antworten — kurze Erklärungen reichen\n• Keine Fallstudien\n• Keine schwierigen Fachbegriffe\n\nZiel: Grundlagen verstehen und einfach erklären können!"
+      }
+    ],
+    quiz: [
+      {
+        frage: "Welche der folgenden ist KEINE der 5 Bilanzen der Ernährung?",
+        optionen: ["Energie-Bilanz", "Makronährstoff-Bilanz", "Hormon-Bilanz", "Wasser-Bilanz"],
+        richtig: 2,
+        erklaerung: "Die 5 Bilanzen sind: Energie, Makronährstoffe, Vitamine, Mineralstoffe und Wasser. Hormone gehören nicht dazu."
+      },
+      {
+        frage: "Welche Fettsäuren sind z.B. in Olivenöl enthalten?",
+        optionen: ["Gesättigte Fettsäuren", "Einfach ungesättigte Fettsäuren", "Mehrfach ungesättigte Fettsäuren", "Trans-Fettsäuren"],
+        richtig: 1,
+        erklaerung: "Olivenöl enthält hauptsächlich einfach ungesättigte Fettsäuren (Ölsäure). Diese sind hitzestabiler als mehrfach ungesättigte."
+      },
+      {
+        frage: "Was misst der Grundumsatz?",
+        optionen: [
+          "Energie für Sport und Alltag",
+          "Energie im totalen Ruhezustand zum Überleben",
+          "Energie für die Verdauung",
+          "Gesamten Tagesenergiebedarf"
+        ],
+        richtig: 1,
+        erklaerung: "Der Grundumsatz (BMR) ist die Energie, die der Körper in vollständiger Ruhe braucht — Atmung, Herzschlag, Wärme. Ohne jede Bewegung."
+      },
+      {
+        frage: "Was passiert nach einer kohlenhydratreichen Mahlzeit?",
+        optionen: [
+          "Blutzucker sinkt → Insulin steigt",
+          "Blutzucker steigt → Insulin wird ausgeschüttet",
+          "Insulin sinkt → Blutzucker steigt",
+          "Blutzucker bleibt konstant"
+        ],
+        richtig: 1,
+        erklaerung: "KH → Blutzucker steigt → Bauchspeicheldrüse schüttet Insulin aus → Insulin bringt Zucker in die Zellen → Blutzucker sinkt."
+      },
+      {
+        frage: "Ein Lebensmittel mit niedrigem Glykämischem Index (GI) ...",
+        optionen: [
+          "... lässt den Blutzucker schnell ansteigen",
+          "... enthält keinen Zucker",
+          "... lässt den Blutzucker langsam und gleichmäßig ansteigen",
+          "... hat keine Kalorien"
+        ],
+        richtig: 2,
+        erklaerung: "Niedriger GI = langsamer, stabiler Blutzuckeranstieg. Das hält länger satt und vermeidet Heißhunger-Attacken. Beispiel: Haferflocken, Linsen."
+      },
+      {
+        frage: "Was ist der Unterschied zwischen Grundumsatz und Leistungsumsatz?",
+        optionen: [
+          "Kein Unterschied, es sind Synonyme",
+          "Leistungsumsatz = Grundumsatz + Energie für Bewegung und Alltag",
+          "Grundumsatz ist immer höher als der Leistungsumsatz",
+          "Leistungsumsatz misst nur die Energie beim Sport"
+        ],
+        richtig: 1,
+        erklaerung: "Grundumsatz = Ruheenergie. Leistungsumsatz (TDEE) = Grundumsatz + Alltagsbewegung + Sport. Je aktiver du bist, desto höher der Leistungsumsatz."
+      },
+      {
+        frage: "Welche Aussage über die Prüfung ist laut Dozent richtig?",
+        optionen: [
+          "Formeln müssen auswendig gelernt werden",
+          "Lange, detaillierte Antworten werden erwartet",
+          "Grundlagen verstehen und kurz erklären reicht",
+          "Fallstudien werden abgefragt"
+        ],
+        richtig: 2,
+        erklaerung: "Der Dozent betont: kurze, verständliche Erklärungen reichen. Keine Formeln, keine Fallstudien, keine komplizierten Berechnungen."
+      },
+      {
+        frage: "Was sind die 3 Makronährstoffe?",
+        optionen: [
+          "Kohlenhydrate, Vitamine, Wasser",
+          "Proteine, Mineralstoffe, Fette",
+          "Kohlenhydrate, Fette, Proteine",
+          "Glukose, Insulin, Aminosäuren"
+        ],
+        richtig: 2,
+        erklaerung: "Die 3 Makronährstoffe sind Kohlenhydrate, Fette und Proteine. Vitamine und Mineralstoffe sind Mikronährstoffe, Wasser ist eine eigene Bilanz."
+      }
+    ]
+  },
+  {
     id: "grundlagen",
     titel: "Grundlagen der Ernährung",
     farbe: "#e74c3c",

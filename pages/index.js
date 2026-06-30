@@ -123,8 +123,32 @@ export default function App() {
         </div>
 
         <p className="section-title">Thema wählen</p>
-        <div className="topic-grid">
-          {themen.map(t => (
+
+        {/* Prüfungsrelevant highlight card — spans full width */}
+        {themen.filter(t => t.id === 'pruefungsrelevant').map(t => (
+          <div key={t.id} className="topic-card topic-card-featured" style={{ background: 'linear-gradient(135deg, #f59e0b, #d97706)' }}>
+            <div style={{ display: 'flex', alignItems: 'center', gap: 10, marginBottom: 6 }}>
+              <span style={{ fontSize: '2rem' }}>{t.icon}</span>
+              <div>
+                <div style={{ fontSize: '0.65rem', fontWeight: 800, textTransform: 'uppercase', letterSpacing: 1.5, opacity: 0.85 }}>Direkt prüfungsrelevant</div>
+                <h3 style={{ fontSize: '1.05rem', marginTop: 2 }}>{t.titel}</h3>
+              </div>
+              <span className="badge-neu">NEU</span>
+            </div>
+            <p className="count" style={{ marginBottom: 12 }}>{t.karten.length} Karten · {t.quiz.length} Quiz — vom Dozenten bestätigt</p>
+            <div className="topic-card-btns">
+              <button className="topic-card-btn" onClick={() => openTopic(t.id, 'flashcards')}>
+                📖 Lernen
+              </button>
+              <button className="topic-card-btn" onClick={() => openTopic(t.id, 'quiz')}>
+                ✏️ Quiz
+              </button>
+            </div>
+          </div>
+        ))}
+
+        <div className="topic-grid" style={{ marginTop: 10 }}>
+          {themen.filter(t => t.id !== 'pruefungsrelevant').map(t => (
             <div key={t.id} className="topic-card" style={{ background: t.farbe }}>
               <div className="icon">{t.icon}</div>
               <h3>{t.titel}</h3>

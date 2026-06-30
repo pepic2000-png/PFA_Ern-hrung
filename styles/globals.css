@@ -64,6 +64,29 @@ body {
 }
 .topic-card-btn:active { background: rgba(255,255,255,0.4); }
 
+/* ── Featured topic card (full-width, exam highlight) ── */
+.topic-card-featured {
+  border-radius: 20px;
+  padding: 18px 16px;
+  color: #fff;
+  box-shadow: 0 6px 24px rgba(245, 158, 11, 0.45);
+  margin-bottom: 0;
+  position: relative;
+  -webkit-tap-highlight-color: transparent;
+}
+.topic-card-featured:active { opacity: 0.9; transform: scale(0.98); }
+.badge-neu {
+  margin-left: auto;
+  background: #fff;
+  color: #d97706;
+  font-size: 0.65rem;
+  font-weight: 800;
+  letter-spacing: 1.5px;
+  padding: 3px 8px;
+  border-radius: 99px;
+  flex-shrink: 0;
+}
+
 /* ── Back button ── */
 .back-btn {
   display: inline-flex; align-items: center; gap: 6px;
