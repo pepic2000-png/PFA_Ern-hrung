@@ -76,13 +76,13 @@ export const themen = [
         frage: "Welche der folgenden ist KEINE der 5 Bilanzen der Ernährung?",
         optionen: ["Energie-Bilanz", "Makronährstoff-Bilanz", "Hormon-Bilanz", "Wasser-Bilanz"],
         richtig: 2,
-        erklaerung: "Die 5 Bilanzen sind: Energie, Makronährstoffe, Vitamine, Mineralstoffe und Wasser. Hormone gehören nicht dazu."
+        erklärung: "Die 5 Bilanzen sind: Energie, Makronährstoffe, Vitamine, Mineralstoffe und Wasser. Hormone gehören nicht dazu."
       },
       {
         frage: "Welche Fettsäuren sind z.B. in Olivenöl enthalten?",
         optionen: ["Gesättigte Fettsäuren", "Einfach ungesättigte Fettsäuren", "Mehrfach ungesättigte Fettsäuren", "Trans-Fettsäuren"],
         richtig: 1,
-        erklaerung: "Olivenöl enthält hauptsächlich einfach ungesättigte Fettsäuren (Ölsäure). Diese sind hitzestabiler als mehrfach ungesättigte."
+        erklärung: "Olivenöl enthält hauptsächlich einfach ungesättigte Fettsäuren (Ölsäure). Diese sind hitzestabiler als mehrfach ungesättigte."
       },
       {
         frage: "Was misst der Grundumsatz?",
@@ -93,7 +93,7 @@ export const themen = [
           "Gesamten Tagesenergiebedarf"
         ],
         richtig: 1,
-        erklaerung: "Der Grundumsatz (BMR) ist die Energie, die der Körper in vollständiger Ruhe braucht — Atmung, Herzschlag, Wärme. Ohne jede Bewegung."
+        erklärung: "Der Grundumsatz (BMR) ist die Energie, die der Körper in vollständiger Ruhe braucht — Atmung, Herzschlag, Wärme. Ohne jede Bewegung."
       },
       {
         frage: "Was passiert nach einer kohlenhydratreichen Mahlzeit?",
@@ -104,7 +104,7 @@ export const themen = [
           "Blutzucker bleibt konstant"
         ],
         richtig: 1,
-        erklaerung: "KH → Blutzucker steigt → Bauchspeicheldrüse schüttet Insulin aus → Insulin bringt Zucker in die Zellen → Blutzucker sinkt."
+        erklärung: "KH → Blutzucker steigt → Bauchspeicheldrüse schüttet Insulin aus → Insulin bringt Zucker in die Zellen → Blutzucker sinkt."
       },
       {
         frage: "Ein Lebensmittel mit niedrigem Glykämischem Index (GI) ...",
@@ -115,7 +115,7 @@ export const themen = [
           "... hat keine Kalorien"
         ],
         richtig: 2,
-        erklaerung: "Niedriger GI = langsamer, stabiler Blutzuckeranstieg. Das hält länger satt und vermeidet Heißhunger-Attacken. Beispiel: Haferflocken, Linsen."
+        erklärung: "Niedriger GI = langsamer, stabiler Blutzuckeranstieg. Das hält länger satt und vermeidet Heißhunger-Attacken. Beispiel: Haferflocken, Linsen."
       },
       {
         frage: "Was ist der Unterschied zwischen Grundumsatz und Leistungsumsatz?",
@@ -126,13 +126,13 @@ export const themen = [
           "Leistungsumsatz misst nur die Energie beim Sport"
         ],
         richtig: 1,
-        erklaerung: "Grundumsatz = Ruheenergie. Leistungsumsatz (TDEE) = Grundumsatz + Alltagsbewegung + Sport. Je aktiver du bist, desto höher der Leistungsumsatz."
+        erklärung: "Grundumsatz = Ruheenergie. Leistungsumsatz (TDEE) = Grundumsatz + Alltagsbewegung + Sport. Je aktiver du bist, desto höher der Leistungsumsatz."
       },
       {
         frage: "Wie viele kcal liefert 1 Gramm Fett?",
         optionen: ["4 kcal", "5 kcal", "7 kcal", "9 kcal"],
         richtig: 3,
-        erklaerung: "Fett liefert 9 kcal/g — mehr als doppelt so viel wie Kohlenhydrate oder Protein (je 4 kcal/g). Alkohol liefert 7 kcal/g."
+        erklärung: "Fett liefert 9 kcal/g — mehr als doppelt so viel wie Kohlenhydrate oder Protein (je 4 kcal/g). Alkohol liefert 7 kcal/g."
       },
       {
         frage: "Was bedeutet 'essentiell' bei Nährstoffen?",
@@ -143,19 +143,19 @@ export const themen = [
           "Sie sind nur für Sportler wichtig"
         ],
         richtig: 1,
-        erklaerung: "Essentiell = der Körper kann diesen Nährstoff nicht selbst produzieren und muss ihn über die Nahrung aufnehmen. Gilt für essentielle Aminosäuren, Fettsäuren, Vitamine und Mineralstoffe."
+        erklärung: "Essentiell = der Körper kann diesen Nährstoff nicht selbst produzieren und muss ihn über die Nahrung aufnehmen. Gilt für essentielle Aminosäuren, Fettsäuren, Vitamine und Mineralstoffe."
       },
       {
         frage: "Wie viel Protein braucht ein Kraftsportler pro Tag (pro kg Körpergewicht)?",
         optionen: ["0,5–0,8 g/kg", "1,0–1,2 g/kg", "1,6–2,2 g/kg", "3,0–4,0 g/kg"],
         richtig: 2,
-        erklaerung: "Für Muskelaufbau und -erhalt empfiehlt die Sporternährung ca. 1,6–2,2 g Protein pro kg Körpergewicht täglich."
+        erklärung: "Für Muskelaufbau und -erhalt empfiehlt die Sporternährung ca. 1,6–2,2 g Protein pro kg Körpergewicht täglich."
       },
       {
         frage: "Welche Vitamine sind fettlöslich?",
         optionen: ["A, C, E, K", "A, D, E, K", "B, C, D, E", "A, B, D, K"],
         richtig: 1,
-        erklaerung: "Die fettlöslichen Vitamine sind A, D, E und K (Merkwort: ADEK). Sie werden im Körperfett gespeichert und brauchen Fett zur Aufnahme."
+        erklärung: "Die fettlöslichen Vitamine sind A, D, E und K (Merkwort: ADEK). Sie werden im Körperfett gespeichert und brauchen Fett zur Aufnahme."
       },
       {
         frage: "Was passiert bei einer dauerhaft negativen Energiebilanz?",
@@ -166,13 +166,13 @@ export const themen = [
           "Muskeln wachsen schneller"
         ],
         richtig: 2,
-        erklaerung: "Negative Energiebilanz = mehr Kalorien verbraucht als gegessen → Körper greift auf Energiespeicher zurück → Gewicht sinkt. Das ist das Grundprinzip jeder Diät."
+        erklärung: "Negative Energiebilanz = mehr Kalorien verbraucht als gegessen → Körper greift auf Energiespeicher zurück → Gewicht sinkt. Das ist das Grundprinzip jeder Diät."
       },
       {
         frage: "Welche Proteinkombination hat die höchste biologische Wertigkeit?",
         optionen: ["Whey + Casein", "Fleisch + Fisch", "Kartoffel + Ei", "Reis + Bohnen"],
         richtig: 2,
-        erklaerung: "Kartoffel + Ei erreicht eine biologische Wertigkeit von bis zu 137 — höher als Einzelquellen wie Vollei (100) oder Whey (104–110), weil sich die Aminosäureprofile optimal ergänzen."
+        erklärung: "Kartoffel + Ei erreicht eine biologische Wertigkeit von bis zu 137 — höher als Einzelquellen wie Vollei (100) oder Whey (104–110), weil sich die Aminosäureprofile optimal ergänzen."
       },
       {
         frage: "Was sind die 3 Makronährstoffe?",
@@ -183,7 +183,7 @@ export const themen = [
           "Glukose, Insulin, Aminosäuren"
         ],
         richtig: 2,
-        erklaerung: "Die 3 Makronährstoffe sind Kohlenhydrate, Fette und Proteine. Vitamine und Mineralstoffe sind Mikronährstoffe, Wasser ist eine eigene Bilanz."
+        erklärung: "Die 3 Makronährstoffe sind Kohlenhydrate, Fette und Proteine. Vitamine und Mineralstoffe sind Mikronährstoffe, Wasser ist eine eigene Bilanz."
       }
     ]
   },
@@ -225,13 +225,13 @@ export const themen = [
         frage: "Wie viel Prozent des Immunsystems befindet sich im Darm?",
         optionen: ["30–40%", "50–60%", "60–70%", "80–90%"],
         richtig: 2,
-        erklaerung: "60–70% des Immunsystems befinden sich im Darm — deshalb ist Darmgesundheit so wichtig!"
+        erklärung: "60–70% des Immunsystems befinden sich im Darm — deshalb ist Darmgesundheit so wichtig!"
       },
       {
         frage: "Was ist die 1. Säule der Gesundheit?",
         optionen: ["Ausreichend Bewegung", "Gesundes, echtes Essen", "Genügend Schlaf", "Stressmanagement"],
         richtig: 1,
-        erklaerung: "Gesundes, echtes Essen ist die Basis — danach Bewegung, Schlaf/Regeneration und Stressmanagement."
+        erklärung: "Gesundes, echtes Essen ist die Basis — danach Bewegung, Schlaf/Regeneration und Stressmanagement."
       },
       {
         frage: "Was charakterisiert eine hohe Nährstoffdichte?",
@@ -242,19 +242,19 @@ export const themen = [
           "Wenig Nährstoffe, wenig Kalorien"
         ],
         richtig: 1,
-        erklaerung: "Hohe Nährstoffdichte = viele Vitamine/Mineralstoffe bei geringem Kaloriengehalt. Ideal für gesunde Ernährung."
+        erklärung: "Hohe Nährstoffdichte = viele Vitamine/Mineralstoffe bei geringem Kaloriengehalt. Ideal für gesunde Ernährung."
       },
       {
         frage: "Ballaststoffe sind...",
         optionen: ["Verdauliche Proteine", "Essentielle Fettsäuren", "Unverdauliche Kohlenhydrate", "Fettlösliche Vitamine"],
         richtig: 2,
-        erklaerung: "Ballaststoffe sind unverdauliche Kohlenhydrate. Sie werden nicht aufgespalten, helfen aber dem Darm und dem Sättigungsgefühl."
+        erklärung: "Ballaststoffe sind unverdauliche Kohlenhydrate. Sie werden nicht aufgespalten, helfen aber dem Darm und dem Sättigungsgefühl."
       },
       {
         frage: "Wie viele Bilanzen der Ernährung gibt es?",
         optionen: ["3", "4", "5", "6"],
         richtig: 2,
-        erklaerung: "Es gibt 5 Bilanzen: Energie, Makronährstoffe, Vitamine, Mineralstoffe und Wasser."
+        erklärung: "Es gibt 5 Bilanzen: Energie, Makronährstoffe, Vitamine, Mineralstoffe und Wasser."
       }
     ]
   },
@@ -303,37 +303,37 @@ export const themen = [
         frage: "Wie viel kcal hat 1g Fett?",
         optionen: ["4 kcal", "7 kcal", "9 kcal", "11 kcal"],
         richtig: 2,
-        erklaerung: "Fett hat 9 kcal/g — mehr als doppelt so viel wie Kohlenhydrate oder Protein (je 4 kcal/g)."
+        erklärung: "Fett hat 9 kcal/g — mehr als doppelt so viel wie Kohlenhydrate oder Protein (je 4 kcal/g)."
       },
       {
         frage: "Welcher Makronährstoff hat den höchsten thermischen Effekt (TEF)?",
         optionen: ["Fett (3–7%)", "Kohlenhydrate (5–10%)", "Protein (20–30%)", "Alkohol (15–20%)"],
         richtig: 2,
-        erklaerung: "Protein hat den höchsten TEF mit 20–30%! Der Körper verbraucht also viel Energie allein durch die Verdauung von Protein."
+        erklärung: "Protein hat den höchsten TEF mit 20–30%! Der Körper verbraucht also viel Energie allein durch die Verdauung von Protein."
       },
       {
         frage: "Der Aktivitätsfaktor für eine 'sitzende' Person ist:",
         optionen: ["× 1,0", "× 1,2", "× 1,375", "× 1,55"],
         richtig: 1,
-        erklaerung: "Sedentary (sitzend, wenig Bewegung) = BMR × 1,2"
+        erklärung: "Sedentary (sitzend, wenig Bewegung) = BMR × 1,2"
       },
       {
         frage: "Wie viel kcal speichert das Körperfett (ca. 15 kg) eines Normalgewichtigen?",
         optionen: ["ca. 10.000 kcal", "ca. 50.000 kcal", "ca. 140.000 kcal", "ca. 500.000 kcal"],
         richtig: 2,
-        erklaerung: "Ca. 15 kg Körperfett = ~140.000 kcal. Der Körperfettspeicher ist mit Abstand der größte Energiespeicher."
+        erklärung: "Ca. 15 kg Körperfett = ~140.000 kcal. Der Körperfettspeicher ist mit Abstand der größte Energiespeicher."
       },
       {
         frage: "Was stabilisiert der Leberglykogenspeicher?",
         optionen: ["Die Muskelfunktion", "Den Blutzucker", "Das Immunsystem", "Die Hormonproduktion"],
         richtig: 1,
-        erklaerung: "Das Leberglykogen stabilisiert den Blutzucker. Ist er leer (z.B. bei Stress durch Cortisol), droht ein Hungerast."
+        erklärung: "Das Leberglykogen stabilisiert den Blutzucker. Ist er leer (z.B. bei Stress durch Cortisol), droht ein Hungerast."
       },
       {
         frage: "Was ist die Basis der Körper-Kompositions-Pyramide?",
         optionen: ["Supplements", "Protein Timing", "Energie-Bilanz", "Mikronährstoffe"],
         richtig: 2,
-        erklaerung: "Die Energie-Bilanz (Kalorienmenge) ist die wichtigste Grundlage. Supplements stehen ganz oben — also am unwichtigsten."
+        erklärung: "Die Energie-Bilanz (Kalorienmenge) ist die wichtigste Grundlage. Supplements stehen ganz oben — also am unwichtigsten."
       }
     ]
   },
@@ -377,13 +377,13 @@ export const themen = [
         frage: "Glukose + Fruktose ergibt welchen Zweifachzucker?",
         optionen: ["Laktose", "Maltose", "Saccharose", "Galaktose"],
         richtig: 2,
-        erklaerung: "Saccharose = Glukose + Fruktose. Das ist unser normaler Haushaltszucker."
+        erklärung: "Saccharose = Glukose + Fruktose. Das ist unser normaler Haushaltszucker."
       },
       {
         frage: "Welcher Zuckertyp kommt in Milch vor?",
         optionen: ["Fruktose", "Laktose", "Maltose", "Saccharose"],
         richtig: 1,
-        erklaerung: "Laktose (Milchzucker) = Glukose + Galaktose. Kommt ausschließlich in Milch und Milchprodukten vor."
+        erklärung: "Laktose (Milchzucker) = Glukose + Galaktose. Kommt ausschließlich in Milch und Milchprodukten vor."
       },
       {
         frage: "Was ist problematisch an großen Mengen Fruktose?",
@@ -394,13 +394,13 @@ export const themen = [
           "Sie löst Laktoseintoleranz aus"
         ],
         richtig: 1,
-        erklaerung: "Wenn der Leberspeicher voll ist, wandelt die Leber überschüssige Fruktose in Fett um (VLDL). Das ist ein großes Problem bei Fructosesirup in Fertigprodukten."
+        erklärung: "Wenn der Leberspeicher voll ist, wandelt die Leber überschüssige Fruktose in Fett um (VLDL). Das ist ein großes Problem bei Fructosesirup in Fertigprodukten."
       },
       {
         frage: "Worauf bezieht sich der Glykämische Index?",
         optionen: ["10g Kohlenhydrate", "50g Kohlenhydrate", "100g des Lebensmittels", "1 Portion des Lebensmittels"],
         richtig: 1,
-        erklaerung: "Der GI wird immer auf 50g Kohlenhydrate bezogen — daher kann er irreführend sein (z.B. Karotten haben hohen GI aber sehr niedrige GL)."
+        erklärung: "Der GI wird immer auf 50g Kohlenhydrate bezogen — daher kann er irreführend sein (z.B. Karotten haben hohen GI aber sehr niedrige GL)."
       },
       {
         frage: "Was senkt den glykämischen Index eines Lebensmittels?",
@@ -411,7 +411,7 @@ export const themen = [
           "Weniger Wasser"
         ],
         richtig: 2,
-        erklaerung: "Fett, Eiweiß und Ballaststoffe verlangsamen die Verdauung und senken dadurch den Blutzuckeranstieg — also den effektiven GI."
+        erklärung: "Fett, Eiweiß und Ballaststoffe verlangsamen die Verdauung und senken dadurch den Blutzuckeranstieg — also den effektiven GI."
       }
     ]
   },
@@ -459,7 +459,7 @@ export const themen = [
         frage: "Welches Lebensmittel hat die höchste biologische Wertigkeit?",
         optionen: ["Rindfleisch (92)", "Vollei (100)", "Molkenprotein (104–110)", "Soja (84–86)"],
         richtig: 2,
-        erklaerung: "Molkenprotein (Whey) hat mit 104–110 die höchste biologische Wertigkeit. Das Vollei ist der Referenzwert = 100."
+        erklärung: "Molkenprotein (Whey) hat mit 104–110 die höchste biologische Wertigkeit. Das Vollei ist der Referenzwert = 100."
       },
       {
         frage: "Was ist die Kombination mit der höchsten biologischen Wertigkeit?",
@@ -470,19 +470,19 @@ export const themen = [
           "Kartoffel + Ei (137)"
         ],
         richtig: 3,
-        erklaerung: "65% Kartoffel + 35% Ei ergibt eine biologische Wertigkeit von 137 — höher als jedes Einzellebensmittel!"
+        erklärung: "65% Kartoffel + 35% Ei ergibt eine biologische Wertigkeit von 137 — höher als jedes Einzellebensmittel!"
       },
       {
         frage: "Wo werden BCAAs hauptsächlich verstoffwechselt?",
         optionen: ["In der Leber", "In der Niere", "Direkt im Muskel", "Im Dünndarm"],
         richtig: 2,
-        erklaerung: "BCAAs werden direkt im Muskel verstoffwechselt — das ist ihr Hauptunterschied zu anderen Aminosäuren, die zur Leber müssen."
+        erklärung: "BCAAs werden direkt im Muskel verstoffwechselt — das ist ihr Hauptunterschied zu anderen Aminosäuren, die zur Leber müssen."
       },
       {
         frage: "Welches ist der 'Boss' unter den BCAAs?",
         optionen: ["Valin", "Isoleucin", "Leucin", "Methionin"],
         richtig: 2,
-        erklaerung: "Leucin ist der wichtigste BCAA — er aktiviert die Proteinsynthese im Muskel am stärksten."
+        erklärung: "Leucin ist der wichtigste BCAA — er aktiviert die Proteinsynthese im Muskel am stärksten."
       },
       {
         frage: "Was ist laut Forschung der wichtigste Faktor für Muskelzuwachs durch Protein?",
@@ -493,7 +493,7 @@ export const themen = [
           "Protein-Typ (Whey vs. Casein)"
         ],
         richtig: 2,
-        erklaerung: "Laut Schoenfeld et al. ist die Gesamtmenge des täglichen Proteins der stärkste Prädiktor — nicht das Timing!"
+        erklärung: "Laut Schoenfeld et al. ist die Gesamtmenge des täglichen Proteins der stärkste Prädiktor — nicht das Timing!"
       },
       {
         frage: "Welche Aminosäuren sind 'essentiell'?",
@@ -504,7 +504,7 @@ export const themen = [
           "Sie kommen nur in Fleisch vor"
         ],
         richtig: 1,
-        erklaerung: "Essentielle Aminosäuren MÜSSEN über die Nahrung zugeführt werden — der Körper kann sie nicht selbst produzieren."
+        erklärung: "Essentielle Aminosäuren MÜSSEN über die Nahrung zugeführt werden — der Körper kann sie nicht selbst produzieren."
       }
     ]
   },
@@ -548,19 +548,19 @@ export const themen = [
         frage: "Welche Vitamine sind fettlöslich?",
         optionen: ["B, C, H, P", "A, D, E, K", "C, D, E, K", "A, B12, D, E"],
         richtig: 1,
-        erklaerung: "Fettlösliche Vitamine: A, D, E, K — Merke: 'ADEK'. Sie können nur mit Fett aufgenommen werden!"
+        erklärung: "Fettlösliche Vitamine: A, D, E, K — Merke: 'ADEK'. Sie können nur mit Fett aufgenommen werden!"
       },
       {
         frage: "Was fördert 'schlechte Eicosanoide' (entzündungsfördernd)?",
         optionen: ["Omega-3", "Omega-6 + Insulin", "Omega-9", "Vitamin D"],
         richtig: 1,
-        erklaerung: "Zu viel Omega-6 und hohe Insulinspiegel fördern die Bildung entzündungsfördernder Eicosanoide."
+        erklärung: "Zu viel Omega-6 und hohe Insulinspiegel fördern die Bildung entzündungsfördernder Eicosanoide."
       },
       {
         frage: "Wie viel kcal liefert 1g Fett?",
         optionen: ["4 kcal", "7 kcal", "9 kcal", "11 kcal"],
         richtig: 2,
-        erklaerung: "Fett liefert 9 kcal/g — mehr als doppelt so viel wie Kohlenhydrate oder Protein (je 4 kcal/g)."
+        erklärung: "Fett liefert 9 kcal/g — mehr als doppelt so viel wie Kohlenhydrate oder Protein (je 4 kcal/g)."
       },
       {
         frage: "Welche Funktion haben essentielle Fettsäuren?",
@@ -571,7 +571,7 @@ export const themen = [
           "Sie sind nur für Sportler wichtig"
         ],
         richtig: 1,
-        erklaerung: "Essentielle Fettsäuren sind für den Aufbau von Zellmembranen, die Regulierung des Fettstoffwechsels und das Senken des Cholesterinspiegels wichtig."
+        erklärung: "Essentielle Fettsäuren sind für den Aufbau von Zellmembranen, die Regulierung des Fettstoffwechsels und das Senken des Cholesterinspiegels wichtig."
       },
       {
         frage: "Was ist typisch für die westliche Ernährung in Bezug auf Omega-3/6?",
@@ -582,7 +582,7 @@ export const themen = [
           "Zu wenig von beiden"
         ],
         richtig: 2,
-        erklaerung: "Die westliche Ernährung hat viel zu viel Omega-6 (Pflanzenöle, Fleisch) und zu wenig Omega-3 → fördert chronische Entzündungen."
+        erklärung: "Die westliche Ernährung hat viel zu viel Omega-6 (Pflanzenöle, Fleisch) und zu wenig Omega-3 → fördert chronische Entzündungen."
       }
     ]
   },
@@ -623,7 +623,7 @@ export const themen = [
           "Eine Überdosierung ist kaum möglich"
         ],
         richtig: 1,
-        erklaerung: "Fettlösliche Vitamine (A, D, E, K) können im Körper gespeichert werden — daher ist eine Überdosierung möglich (im Gegensatz zu wasserlöslichen)."
+        erklärung: "Fettlösliche Vitamine (A, D, E, K) können im Körper gespeichert werden — daher ist eine Überdosierung möglich (im Gegensatz zu wasserlöslichen)."
       },
       {
         frage: "Welche sind Mengenelemente?",
@@ -634,19 +634,19 @@ export const themen = [
           "Vitamin A, D, E, K"
         ],
         richtig: 1,
-        erklaerung: "Mengenelemente: Ca, Mg, P, K, Na, Cl, S — der Körper braucht mehr als 50mg/Tag davon."
+        erklärung: "Mengenelemente: Ca, Mg, P, K, Na, Cl, S — der Körper braucht mehr als 50mg/Tag davon."
       },
       {
         frage: "Vitamine liefern...",
         optionen: ["4 kcal/g", "9 kcal/g", "7 kcal/g", "Keine Energie"],
         richtig: 3,
-        erklaerung: "Vitamine liefern KEINE Energie! Sie wirken als Biokatalysatoren und Coenzyme — steuern also Stoffwechselvorgänge."
+        erklärung: "Vitamine liefern KEINE Energie! Sie wirken als Biokatalysatoren und Coenzyme — steuern also Stoffwechselvorgänge."
       },
       {
         frage: "Welche Vitamine sind wasserlöslich?",
         optionen: ["A, D, E, K", "C und alle B-Vitamine", "A, C, E, K", "D, E, B12, K"],
         richtig: 1,
-        erklaerung: "Wasserlösliche Vitamine: C und alle B-Vitamine (B1, B2, B3, B5, B6, B7/H, B9, B12) sowie H und P."
+        erklärung: "Wasserlösliche Vitamine: C und alle B-Vitamine (B1, B2, B3, B5, B6, B7/H, B9, B12) sowie H und P."
       }
     ]
   },
@@ -682,19 +682,19 @@ export const themen = [
         frage: "Wie viel Protein empfiehlt die DGE?",
         optionen: ["5%", "10%", "25%", "30%"],
         richtig: 1,
-        erklaerung: "Die DGE empfiehlt nur 10% Protein — von vielen Sportexperten als zu niedrig angesehen."
+        erklärung: "Die DGE empfiehlt nur 10% Protein — von vielen Sportexperten als zu niedrig angesehen."
       },
       {
         frage: "Wie viel KH hat die ketogene Diät?",
         optionen: ["5%", "20%", "40%", "60%"],
         richtig: 0,
-        erklaerung: "Ketogene Diät: nur 5% KH, dafür 80% Fett. Dadurch wechselt der Körper in die Ketose."
+        erklärung: "Ketogene Diät: nur 5% KH, dafür 80% Fett. Dadurch wechselt der Körper in die Ketose."
       },
       {
         frage: "In der Wettkampfphase ist der KH-Anteil...",
         optionen: ["Am niedrigsten (40%)", "Am höchsten (50%)", "Gleich wie in der Grundlagenphase", "Nicht relevant"],
         richtig: 1,
-        erklaerung: "In der Wettkampfphase: 50% KH — je intensiver das Training, desto mehr Kohlenhydrate werden gebraucht."
+        erklärung: "In der Wettkampfphase: 50% KH — je intensiver das Training, desto mehr Kohlenhydrate werden gebraucht."
       },
       {
         frage: "Was beschreibt Nutrigenomics?",
@@ -705,7 +705,7 @@ export const themen = [
           "Die Verdauung von Makronährstoffen"
         ],
         richtig: 1,
-        erklaerung: "Nutrigenomics = Wie Ernährung beeinflusst, welche Gene aktiv sind. Gute Ernährung kann schlechte Gene 'ausschalten'."
+        erklärung: "Nutrigenomics = Wie Ernährung beeinflusst, welche Gene aktiv sind. Gute Ernährung kann schlechte Gene 'ausschalten'."
       }
     ]
   },
@@ -738,25 +738,25 @@ export const themen = [
           "Lysin, Threonin, Tryptophan"
         ],
         richtig: 1,
-        erklaerung: "Kreatin wird aus Arginin, Glycin und Methionin synthetisiert — hauptsächlich in Leber und Nieren."
+        erklärung: "Kreatin wird aus Arginin, Glycin und Methionin synthetisiert — hauptsächlich in Leber und Nieren."
       },
       {
         frage: "Wie viel Kreatin enthält Hering (pro kg)?",
         optionen: ["1–2g", "3–4g", "6,5–10g", "15–20g"],
         richtig: 2,
-        erklaerung: "Hering hat mit 6,5–10g/kg den höchsten natürlichen Kreatingehalt — deshalb sind Fisch und Fleisch die Hauptquellen."
+        erklärung: "Hering hat mit 6,5–10g/kg den höchsten natürlichen Kreatingehalt — deshalb sind Fisch und Fleisch die Hauptquellen."
       },
       {
         frage: "Welche Kreatin-Form ist die am besten untersuchte?",
         optionen: ["Kreatin Citrat", "Kreatin Ethyl-Ester", "Kreatin Monohydrat", "Kreatin Phosphat"],
         richtig: 2,
-        erklaerung: "Kreatin Monohydrat (z.B. Creapure®) ist die am besten untersuchte und wirksamste Form."
+        erklärung: "Kreatin Monohydrat (z.B. Creapure®) ist die am besten untersuchte und wirksamste Form."
       },
       {
         frage: "Was ist die Standarddosierung für Kreatin?",
         optionen: ["1g/Tag", "3–6g/Tag", "10–15g/Tag", "20g/Tag"],
         richtig: 1,
-        erklaerung: "3–6g Kreatin täglich reichen aus. Mehr bringt keinen Vorteil — bei gefüllten Muskelspeichern wird überschüssiges Kreatin einfach ausgeschieden."
+        erklärung: "3–6g Kreatin täglich reichen aus. Mehr bringt keinen Vorteil — bei gefüllten Muskelspeichern wird überschüssiges Kreatin einfach ausgeschieden."
       }
     ]
   },
@@ -800,7 +800,7 @@ export const themen = [
           "Ein Maß für die Proteinqualität"
         ],
         richtig: 1,
-        erklaerung: "NEAT = Non-Exercise Activity Thermogenesis. Das ist der Kalorienverbrauch durch Alltagsbewegungen — oft unterschätzt aber sehr bedeutend!"
+        erklärung: "NEAT = Non-Exercise Activity Thermogenesis. Das ist der Kalorienverbrauch durch Alltagsbewegungen — oft unterschätzt aber sehr bedeutend!"
       },
       {
         frage: "Wofür steht PAL?",
@@ -811,25 +811,25 @@ export const themen = [
           "Physical Aerobic Limit"
         ],
         richtig: 1,
-        erklaerung: "PAL = Physical Activity Level. Er ist der Multiplikator für den Grundumsatz (BMR) zur Berechnung des Tagesbedarfs (TDEE)."
+        erklärung: "PAL = Physical Activity Level. Er ist der Multiplikator für den Grundumsatz (BMR) zur Berechnung des Tagesbedarfs (TDEE)."
       },
       {
         frage: "Wo werden Nährstoffe hauptsächlich ins Blut aufgenommen?",
         optionen: ["Im Magen", "Im Dickdarm", "Im Dünndarm", "In der Leber"],
         richtig: 2,
-        erklaerung: "Der Dünndarm ist der Hauptort der Resorption — Kohlenhydrate und Proteine ins Blut, Fette über die Lymphe."
+        erklärung: "Der Dünndarm ist der Hauptort der Resorption — Kohlenhydrate und Proteine ins Blut, Fette über die Lymphe."
       },
       {
         frage: "Welches Organ produziert die Galle für die Fettverdauung?",
         optionen: ["Bauchspeicheldrüse", "Magen", "Leber", "Dünndarm"],
         richtig: 2,
-        erklaerung: "Die Leber produziert Galle. Die Gallenblase speichert sie und gibt sie bei Bedarf in den Dünndarm ab."
+        erklärung: "Die Leber produziert Galle. Die Gallenblase speichert sie und gibt sie bei Bedarf in den Dünndarm ab."
       },
       {
         frage: "Bereits wie viel % Wasserverlust führt zu spürbarem Leistungsabfall?",
         optionen: ["0,5%", "1%", "2%", "5%"],
         richtig: 2,
-        erklaerung: "Bereits 2% Wasserverlust (z.B. 1,4 Liter bei 70 kg) führt zu messbarem Leistungsabfall, Konzentrationsproblemen und Kopfschmerzen."
+        erklärung: "Bereits 2% Wasserverlust (z.B. 1,4 Liter bei 70 kg) führt zu messbarem Leistungsabfall, Konzentrationsproblemen und Kopfschmerzen."
       }
     ]
   },
@@ -871,13 +871,13 @@ export const themen = [
           "Fettstoffwechsel"
         ],
         richtig: 1,
-        erklaerung: "Ein 100m Sprint dauert ~10 Sekunden → ATP-CP System. Es liefert Energie ohne Sauerstoff und ohne Laktatproduktion."
+        erklärung: "Ein 100m Sprint dauert ~10 Sekunden → ATP-CP System. Es liefert Energie ohne Sauerstoff und ohne Laktatproduktion."
       },
       {
         frage: "Was entsteht beim anaeroben Kohlenhydratstoffwechsel?",
         optionen: ["CO₂ + H₂O", "ATP + O₂", "Laktat", "Glykogen"],
         richtig: 2,
-        erklaerung: "Anaerober KH-Stoffwechsel: Glukose → Pyruvat → Laktat. Laktat ist das Abbauprodukt, das bei Muskelerschöpfung entsteht."
+        erklärung: "Anaerober KH-Stoffwechsel: Glukose → Pyruvat → Laktat. Laktat ist das Abbauprodukt, das bei Muskelerschöpfung entsteht."
       },
       {
         frage: "Welches System hat die höchste ATP-Bildungsrate?",
@@ -888,13 +888,13 @@ export const themen = [
           "ATP/CP anaerob (4,4)"
         ],
         richtig: 3,
-        erklaerung: "Das ATP/CP-System hat mit 4,4 mmol/min die höchste Bildungsrate — deshalb ist es für maximale Kraft ideal, aber es erschöpft sich nach ~10 Sekunden."
+        erklärung: "Das ATP/CP-System hat mit 4,4 mmol/min die höchste Bildungsrate — deshalb ist es für maximale Kraft ideal, aber es erschöpft sich nach ~10 Sekunden."
       },
       {
         frage: "Wie viel mehr Glykogen können Ausdauertrainierte speichern?",
         optionen: ["Gleich viel", "Ca. 20% mehr", "Ca. 60% mehr", "Doppelt so viel"],
         richtig: 2,
-        erklaerung: "Ausdauertrainierte speichern ca. 520g vs. 320g bei Normalpersonen — das sind ca. 60% mehr Glykogen!"
+        erklärung: "Ausdauertrainierte speichern ca. 520g vs. 320g bei Normalpersonen — das sind ca. 60% mehr Glykogen!"
       },
       {
         frage: "Wann macht Carboloading Sinn?",
@@ -905,7 +905,7 @@ export const themen = [
           "Nur für Kraftsportler"
         ],
         richtig: 2,
-        erklaerung: "Carboloading lohnt sich erst bei Ausdauerbelastungen über 90 Minuten — darunter reichen normale Glykogenspeicher aus."
+        erklärung: "Carboloading lohnt sich erst bei Ausdauerbelastungen über 90 Minuten — darunter reichen normale Glykogenspeicher aus."
       }
     ]
   }
@@ -922,144 +922,144 @@ export const themen = [
       },
       {
         frage: "Was sind die 3 Kerninformationen im Erstgespraech?",
-        antwort: "1. Ziel -- Was will der Klient erreichen?\n2. Trainingserfahrung -- Wie viel Erfahrung hat er/sie?\n3. Gesundheitliche Einschraenkungen -- Verletzungen, Erkrankungen?\n\nWichtig: Offene Fragen stellen, keine Suggestivfragen!\nZ.B. Wie schaut dein Schlaf aus? -- statt: Schlaefst du gut?"
+        antwort: "1. Ziel -- Was will der Klient erreichen?\n2. Trainingserfahrung -- Wie viel Erfahrung hat er/sie?\n3. Gesundheitliche Einschränkungen -- Verletzungen, Erkrankungen?\n\nWichtig: Offene Fragen stellen, keine Suggestivfragen!\nZ.B. Wie schaut dein Schlaf aus? -- statt: Schlaefst du gut?"
       },
       {
         frage: "Was gilt als Krafttrainingserfahrung -- und was nicht?",
-        antwort: "Zaehlt NICHT als Krafterfahrung:\n- Yoga\n- Pilates\n- Ausdauertraining\n- Nur Maschinentraining (gilt bei Freigewichten als Anfaenger)\n\nZaehlt als Krafterfahrung:\n- Regelmaessiges Freigewichtstraining mit progressiver Belastung"
+        antwort: "Zählt NICHT als Krafterfahrung:\n- Yoga\n- Pilates\n- Ausdauertraining\n- Nur Maschinentraining (gilt bei Freigewichten als Anfänger)\n\nZählt als Krafterfahrung:\n- Regelmäßiges Freigewichtstraining mit progressiver Belastung"
       },
       {
-        frage: "Was sind die 6 Bewegungsmuster eines Ganzkoeperplans?",
+        frage: "Was sind die 6 Bewegungsmuster eines Ganzkörperplans?",
         antwort: "1. Squat -- Quadrizeps + Gluteus (z.B. Kniebeuge)\n2. Hinge -- Hamstrings + Gluteus (z.B. Deadlift, RDL)\n3. Push horizontal -- Brust (z.B. Bankdruecken)\n4. Push vertikal -- Schultern (z.B. Overhead Press)\n5. Pull horizontal -- Trapezius/Ruecken (z.B. Rudern)\n6. Pull vertikal -- Latissimus (z.B. Klimmzug, Latzug)",
-        tipp: "Squat = Quad-dominiert · Hinge = Hueift-dominiert"
+        tipp: "Squat = Quad-dominiert · Hinge = Hüfte-dominiert"
       },
       {
         frage: "Wie unterscheidet sich Squat von Hinge?",
-        antwort: "Squat (knie-dominiert):\n- Hauptmuskel: Quadrizeps + Gluteus\n- Beispiele: Kniebeuge, Goblet Squat, Box Squat\n\nHinge (hueft-dominiert):\n- Hauptmuskel: Hamstrings + Gluteus\n- Beispiele: Deadlift, RDL, Hip Thrust, Leg Curl\n\nFaustregel: Knie beugt sich stark = Squat. Huefte scharniert = Hinge."
+        antwort: "Squat (knie-dominiert):\n- Hauptmuskel: Quadrizeps + Gluteus\n- Beispiele: Kniebeuge, Goblet Squat, Box Squat\n\nHinge (hüft-dominiert):\n- Hauptmuskel: Hamstrings + Gluteus\n- Beispiele: Deadlift, RDL, Hip Thrust, Leg Curl\n\nFaustregel: Knie beugt sich stark = Squat. Hüfte scharniert = Hinge."
       },
       {
         frage: "Was ist der Standard bei Saetzen und Wiederholungen?",
-        antwort: "Saetze: 3 pro Uebung als Standard\n- Unilaterale Uebungen: eher 2 (je Seite)\n- Ausnahmen: 4 Saetze moeglich\n\nWiederholungen fuer Hypertrophie: 5-25 Wdh.\n- Das enge 8-12-Fenster ist ueberholt\n- Bei ausreichender Intensitaet ist Hypertrophie ueber 5-30 Wdh. gleichwertig\n\nAnfaenger bei komplexen Uebungen: 5x5 (Technikfokus, fast ohne Gewicht)"
+        antwort: "Saetze: 3 pro Übung als Standard\n- Unilaterale Übungen: eher 2 (je Seite)\n- Ausnahmen: 4 Saetze möglich\n\nWiederholungen für Hypertrophie: 5-25 Wdh.\n- Das enge 8-12-Fenster ist überholt\n- Bei ausreichender Intensität ist Hypertrophie über 5-30 Wdh. gleichwertig\n\nAnfänger bei komplexen Übungen: 5x5 (Technikfokus, fast ohne Gewicht)"
       },
       {
         frage: "Was sind die Belastungszonen -- Kraft, Hypertrophie, Kraftausdauer?",
-        antwort: "Maximalkraft:\n- 90-100% 1RM · 1-5 Wdh. · Pause >5 min\n\nHypertrophie:\n- Anfaenger 60-70%, Fortgeschrittene 70-90% 1RM\n- 6-20 Wdh. · Pause 2-5 min\n\nKraftausdauer:\n- Bis 60% 1RM · >20-40 Wdh. · Pause 0,5-1 min",
+        antwort: "Maximalkraft:\n- 90-100% 1RM · 1-5 Wdh. · Pause >5 min\n\nHypertrophie:\n- Anfänger 60-70%, Fortgeschrittene 70-90% 1RM\n- 6-20 Wdh. · Pause 2-5 min\n\nKraftausdauer:\n- Bis 60% 1RM · >20-40 Wdh. · Pause 0,5-1 min",
         tipp: "Schwerer = mehr Kraft. Mittleres Gewicht = Muskelmasse. Leicht + viel = Ausdauer."
       },
       {
         frage: "Was ist Superkompensation?",
-        antwort: "Nach einer Trainingsbelastung sinkt die Leistung (Ermuedung).\nDann erholt sich der Koerper und steigert die Leistung UEBER das Ausgangsniveau.\n\nAblauf:\n1. Belastung -- Ermuedung\n2. Erholung\n3. Superkompensation (Leistung > Ausgangsniveau)\n4. Bei fehlender Belastung: Rueckgang auf Ausgangsniveau\n\nFazit: Ohne erneuten Reiz geht der Trainingseffekt verloren!"
+        antwort: "Nach einer Trainingsbelastung sinkt die Leistung (Ermüdung).\nDann erholt sich der Körper und steigert die Leistung UEBER das Ausgangsniveau.\n\nAblauf:\n1. Belastung -- Ermüdung\n2. Erholung\n3. Superkompensation (Leistung > Ausgangsniveau)\n4. Bei fehlender Belastung: Rueckgang auf Ausgangsniveau\n\nFazit: Ohne erneuten Reiz geht der Trainingseffekt verloren!"
       },
       {
         frage: "Was ist NEAT und warum ist es beim Abnehmen wichtig?",
-        antwort: "NEAT = Non-Exercise Activity Thermogenesis\nUnbewusste Alltagsbewegung: Zappeln, Stehen, Gehen, Treppe...\n\nProblem im Kaloriendefizit:\n- NEAT sinkt unbewusst um ~100-400 kcal/Tag\n- Das erklaert viele Plateaus beim Abnehmen\n\nGegenmaßnahme: Schritte bewusst hochhalten (Zielwert setzen!)"
+        antwort: "NEAT = Non-Exercise Activity Thermogenesis\nUnbewusste Alltagsbewegung: Zappeln, Stehen, Gehen, Treppe...\n\nProblem im Kaloriendefizit:\n- NEAT sinkt unbewusst um ~100-400 kcal/Tag\n- Das erklärt viele Plateaus beim Abnehmen\n\nGegenmaßnahme: Schritte bewusst hochhalten (Zielwert setzen!)"
       },
       {
         frage: "Was ist die optimale Rate of Loss beim Abnehmen?",
-        antwort: "0,5-1% des Koerpergewichts pro Woche\n- Bei stark Uebergewichtigen: bis 1,5% moeglich\n\nWarum nicht mehr?\n- Hoeherer Verlust = mehr Muskelverlust\n- 0,5-1% maximiert den Muskelerhalt\n\nBeispiel: 80 kg Person -- 400-800 g Verlust/Woche ist ideal"
+        antwort: "0,5-1% des Körpergewichts pro Woche\n- Bei stark Übergewichtigen: bis 1,5% möglich\n\nWarum nicht mehr?\n- Höherer Verlust = mehr Muskelverlust\n- 0,5-1% maximiert den Muskelerhalt\n\nBeispiel: 80 kg Person -- 400-800 g Verlust/Woche ist ideal"
       },
       {
         frage: "Was sind die 4 Hauptprinzipien der Trainingslehre?",
-        antwort: "1. Spezifitaet -- Training muss zum Ziel passen\n2. Ueberladung / trainingswirksamer Reiz -- Reiz muss stark genug sein\n3. Variation -- Abwechslung fuer kontinuierliche Anpassung\n4. Progression -- Belastung muss langfristig steigen\n\nDazu weitere Prinzipien:\nIndividualisierung · Periodisierung · Prioritaetsprinzip · Wechsel von Belastung & Erholung"
+        antwort: "1. Spezifitaet -- Training muss zum Ziel passen\n2. Überladung / trainingswirksamer Reiz -- Reiz muss stark genug sein\n3. Variation -- Abwechslung für kontinuierliche Anpassung\n4. Progression -- Belastung muss langfristig steigen\n\nDazu weitere Prinzipien:\nIndividualisierung · Periodisierung · Prioritätsprinzip · Wechsel von Belastung & Erholung"
       },
       {
         frage: "Was sind SMART-Ziele?",
-        antwort: "S -- Spezifisch (klar formuliert)\nM -- Messbar (Fortschritt erkennbar)\nA -- Attraktiv (motivierend)\nR -- Realistisch (erreichbar)\nT -- Terminisiert (mit Datum)\n\nBeispiel statt Ich will abnehmen:\nIch nehme bis 01.09. 5 kg Koerperfett ab, gemessen mit Fotos + Waage woechentlich."
+        antwort: "S -- Spezifisch (klar formuliert)\nM -- Messbar (Fortschritt erkennbar)\nA -- Attraktiv (motivierend)\nR -- Realistisch (erreichbar)\nT -- Terminisiert (mit Datum)\n\nBeispiel statt Ich will abnehmen:\nIch nehme bis 01.09. 5 kg Körperfett ab, gemessen mit Fotos + Waage wöchentlich."
       },
       {
-        frage: "Warum schwankt das Koerpergewicht taeglich?",
-        antwort: "Taeglich schwankende Faktoren:\n- Wassereinlagerungen\n- Glykogenspeicher (jedes g Glykogen bindet 3-4 g Wasser)\n- Darminhalt (Verstopfung kann +2 kg machen!)\n\nMuskeln und Fett veraendern sich nur langfristig.\n\nFazit: Nicht jede Waagen-Schwankung bedeutet Fettveraenderung. Trend ueber Wochen zaehlt."
+        frage: "Warum schwankt das Körpergewicht täglich?",
+        antwort: "Taeglich schwankende Faktoren:\n- Wassereinlagerungen\n- Glykogenspeicher (jedes g Glykogen bindet 3-4 g Wasser)\n- Darminhalt (Verstopfung kann +2 kg machen!)\n\nMuskeln und Fett verändern sich nur langfristig.\n\nFazit: Nicht jede Waagen-Schwankung bedeutet Fettveränderung. Trend über Wochen zählt."
       },
       {
         frage: "Was ist Beweglichkeit -- und welches Grundprinzip gilt?",
-        antwort: "Beweglichkeit = Bewegungsausmass in einem Gelenk\n\nWichtigstes Prinzip: NICHT maximal, sondern OPTIMAL ausbilden!\n\nMethoden:\n- Dynamisch-aktiv (Schwunggymnastik) -- vor dem Training\n- Passiv-statisch (Dehnen) -- nach dem Training\n- PNF-Stretching (Propriozeptive Neuromuskulaere Fazilitation) -- fortgeschrittene Methode"
+        antwort: "Beweglichkeit = Bewegungsausmass in einem Gelenk\n\nWichtigstes Prinzip: NICHT maximal, sondern OPTIMAL ausbilden!\n\nMethoden:\n- Dynamisch-aktiv (Schwunggymnastik) -- vor dem Training\n- Passiv-statisch (Dehnen) -- nach dem Training\n- PNF-Stretching (Propriozeptive Neuromuskuläre Fazilitation) -- fortgeschrittene Methode"
       },
       {
         frage: "Was sind die 4 Trainingsziele laut PFA-Skript?",
-        antwort: "1. Praevention -- Verletzungen und Krankheiten vorbeugen\n2. Rehabilitation -- Wiederherstellung nach Verletzung\n3. Leistungssteigerung -- sportliche Performance verbessern\n4. Koerperformung -- Aesthetik, Koerperzusammensetzung\n\nDazu: Psychische Effekte (Stressabbau, Selbstvertrauen, Wohlbefinden)"
+        antwort: "1. Prävention -- Verletzungen und Krankheiten vorbeugen\n2. Rehabilitation -- Wiederherstellung nach Verletzung\n3. Leistungssteigerung -- sportliche Performance verbessern\n4. Körperformung -- Ästhetik, Körperzusammensetzung\n\nDazu: Psychische Effekte (Stressabbau, Selbstvertrauen, Wohlbefinden)"
       },
       {
         frage: "Was ist das Fitness-Fatigue-Modell?",
-        antwort: "Jeder Trainingsreiz erzeugt gleichzeitig zwei Effekte:\n+ Fitness (langfristig aufgebaut)\n- Fatigue (kurzfristig erhoehte Muedigkeit)\n\nAktuelle Leistung = Fitness MINUS Fatigue\n\nDarum: nach harter Einheit kurz erholt => Superkompensation moeglich",
-        tipp: "Erklaert warum Regeneration so wichtig ist -- ohne Erholung keine Leistungssteigerung"
+        antwort: "Jeder Trainingsreiz erzeugt gleichzeitig zwei Effekte:\n+ Fitness (langfristig aufgebaut)\n- Fatigue (kurzfristig erhöhte Müdigkeit)\n\nAktuelle Leistung = Fitness MINUS Fatigue\n\nDarum: nach harter Einheit kurz erholt => Superkompensation möglich",
+        tipp: "Erklärt warum Regeneration so wichtig ist -- ohne Erholung keine Leistungssteigerung"
       },
       {
         frage: "Was sind die 7 Belastungskomponenten im Training?",
-        antwort: "1. Reizintensitaet -- Gewicht/Geschwindigkeit\n2. Reizdauer -- Zeit unter Spannung\n3. Reizumfang -- Gesamtvolumen (Saetze x Wdh)\n4. Reizdichte -- Pause zwischen Saetzen\n5. Trainingshaeufigkeit -- Einheiten pro Woche\n6. Subjektives Belastungsempfinden -- RPE/RIR/Borg-Skala\n7. Uebungsauswahl -- Grunduebungen vs. Isolation",
-        tipp: "Alle 7 Komponenten zusammen bestimmen den Trainingsreiz -- aendere eine, aendert sich alles"
+        antwort: "1. Reizintensitaet -- Gewicht/Geschwindigkeit\n2. Reizdauer -- Zeit unter Spannung\n3. Reizumfang -- Gesamtvolumen (Saetze x Wdh)\n4. Reizdichte -- Pause zwischen Saetzen\n5. Trainingshaeufigkeit -- Einheiten pro Woche\n6. Subjektives Belastungsempfinden -- RPE/RIR/Borg-Skala\n7. Übungsauswahl -- Grundübungen vs. Isolation",
+        tipp: "Alle 7 Komponenten zusammen bestimmen den Trainingsreiz -- ändere eine, ändert sich alles"
       },
       {
         frage: "Wie ist eine Krafttrainingseinheit sinnvoll aufgebaut?",
-        antwort: "Reihenfolge nach Prioritaet:\n1. Wichtigstes zuerst (Prioritaetsprinzip)\n2. Hohe Geschwindigkeiten vor hohen Lasten (Explosiv vor Schwer)\n3. Hohe Lasten vor geringeren (Schwere Grunduebungen zuerst)\n4. Hauptuebungen vor assistierenden Uebungen\n5. Grosse Muskelgruppen vor kleinen\n\nBeispiel: Kniebeugen vor Beinstrecker, Bank vor Trizeps",
-        tipp: "Primaer = was du am wichtigsten findest, kommt IMMER zuerst"
+        antwort: "Reihenfolge nach Priorität:\n1. Wichtigstes zuerst (Prioritätsprinzip)\n2. Hohe Geschwindigkeiten vor hohen Lasten (Explosiv vor Schwer)\n3. Hohe Lasten vor geringeren (Schwere Grundübungen zuerst)\n4. Hauptübungen vor assistierenden Übungen\n5. Grosse Muskelgruppen vor kleinen\n\nBeispiel: Kniebeugen vor Beinstrecker, Bank vor Trizeps",
+        tipp: "Primär = was du am wichtigsten findest, kommt IMMER zuerst"
       },
       {
         frage: "Was bedeutet RAMP beim Warm-up und warum ist Cool-down wichtig?",
-        antwort: "RAMP = Raise, Activate, Mobilise, Potentiate\n- Raise: Koerpertemperatur erhoehen\n- Activate: Ziel-Muskeln ansteuern\n- Mobilise: relevante Gelenke mobilisieren\n- Potentiate: aufgabenspezifische Vorbereitung\n\nCool-down: parasympathisches NS aktivieren, Herzfrequenz senken, Laktat abbauen\n\nMerksatz: So kurz wie moeglich, aber so lang wie noetig",
+        antwort: "RAMP = Raise, Activate, Mobilise, Potentiate\n- Raise: Körpertemperatur erhöhen\n- Activate: Ziel-Muskeln ansteuern\n- Mobilise: relevante Gelenke mobilisieren\n- Potentiate: aufgabenspezifische Vorbereitung\n\nCool-down: parasympathisches NS aktivieren, Herzfrequenz senken, Laktat abbauen\n\nMerksatz: So kurz wie möglich, aber so lang wie nötig",
         tipp: "RAMP ist moderner als altes statisches Dehnen vor dem Training"
       },
       {
-        frage: "Was ist Periodisierung und wie sieht die Anfaenger-Pyramide aus?",
-        antwort: "Periodisierung = Trainingsphasen systematisch planen, Belastung steuern, Ueberlastung vermeiden\n\nAnfaenger-Pyramide (Intensitaet aufsteigend):\n1. Gewoehnung (4-6 Wo, ~30% 1RM)\n2. Kraftausdauer (4 Wo, 30-60%)\n3. Muskelaufbau/Hypertrophie (10-12 Wo, 60-80%)\n4. Maximalkraft (6-8 Wo, 80-100%)\n\nZiel: Langfristiger Fortschritt durch strukturierten Aufbau",
-        tipp: "Grundidee: Belastung -> Anpassung -> hoehere Belastung -- kein Chaos, sondern Plan"
+        frage: "Was ist Periodisierung und wie sieht die Anfänger-Pyramide aus?",
+        antwort: "Periodisierung = Trainingsphasen systematisch planen, Belastung steuern, Überlastung vermeiden\n\nAnfänger-Pyramide (Intensität aufsteigend):\n1. Gewöhnung (4-6 Wo, ~30% 1RM)\n2. Kraftausdauer (4 Wo, 30-60%)\n3. Muskelaufbau/Hypertrophie (10-12 Wo, 60-80%)\n4. Maximalkraft (6-8 Wo, 80-100%)\n\nZiel: Langfristiger Fortschritt durch strukturierten Aufbau",
+        tipp: "Grundidee: Belastung -> Anpassung -> höhere Belastung -- kein Chaos, sondern Plan"
       },
       {
-        frage: "Was sind konditionelle vs. koordinative Faehigkeiten?",
-        antwort: "Konditionelle Faehigkeiten (energetisch bestimmt):\n- Kraft, Ausdauer, Schnelligkeit, Beweglichkeit\n\nKoordinative Faehigkeiten (nervlich bestimmt):\n- Gleichgewicht, Reaktion, Rhythmisierung\n- Differenzierungsfaehigkeit, Kopplungsfaehigkeit\n\nBeide Bereiche im Training beruecksichtigen!",
-        tipp: "Konditionell = Wie viel Energie? Koordinativ = Wie praezise die Bewegung?"
+        frage: "Was sind konditionelle vs. koordinative Fähigkeiten?",
+        antwort: "Konditionelle Fähigkeiten (energetisch bestimmt):\n- Kraft, Ausdauer, Schnelligkeit, Beweglichkeit\n\nKoordinative Fähigkeiten (nervlich bestimmt):\n- Gleichgewicht, Reaktion, Rhythmisierung\n- Differenzierungsfähigkeit, Kopplungsfähigkeit\n\nBeide Bereiche im Training berücksichtigen!",
+        tipp: "Konditionell = Wie viel Energie? Koordinativ = Wie präzise die Bewegung?"
       },
       {
-        frage: "Was sind die 4 Faktoren fuer erfolgreiche Koerperfettreduktion?",
-        antwort: "1. Training -- Kraft- und Ausdauertraining\n2. Ernaehrung -- Kalorien- und Makro-Steuerung\n3. Alltagsbewegung -- NEAT (Non-Exercise Activity Thermogenesis)\n4. Schlaf, Stress & Metabolismus -- Hormone (Cortisol, Ghrelin, Leptin)\n\nAlle 4 muessen beruecksichtigt werden -- Training allein reicht nicht!",
-        tipp: "NEAT oft unterschaetzt: Treppe statt Aufzug kann 200-400 kcal/Tag ausmachen"
+        frage: "Was sind die 4 Faktoren für erfolgreiche Körperfettreduktion?",
+        antwort: "1. Training -- Kraft- und Ausdauertraining\n2. Ernährung -- Kalorien- und Makro-Steuerung\n3. Alltagsbewegung -- NEAT (Non-Exercise Activity Thermogenesis)\n4. Schlaf, Stress & Metabolismus -- Hormone (Cortisol, Ghrelin, Leptin)\n\nAlle 4 müssen berücksichtigt werden -- Training allein reicht nicht!",
+        tipp: "NEAT oft unterschätzt: Treppe statt Aufzug kann 200-400 kcal/Tag ausmachen"
       }
     ],
     quiz: [
-      { frage: "Wie viel Prozent braucht man pro Pruefungsabschnitt, um die praktische Pruefung zu bestehen?", optionen: ["50%", "60%", "70%", "80%"], richtig: 1, erklaerung: "Laut Seminar sind 60% pro Pruefungsabschnitt noetig." },
-      { frage: "Was wird in der Pruefung erstellt?", optionen: ["Wochen-/Monatsplan", "Konzept fuer die erste Trainingsstunde", "Jahresplan", "Ernaehrungsplan"], richtig: 1, erklaerung: "In der Pruefung wird ein Ganzkoeprper-Trainingskonzept fuer die erste Stunde erstellt -- kein Langzeitplan." },
-      { frage: "Was ist der Unterschied zwischen Konzept und Plan?", optionen: ["Es gibt keinen Unterschied", "Ein Konzept ist grober und flexibler; der Plan entsteht nach dem ersten Training", "Ein Plan ist kuerzer als ein Konzept", "Ein Konzept gilt fuer einen Monat"], richtig: 1, erklaerung: "Das Konzept ist grober/flexibler fuer die erste Stunde; der detaillierte Plan entsteht erst nachdem man die Person beim Training gesehen hat." },
-      { frage: "Was zaehlt NICHT als Begruendung bei der Pruefung?", optionen: ["Anatomische Begruendung", "Das haben wir so gelernt", "Trainingsprinzipien", "Wissenschaftliche Studien"], richtig: 1, erklaerung: "Phrasen wie Das haben wir so gelernt zaehlen nicht -- jede Entscheidung muss inhaltlich begruendbar sein." },
-      { frage: "Was ist der wertvollste Weg, Trainingsfortschritt zu messen?", optionen: ["BIA-Messung", "DEXA-Scan", "Fotos + Koerpergewicht", "Bluttest"], richtig: 2, erklaerung: "Fotos + Koerpergewicht sind laut Seminar am wertvollsten. BIA/DEXA-Zahlen sind wenig aussagekraeftig." },
-      { frage: "Was ist der Unterschied zwischen Bewegung und Training?", optionen: ["Bewegung ist anstrengender", "Training ist zielgerichtet, Bewegung nicht", "Training findet nur im Gym statt", "Es gibt keinen Unterschied"], richtig: 1, erklaerung: "Training ist immer zielgerichtet und die Zielerreichung ist erkennbar. Bewegung im Alltag kann anstrengend sein, ist aber nicht zielgerichtet." },
-      { frage: "Welche drei Kerninformationen muessen im Erstgespraech erhoben werden?", optionen: ["Alter, Gewicht, Groesse", "Ziel, Trainingserfahrung, gesundheitliche Einschraenkungen", "Beruf, Schlaf, Ernaehrung", "Budget, Zeit, Wohnort"], richtig: 1, erklaerung: "Die drei wichtigsten Kerninformationen sind: Ziel, Trainingserfahrung und gesundheitliche Einschraenkungen." },
-      { frage: "Gilt Yoga oder Pilates als Krafttrainingserfahrung?", optionen: ["Ja, vollstaendig", "Ja, teilweise", "Nein -- zaehlt nicht als Krafterfahrung", "Nur Pilates zaehlt"], richtig: 2, erklaerung: "Nein -- Yoga, Pilates und Ausdauer zaehlen nicht als Krafterfahrung. Wer nur an Maschinen trainiert hat, gilt bei Freigewichten als Anfaenger." },
-      { frage: "Was soll ein Trainer bei Schmerzen oder Verletzungen tun?", optionen: ["Uebung komplett verbieten", "Zum Arzt schicken und nichts machen", "Bewegungen anpassen statt verbieten", "Schmerzen ignorieren"], richtig: 2, erklaerung: "Bewegungen anpassen statt verbieten -- Keine Bewegung ist keine Loesung. Trainer sind keine Therapeuten, aber sie passen an." },
-      { frage: "Welche Art von Fragen soll man im Erstgespraech bevorzugen?", optionen: ["Geschlossene Ja/Nein-Fragen", "Offene Fragen", "Suggestivfragen", "Multiple-Choice-Fragen"], richtig: 1, erklaerung: "Offene Fragen statt Suggestivfragen -- z.B. Wie schaut dein Schlaf aus? statt: Schlaefst du gut?" },
-      { frage: "Wie viele Bewegungsmuster bilden einen Ganzkoeperplan?", optionen: ["4", "5", "6", "8"], richtig: 2, erklaerung: "6 Bewegungsmuster: Squat, Hinge, Push horizontal, Push vertikal, Pull horizontal, Pull vertikal." },
-      { frage: "Welche Muskeln trainiert das Squat-Muster hauptsaechlich?", optionen: ["Hamstrings + Gluteus", "Quadrizeps + Gluteus", "Ruecken + Core", "Waden + Adduktoren"], richtig: 1, erklaerung: "Squat trainiert primaer Quadrizeps + Gluteus. Hinge trainiert Hamstrings + Gluteus." },
-      { frage: "Welche Uebungen gehoeren zum Hinge-Muster?", optionen: ["Goblet Squat, Box Squat", "RDL, Hip Thrust, Deadlift, Leg Curl", "Bankdruecken, Dips", "Rudern, Klimmzug"], richtig: 1, erklaerung: "Zum Hinge-Muster gehoeren: RDL, Hip Thrust, Deadlift, Leg Curl -- alle fokussieren Hamstrings + Gluteus." },
-      { frage: "Was entscheidet beim Pull-Muster, ob Trapezius oder Latissimus trainiert wird?", optionen: ["Die Griffweite", "Die Schulterblattbewegung", "Die Ellbogenposition", "Das Gewicht"], richtig: 1, erklaerung: "Schulterblätter zusammenziehen = Trapezius. Schulterblätter unten halten, Ellbogen koerpernah nach unten = Latissimus." },
-      { frage: "Was soll zuerst gemacht werden, wenn beim Squat die Ferse abhebt?", optionen: ["Sofort Keil unterlegen", "Squat verbieten", "Zuerst saubere Ausfuehrung einfordern, dann Stand verbreitern, erst danach Keil", "Gewichtheber-Schuhe kaufen"], richtig: 2, erklaerung: "Reihenfolge: 1. Ausfuehrung korrigieren, 2. Stand verbreitern, 3. Keil/Ramp -- langfristig Mobility oder Gewichtheber-Schuhe." },
-      { frage: "Wie viele Saetze pro Uebung sind der Standard?", optionen: ["1-2 Saetze", "3 Saetze", "5 Saetze", "6 Saetze"], richtig: 1, erklaerung: "3 Saetze pro Uebung als Standard; bei unilateralen Uebungen eher 2 (je Seite); 4 nur in Ausnahmen." },
-      { frage: "Ueber welches Wiederholungsspektrum findet Hypertrophie statt?", optionen: ["Nur 8-12", "Nur 1-5", "5-25 Wiederholungen", "15-30 Wiederholungen"], richtig: 2, erklaerung: "5-25 Wiederholungen -- das enge 8-12-Fenster ist ueberholt. Bei ausreichender Intensitaet ist Hypertrophie ueber ~5-30 Wdh. gleichwertig." },
-      { frage: "Warum verwendet man bei Anfaengern bei komplexen Uebungen eher 5x5?", optionen: ["Weil 5x5 mehr Muskelaufbau bringt", "Weil der Fokus auf der Technik liegt, nicht auf Arbeitssaetzen", "Weil Anfaenger staerker sind", "Weil es kuerzer dauert"], richtig: 1, erklaerung: "Bei Technik-Fokus geht es um das Erlernen der Bewegung -- fast ohne Gewicht, Technikprimat, nicht um Hypertrophie-Reize." },
-      { frage: "Ist Reps in Reserve (RIR) / Muskelversagen fuer Anfaenger pruefungsrelevant?", optionen: ["Ja, sehr wichtig", "Nein -- nicht pruefungsrelevant und fuer Anfaenger ungeeignet", "Ja, aber nur fuer Fortgeschrittene im Pruefungsplan", "Nur RIR ist relevant, Versagen nicht"], richtig: 1, erklaerung: "Nein -- RIR/Muskelversagen ist laut Seminar nicht pruefungsrelevant und fuer Anfaenger ungeeignet. Anfaenger schaetzen die Reserve schlecht ein." },
-      { frage: "Was ist das Ziel beim Lower-Back-Training?", optionen: ["Nur den Rueckenstrecker trainieren", "Alle stabilisierenden Strukturen staerken, damit der Rueckenstrecker nicht allein arbeitet", "Situps fuer den Ruecken", "Hyperextensions taeglich"], richtig: 1, erklaerung: "Ganzheitliche Stabilitaet: nicht nur der Rueckenstrecker, sondern alle stabilisierenden Strukturen staerken." },
-      { frage: "Warum wird belastete Rotation (z.B. Russian Twist) abgelehnt?", optionen: ["Weil es zu schwer ist", "Bandscheiben halten Axialbelastung gut aus, aber Rotation schlecht", "Weil es keine Muskeln aufbaut", "Wegen Gleichgewichtsproblemen"], richtig: 1, erklaerung: "Bandscheiben sind sehr belastbar unter Axialkraft, aber schlecht fuer Rotationsbelastung. Ziel ist Anti-Rotation (z.B. Pallof Press), keine belastete Rotation." },
-      { frage: "Warum schwankt das Koerpergewicht taeglich ohne Fettveraenderung?", optionen: ["Weil Muskeln wachsen", "Wegen Wasser, Glykogen und Darminhalt", "Wegen Hormonschwankungen im Grundumsatz", "Wegen schlechtem Schlaf"], richtig: 1, erklaerung: "Wasser, Glykogen und Darminhalt schwanken kurzfristig -- Muskeln und Fett aendern sich nur langfristig. Verstopfung kann z.B. +2 kg machen." },
-      { frage: "Wie funktioniert der schnelle Gewichtsverlust bei Keto?", optionen: ["Ketose verbrennt direkt mehr Fett", "Entleerte Glykogenspeicher verlieren gebundenes Wasser -- kein echter Fettverlust ohne Defizit", "Keto erhoeht den Grundumsatz", "Ketone unterdruecken den Hunger immer"], richtig: 1, erklaerung: "Keto entleert Glykogenspeicher -- jedes g Glykogen bindet ~3-4 g Wasser. Der schnelle Gewichtsverlust ist Wasserverlust, kein Fettverlust." },
-      { frage: "Was ist die Grundumsatz-Faustformel aus dem Seminar?", optionen: ["30 x Koerpergewicht", "22 x Koerpergewicht", "BMI x 100", "Alter x 20"], richtig: 1, erklaerung: "22 x Koerpergewicht (kg) als grobe Schaetzung; dann PAL-Faktor multiplizieren. Mifflin-St Jeor ist genauer und geschlechtsspezifisch." },
-      { frage: "Was bedeutet NEAT und warum ist es relevant?", optionen: ["Normale Ernaehrungs-Anpassungs-Technik", "Non-Exercise Activity Thermogenesis -- unbewusste Alltagsbewegung, die im Defizit sinkt", "Nacht-Essen-Anpassung", "Nichts -- kaum relevant"], richtig: 1, erklaerung: "NEAT = unbewusste Alltagsbewegung. Im Defizit sinkt NEAT unbewusst (~100-400 kcal/Tag) -- Plateaus. Gegenmassnahme: Schritte bewusst hochhalten." },
-      { frage: "Welcher Makronährstoff hat den höchsten thermischen Effekt (TEF)?", optionen: ["Fett (~0-3%)", "Kohlenhydrate (~5-10%)", "Protein (~20-30%)", "Alkohol (~15%)"], richtig: 2, erklaerung: "Protein hat den hoechsten TEF (~20-30%). 300 kcal extra essen ist nicht gleich 300 kcal Ueberschuss -- besonders bei Protein." },
-      { frage: "Welche PAL-Werte gelten fuer eine ueberwiegend sitzende Person?", optionen: ["1,1-1,2", "1,3-1,5", "1,7-1,9", "2,0-2,2"], richtig: 1, erklaerung: "PAL 1,3-1,5 fuer sitzende Taetigkeit; + gehen ~1,6; stehend/Handwerker ~1,8." },
-      { frage: "Wie viel % Koerpergewicht pro Woche ist die optimale Rate of Loss?", optionen: ["0,1-0,3%", "0,5-1% (bei stark Uebergewichtigen bis 1,5%)", "2-3%", "So viel wie moeglich"], richtig: 1, erklaerung: "0,5-1% pro Woche maximiert den Muskelerhalt. Bei stark Uebergewichtigen bis 1,5% moeglich." },
-      { frage: "Wie viel Protein empfiehlt das Seminar im Defizit?", optionen: ["0,8 g/kg", "1,0 g/kg", "~2 g/kg (Bereich 1,6-2,5 g/kg)", "4 g/kg"], richtig: 2, erklaerung: "~2 g/kg als Empfehlung (Bereich 1,6-2,5 g/kg). Hoeheres Protein schuetzt im Defizit die Muskelmasse." },
-      { frage: "Wie viel Ueberschuss braucht man fuer Muskelaufbau?", optionen: ["Gar keinen Ueberschuss", "Moderater Ueberschuss 300-500 kcal; viele essen zu wenig", "1.000-2.000 kcal Ueberschuss", "Nur Protein erhoehen reicht"], richtig: 1, erklaerung: "300-500 kcal moderater Ueberschuss. Das groesste Problem: die meisten essen zu wenig. Anfaenger koennen anfangs auch ohne Ueberschuss Recomposition machen." },
-      { frage: "Welche vier Hauptprinzipien der Trainingslehre nennt das PFA-Skript?", optionen: ["Kraft, Ausdauer, Schnelligkeit, Koordination", "Spezifitaet, Ueberladung/trainingswirksamer Reiz, Variation, Progression", "Warm-up, Training, Cool-down, Dehnen", "Periodisierung, Intensitaet, Volumen, Pause"], richtig: 1, erklaerung: "4 Hauptprinzipien: 1) Spezifitaet, 2) Ueberladung/trainingswirksamer Reiz, 3) Variation, 4) Progression. Dazu: Individualisierung, Periodisierung, Prioritaetsprinzip." },
-      { frage: "Was zeigt das Superkompensationsmodell?", optionen: ["Dass mehr Training immer besser ist", "Belastung -- Ermuedung -- Erholung -- Leistung steigt ueber Ausgangsniveau", "Dass Anfaenger schneller Fortschritte machen als Fortgeschrittene", "Dass Erholung unnoetig ist"], richtig: 1, erklaerung: "Superkompensation: Belastung -- Ermuedung -- Erholung -- Leistung steigt UEBER das Ausgangsniveau. Ohne erneuten Reiz faellt die Leistung wieder zurueck." },
-      { frage: "Was gilt fuer Anfaenger vs. Fortgeschrittene bei der Adaptationsreserve?", optionen: ["Fortgeschrittene haben mehr Potenzial als Anfaenger", "Anfaenger reagieren schnell auf fast jeden Reiz; Fortgeschrittene brauchen spezifischere Reize", "Es gibt keinen Unterschied", "Anfaenger sollten schwerer trainieren als Fortgeschrittene"], richtig: 1, erklaerung: "Anfaenger haben eine grosse Adaptationsreserve und reagieren stark auf fast jeden Reiz. Fortgeschrittene brauchen gezieltere, spezifischere Belastungen." },
-      { frage: "Welche Belastungskonfiguration gilt fuer Maximalkrafttraining?", optionen: ["60-70% 1RM, 6-20 Wdh., 2-5 min Pause", "90-100% 1RM, 1-5 Wdh., Pause >5 min", "50-60% 1RM, mehr als 20 Wdh., 0,5-1 min Pause", "70-80% 1RM, 8-12 Wdh., 3-4 Saetze"], richtig: 1, erklaerung: "Maximalkraft: Intensitaet 90-100% 1RM, 1-5 Wdh./Satz, 3-6 Saetze, Pause >5 min. Adaptationen: Kraftmaximum +++, Muskelmasse +." },
-      { frage: "Welche Belastungskonfiguration gilt fuer Hypertrophietraining?", optionen: ["90-100% 1RM, 1-5 Wdh., >5 min Pause", "60-70% (Anfaenger) bis 70-90% (Fortgeschrittene) 1RM, 6-20 Wdh., Pause 2-5 min", "50% 1RM, mehr als 40 Wdh., 30 Sek. Pause", "100% 1RM, 1 Wdh., maximale Pause"], richtig: 1, erklaerung: "Hypertrophie: 60-70% Anfaenger / 70-90% Fortgeschrittene, 6-20 Wdh., Pause 2-5 min, mind. 8 Wochen, 0-3 RIR." },
-      { frage: "Welche Belastungskonfiguration gilt fuer Kraftausdauertraining?", optionen: ["90% 1RM, 3 Wdh., 5 min Pause", "Bis 60% 1RM, mehr als 20-40 Wdh., Pause 0,5-1 Minute", "70-80% 1RM, 10-15 Wdh., 3 min Pause", "Kein Gewicht -- nur Koerpergewicht"], richtig: 1, erklaerung: "Kraftausdauer: bis 60% 1RM, >20-40 Wdh./Satz, 3-10 Saetze, Pause 0,5-1 min. Adaptation: anaerob-laktazide Energiebereitstellung, Ausdauer." },
-      { frage: "Was ist 1 kg Koerperfett tatsaechlich wert in kcal?", optionen: ["5.000 kcal", "7.000 kcal (Seminarzahl)", "~7.700 kcal (etablierter Wert)", "9.000 kcal"], richtig: 2, erklaerung: "Faktencheck: ~7.700 kcal/kg. Das Seminar nannte 7.000 -- rund 9% zu niedrig. Die lineare Rechnung ist ohnehin nur eine Faustregel." },
-      { frage: "Was sagt der Faktencheck zu realistischen Muskelaufbau-Raten fuer Anfaenger pro Monat?", optionen: ["2-2,5% Koerpergewicht (wie im Seminar)", "1-1,5% Koerpergewicht", "5% Koerpergewicht", "0,1% Koerpergewicht"], richtig: 1, erklaerung: "Faktencheck: ~1-1,5% Koerpergewicht/Monat fuer Anfaenger. Die Seminarzahl (2-2,5%) verwechselt reine Muskelmasse mit Gesamtgewichtszunahme inkl. Glykogen/Wasser/Fett." },
-      { frage: "Verbessert nur Krafttraining die Knochendichte?", optionen: ["Ja, nur Krafttraining", "Nein -- auch Impact-Ausdauer (Laufen, Springen) verbessert die Knochendichte", "Nur Schwimmen hilft", "Ausdauer ist besser als Kraft fuer Knochen"], richtig: 1, erklaerung: "Mechanische Belastung (Impact) entscheidet -- Krafttraining UND gewichtstragendes Ausdauertraining (Laufen, Springen) verbessern die Knochendichte. Schwimmen und Radfahren (low-impact) nicht." },
-      { frage: "Ist Krafttraining fuer die Gesundheit wichtiger als Ausdauertraining?", optionen: ["Ja, Krafttraining ist eindeutig ueberlegen", "Nein -- beide senken Mortalitaet; am staerksten ist die Kombination", "Ausdauer ist wichtiger", "Nur Kombination hat Effekt"], richtig: 1, erklaerung: "Beide Trainingsformen senken Mortalitaet unabhaengig. Am staerksten ist die Kombination (~40% geringeres Risiko)." },
-      { frage: "Warum soll man von Koerperfettreduktion statt Abnehmen sprechen?", optionen: ["Weil Abnehmen verboten ist", "Weil das Koerpergewicht nicht nur Fett ist -- es laesst sich leicht manipulieren (Wasser, Darm)", "Weil Aerzte das so verlangen", "Nur ein sprachlicher Trend"], richtig: 1, erklaerung: "Koerpergewicht ist nicht gleich Koerperfett. Gewicht schwankt durch Wasser, Glykogen, Darminhalt. Daher praezise von Koerperfettreduktion sprechen." },
-      { frage: "Was sind laut PFA-Skript die vier Ziele fuer Training?", optionen: ["Kraft, Ausdauer, Gewichtsabnahme, Spass", "Praevention, Rehabilitation, Leistungssteigerung, Koerperformung -- sowie psychische Effekte", "Wettkampf, Gesundheit, Aesthetik, Regeneration", "Muskelaufbau, Fettverlust, Flexibilitaet, Gleichgewicht"], richtig: 1, erklaerung: "Trainingsziele laut Skript: 1) Praevention, 2) Rehabilitation, 3) Leistungssteigerung, 4) Koerperformung -- und: psychische Effekte." },
-      { frage: "Was sagt das PFA-Skript ueber den Planungsprozess?", optionen: ["Man startet mit einzelnen Uebungen und plant dann den Jahresplan", "Zuerst Assessment & SMART-Ziele, dann Jahresplan, dann Mesozyklus, dann Mikrozyklus", "Man braucht keinen strukturierten Prozess", "Erst Ernaehrungsplan, dann Trainingsplan"], richtig: 1, erklaerung: "Planungsprozess: 1) Assessment, 2) SMART-Ziele + Milestones, 3) Messmethoden, 4) vom Groben (Jahresplan) zum Feinen (Trainingseinheit). SMART = Spezifisch, Messbar, Attraktiv, Realistisch, Terminisiert." },
-      { frage: "Was ist das wichtigste Grundprinzip beim Beweglichkeitstraining?", optionen: ["So viel dehnen wie moeglich -- maximale Beweglichkeit anstreben", "Nicht maximal, sondern optimal ausbilden", "Nur passiv-statisches Dehnen verwenden", "Beweglichkeit vor jedem Training trainieren"], richtig: 1, erklaerung: "Wichtigstes Prinzip Beweglichkeit: Nicht maximal, sondern optimal ausbilden! Methoden: dynamisch-aktiv, passiv-statisch, PNF-Stretching." },
-      { frage: "Was ist PNF-Stretching?", optionen: ["Passives Dehnen mit Partner", "Propriozeptive Neuromuskulaere Fazilitation -- komplexere Methode des Beweglichkeitstrainings", "Progressives Netzwerk Flexibilitaetstraining", "Eine Form des dynamischen Dehnens"], richtig: 1, erklaerung: "PNF = Propriozeptive Neuromuskulaere Fazilitation: nutzt neuromuskulaere Reflexmechanismen um eine groessere Bewegungsreichweite zu erreichen." }
+      { frage: "Wie viel Prozent braucht man pro Prüfungsabschnitt, um die praktische Prüfung zu bestehen?", optionen: ["50%", "60%", "70%", "80%"], richtig: 1, erklärung: "Laut Seminar sind 60% pro Prüfungsabschnitt nötig." },
+      { frage: "Was wird in der Prüfung erstellt?", optionen: ["Wochen-/Monatsplan", "Konzept für die erste Trainingsstunde", "Jahresplan", "Ernährungsplan"], richtig: 1, erklärung: "In der Prüfung wird ein Ganzkörper-Trainingskonzept für die erste Stunde erstellt -- kein Langzeitplan." },
+      { frage: "Was ist der Unterschied zwischen Konzept und Plan?", optionen: ["Es gibt keinen Unterschied", "Ein Konzept ist grober und flexibler; der Plan entsteht nach dem ersten Training", "Ein Plan ist kürzer als ein Konzept", "Ein Konzept gilt für einen Monat"], richtig: 1, erklärung: "Das Konzept ist grober/flexibler für die erste Stunde; der detaillierte Plan entsteht erst nachdem man die Person beim Training gesehen hat." },
+      { frage: "Was zählt NICHT als Begründung bei der Prüfung?", optionen: ["Anatomische Begründung", "Das haben wir so gelernt", "Trainingsprinzipien", "Wissenschaftliche Studien"], richtig: 1, erklärung: "Phrasen wie Das haben wir so gelernt zählen nicht -- jede Entscheidung muss inhaltlich begründbar sein." },
+      { frage: "Was ist der wertvollste Weg, Trainingsfortschritt zu messen?", optionen: ["BIA-Messung", "DEXA-Scan", "Fotos + Körpergewicht", "Bluttest"], richtig: 2, erklärung: "Fotos + Körpergewicht sind laut Seminar am wertvollsten. BIA/DEXA-Zahlen sind wenig aussagekräftig." },
+      { frage: "Was ist der Unterschied zwischen Bewegung und Training?", optionen: ["Bewegung ist anstrengender", "Training ist zielgerichtet, Bewegung nicht", "Training findet nur im Gym statt", "Es gibt keinen Unterschied"], richtig: 1, erklärung: "Training ist immer zielgerichtet und die Zielerreichung ist erkennbar. Bewegung im Alltag kann anstrengend sein, ist aber nicht zielgerichtet." },
+      { frage: "Welche drei Kerninformationen müssen im Erstgespraech erhoben werden?", optionen: ["Alter, Gewicht, Größe", "Ziel, Trainingserfahrung, gesundheitliche Einschränkungen", "Beruf, Schlaf, Ernährung", "Budget, Zeit, Wohnort"], richtig: 1, erklärung: "Die drei wichtigsten Kerninformationen sind: Ziel, Trainingserfahrung und gesundheitliche Einschränkungen." },
+      { frage: "Gilt Yoga oder Pilates als Krafttrainingserfahrung?", optionen: ["Ja, vollständig", "Ja, teilweise", "Nein -- zählt nicht als Krafterfahrung", "Nur Pilates zählt"], richtig: 2, erklärung: "Nein -- Yoga, Pilates und Ausdauer zählen nicht als Krafterfahrung. Wer nur an Maschinen trainiert hat, gilt bei Freigewichten als Anfänger." },
+      { frage: "Was soll ein Trainer bei Schmerzen oder Verletzungen tun?", optionen: ["Übung komplett verbieten", "Zum Arzt schicken und nichts machen", "Bewegungen anpassen statt verbieten", "Schmerzen ignorieren"], richtig: 2, erklärung: "Bewegungen anpassen statt verbieten -- Keine Bewegung ist keine Lösung. Trainer sind keine Therapeuten, aber sie passen an." },
+      { frage: "Welche Art von Fragen soll man im Erstgespraech bevorzugen?", optionen: ["Geschlossene Ja/Nein-Fragen", "Offene Fragen", "Suggestivfragen", "Multiple-Choice-Fragen"], richtig: 1, erklärung: "Offene Fragen statt Suggestivfragen -- z.B. Wie schaut dein Schlaf aus? statt: Schlaefst du gut?" },
+      { frage: "Wie viele Bewegungsmuster bilden einen Ganzkörperplan?", optionen: ["4", "5", "6", "8"], richtig: 2, erklärung: "6 Bewegungsmuster: Squat, Hinge, Push horizontal, Push vertikal, Pull horizontal, Pull vertikal." },
+      { frage: "Welche Muskeln trainiert das Squat-Muster hauptsächlich?", optionen: ["Hamstrings + Gluteus", "Quadrizeps + Gluteus", "Ruecken + Core", "Waden + Adduktoren"], richtig: 1, erklärung: "Squat trainiert primär Quadrizeps + Gluteus. Hinge trainiert Hamstrings + Gluteus." },
+      { frage: "Welche Übungen gehören zum Hinge-Muster?", optionen: ["Goblet Squat, Box Squat", "RDL, Hip Thrust, Deadlift, Leg Curl", "Bankdruecken, Dips", "Rudern, Klimmzug"], richtig: 1, erklärung: "Zum Hinge-Muster gehören: RDL, Hip Thrust, Deadlift, Leg Curl -- alle fokussieren Hamstrings + Gluteus." },
+      { frage: "Was entscheidet beim Pull-Muster, ob Trapezius oder Latissimus trainiert wird?", optionen: ["Die Griffweite", "Die Schulterblattbewegung", "Die Ellbogenposition", "Das Gewicht"], richtig: 1, erklärung: "Schulterblätter zusammenziehen = Trapezius. Schulterblätter unten halten, Ellbogen körpernah nach unten = Latissimus." },
+      { frage: "Was soll zuerst gemacht werden, wenn beim Squat die Ferse abhebt?", optionen: ["Sofort Keil unterlegen", "Squat verbieten", "Zuerst saubere Ausführung einfordern, dann Stand verbreitern, erst danach Keil", "Gewichtheber-Schuhe kaufen"], richtig: 2, erklärung: "Reihenfolge: 1. Ausführung korrigieren, 2. Stand verbreitern, 3. Keil/Ramp -- langfristig Mobility oder Gewichtheber-Schuhe." },
+      { frage: "Wie viele Saetze pro Übung sind der Standard?", optionen: ["1-2 Saetze", "3 Saetze", "5 Saetze", "6 Saetze"], richtig: 1, erklärung: "3 Saetze pro Übung als Standard; bei unilateralen Übungen eher 2 (je Seite); 4 nur in Ausnahmen." },
+      { frage: "Über welches Wiederholungsspektrum findet Hypertrophie statt?", optionen: ["Nur 8-12", "Nur 1-5", "5-25 Wiederholungen", "15-30 Wiederholungen"], richtig: 2, erklärung: "5-25 Wiederholungen -- das enge 8-12-Fenster ist überholt. Bei ausreichender Intensität ist Hypertrophie über ~5-30 Wdh. gleichwertig." },
+      { frage: "Warum verwendet man bei Anfängern bei komplexen Übungen eher 5x5?", optionen: ["Weil 5x5 mehr Muskelaufbau bringt", "Weil der Fokus auf der Technik liegt, nicht auf Arbeitssätzen", "Weil Anfänger stärker sind", "Weil es kürzer dauert"], richtig: 1, erklärung: "Bei Technik-Fokus geht es um das Erlernen der Bewegung -- fast ohne Gewicht, Technikprimat, nicht um Hypertrophie-Reize." },
+      { frage: "Ist Reps in Reserve (RIR) / Muskelversagen für Anfänger pruefungsrelevant?", optionen: ["Ja, sehr wichtig", "Nein -- nicht pruefungsrelevant und für Anfänger ungeeignet", "Ja, aber nur für Fortgeschrittene im Prüfungsplan", "Nur RIR ist relevant, Versagen nicht"], richtig: 1, erklärung: "Nein -- RIR/Muskelversagen ist laut Seminar nicht pruefungsrelevant und für Anfänger ungeeignet. Anfänger schätzen die Reserve schlecht ein." },
+      { frage: "Was ist das Ziel beim Lower-Back-Training?", optionen: ["Nur den Rueckenstrecker trainieren", "Alle stabilisierenden Strukturen stärken, damit der Rueckenstrecker nicht allein arbeitet", "Situps für den Ruecken", "Hyperextensions täglich"], richtig: 1, erklärung: "Ganzheitliche Stabilitaet: nicht nur der Rueckenstrecker, sondern alle stabilisierenden Strukturen stärken." },
+      { frage: "Warum wird belastete Rotation (z.B. Russian Twist) abgelehnt?", optionen: ["Weil es zu schwer ist", "Bandscheiben halten Axialbelastung gut aus, aber Rotation schlecht", "Weil es keine Muskeln aufbaut", "Wegen Gleichgewichtsproblemen"], richtig: 1, erklärung: "Bandscheiben sind sehr belastbar unter Axialkraft, aber schlecht für Rotationsbelastung. Ziel ist Anti-Rotation (z.B. Pallof Press), keine belastete Rotation." },
+      { frage: "Warum schwankt das Körpergewicht täglich ohne Fettveränderung?", optionen: ["Weil Muskeln wachsen", "Wegen Wasser, Glykogen und Darminhalt", "Wegen Hormonschwankungen im Grundumsatz", "Wegen schlechtem Schlaf"], richtig: 1, erklärung: "Wasser, Glykogen und Darminhalt schwanken kurzfristig -- Muskeln und Fett ändern sich nur langfristig. Verstopfung kann z.B. +2 kg machen." },
+      { frage: "Wie funktioniert der schnelle Gewichtsverlust bei Keto?", optionen: ["Ketose verbrennt direkt mehr Fett", "Entleerte Glykogenspeicher verlieren gebundenes Wasser -- kein echter Fettverlust ohne Defizit", "Keto erhöht den Grundumsatz", "Ketone unterdrücken den Hunger immer"], richtig: 1, erklärung: "Keto entleert Glykogenspeicher -- jedes g Glykogen bindet ~3-4 g Wasser. Der schnelle Gewichtsverlust ist Wasserverlust, kein Fettverlust." },
+      { frage: "Was ist die Grundumsatz-Faustformel aus dem Seminar?", optionen: ["30 x Körpergewicht", "22 x Körpergewicht", "BMI x 100", "Alter x 20"], richtig: 1, erklärung: "22 x Körpergewicht (kg) als grobe Schaetzung; dann PAL-Faktor multiplizieren. Mifflin-St Jeor ist genauer und geschlechtsspezifisch." },
+      { frage: "Was bedeutet NEAT und warum ist es relevant?", optionen: ["Normale Ernährungs-Anpassungs-Technik", "Non-Exercise Activity Thermogenesis -- unbewusste Alltagsbewegung, die im Defizit sinkt", "Nacht-Essen-Anpassung", "Nichts -- kaum relevant"], richtig: 1, erklärung: "NEAT = unbewusste Alltagsbewegung. Im Defizit sinkt NEAT unbewusst (~100-400 kcal/Tag) -- Plateaus. Gegenmassnahme: Schritte bewusst hochhalten." },
+      { frage: "Welcher Makronährstoff hat den höchsten thermischen Effekt (TEF)?", optionen: ["Fett (~0-3%)", "Kohlenhydrate (~5-10%)", "Protein (~20-30%)", "Alkohol (~15%)"], richtig: 2, erklärung: "Protein hat den höchsten TEF (~20-30%). 300 kcal extra essen ist nicht gleich 300 kcal Überschuss -- besonders bei Protein." },
+      { frage: "Welche PAL-Werte gelten für eine überwiegend sitzende Person?", optionen: ["1,1-1,2", "1,3-1,5", "1,7-1,9", "2,0-2,2"], richtig: 1, erklärung: "PAL 1,3-1,5 für sitzende Taetigkeit; + gehen ~1,6; stehend/Handwerker ~1,8." },
+      { frage: "Wie viel % Körpergewicht pro Woche ist die optimale Rate of Loss?", optionen: ["0,1-0,3%", "0,5-1% (bei stark Übergewichtigen bis 1,5%)", "2-3%", "So viel wie möglich"], richtig: 1, erklärung: "0,5-1% pro Woche maximiert den Muskelerhalt. Bei stark Übergewichtigen bis 1,5% möglich." },
+      { frage: "Wie viel Protein empfiehlt das Seminar im Defizit?", optionen: ["0,8 g/kg", "1,0 g/kg", "~2 g/kg (Bereich 1,6-2,5 g/kg)", "4 g/kg"], richtig: 2, erklärung: "~2 g/kg als Empfehlung (Bereich 1,6-2,5 g/kg). Höheres Protein schützt im Defizit die Muskelmasse." },
+      { frage: "Wie viel Überschuss braucht man für Muskelaufbau?", optionen: ["Gar keinen Überschuss", "Moderater Überschuss 300-500 kcal; viele essen zu wenig", "1.000-2.000 kcal Überschuss", "Nur Protein erhöhen reicht"], richtig: 1, erklärung: "300-500 kcal moderater Überschuss. Das größte Problem: die meisten essen zu wenig. Anfänger können anfangs auch ohne Überschuss Recomposition machen." },
+      { frage: "Welche vier Hauptprinzipien der Trainingslehre nennt das PFA-Skript?", optionen: ["Kraft, Ausdauer, Schnelligkeit, Koordination", "Spezifitaet, Überladung/trainingswirksamer Reiz, Variation, Progression", "Warm-up, Training, Cool-down, Dehnen", "Periodisierung, Intensität, Volumen, Pause"], richtig: 1, erklärung: "4 Hauptprinzipien: 1) Spezifitaet, 2) Überladung/trainingswirksamer Reiz, 3) Variation, 4) Progression. Dazu: Individualisierung, Periodisierung, Prioritätsprinzip." },
+      { frage: "Was zeigt das Superkompensationsmodell?", optionen: ["Dass mehr Training immer besser ist", "Belastung -- Ermüdung -- Erholung -- Leistung steigt über Ausgangsniveau", "Dass Anfänger schneller Fortschritte machen als Fortgeschrittene", "Dass Erholung unnötig ist"], richtig: 1, erklärung: "Superkompensation: Belastung -- Ermüdung -- Erholung -- Leistung steigt UEBER das Ausgangsniveau. Ohne erneuten Reiz fällt die Leistung wieder zurück." },
+      { frage: "Was gilt für Anfänger vs. Fortgeschrittene bei der Adaptationsreserve?", optionen: ["Fortgeschrittene haben mehr Potenzial als Anfänger", "Anfänger reagieren schnell auf fast jeden Reiz; Fortgeschrittene brauchen spezifischere Reize", "Es gibt keinen Unterschied", "Anfänger sollten schwerer trainieren als Fortgeschrittene"], richtig: 1, erklärung: "Anfänger haben eine grosse Adaptationsreserve und reagieren stark auf fast jeden Reiz. Fortgeschrittene brauchen gezieltere, spezifischere Belastungen." },
+      { frage: "Welche Belastungskonfiguration gilt für Maximalkrafttraining?", optionen: ["60-70% 1RM, 6-20 Wdh., 2-5 min Pause", "90-100% 1RM, 1-5 Wdh., Pause >5 min", "50-60% 1RM, mehr als 20 Wdh., 0,5-1 min Pause", "70-80% 1RM, 8-12 Wdh., 3-4 Saetze"], richtig: 1, erklärung: "Maximalkraft: Intensität 90-100% 1RM, 1-5 Wdh./Satz, 3-6 Saetze, Pause >5 min. Adaptationen: Kraftmaximum +++, Muskelmasse +." },
+      { frage: "Welche Belastungskonfiguration gilt für Hypertrophietraining?", optionen: ["90-100% 1RM, 1-5 Wdh., >5 min Pause", "60-70% (Anfänger) bis 70-90% (Fortgeschrittene) 1RM, 6-20 Wdh., Pause 2-5 min", "50% 1RM, mehr als 40 Wdh., 30 Sek. Pause", "100% 1RM, 1 Wdh., maximale Pause"], richtig: 1, erklärung: "Hypertrophie: 60-70% Anfänger / 70-90% Fortgeschrittene, 6-20 Wdh., Pause 2-5 min, mind. 8 Wochen, 0-3 RIR." },
+      { frage: "Welche Belastungskonfiguration gilt für Kraftausdauertraining?", optionen: ["90% 1RM, 3 Wdh., 5 min Pause", "Bis 60% 1RM, mehr als 20-40 Wdh., Pause 0,5-1 Minute", "70-80% 1RM, 10-15 Wdh., 3 min Pause", "Kein Gewicht -- nur Körpergewicht"], richtig: 1, erklärung: "Kraftausdauer: bis 60% 1RM, >20-40 Wdh./Satz, 3-10 Saetze, Pause 0,5-1 min. Adaptation: anaerob-laktazide Energiebereitstellung, Ausdauer." },
+      { frage: "Was ist 1 kg Körperfett tatsächlich wert in kcal?", optionen: ["5.000 kcal", "7.000 kcal (Seminarzahl)", "~7.700 kcal (etablierter Wert)", "9.000 kcal"], richtig: 2, erklärung: "Faktencheck: ~7.700 kcal/kg. Das Seminar nannte 7.000 -- rund 9% zu niedrig. Die lineare Rechnung ist ohnehin nur eine Faustregel." },
+      { frage: "Was sagt der Faktencheck zu realistischen Muskelaufbau-Raten für Anfänger pro Monat?", optionen: ["2-2,5% Körpergewicht (wie im Seminar)", "1-1,5% Körpergewicht", "5% Körpergewicht", "0,1% Körpergewicht"], richtig: 1, erklärung: "Faktencheck: ~1-1,5% Körpergewicht/Monat für Anfänger. Die Seminarzahl (2-2,5%) verwechselt reine Muskelmasse mit Gesamtgewichtszunahme inkl. Glykogen/Wasser/Fett." },
+      { frage: "Verbessert nur Krafttraining die Knochendichte?", optionen: ["Ja, nur Krafttraining", "Nein -- auch Impact-Ausdauer (Laufen, Springen) verbessert die Knochendichte", "Nur Schwimmen hilft", "Ausdauer ist besser als Kraft für Knochen"], richtig: 1, erklärung: "Mechanische Belastung (Impact) entscheidet -- Krafttraining UND gewichtstragendes Ausdauertraining (Laufen, Springen) verbessern die Knochendichte. Schwimmen und Radfahren (low-impact) nicht." },
+      { frage: "Ist Krafttraining für die Gesundheit wichtiger als Ausdauertraining?", optionen: ["Ja, Krafttraining ist eindeutig überlegen", "Nein -- beide senken Mortalität; am stärksten ist die Kombination", "Ausdauer ist wichtiger", "Nur Kombination hat Effekt"], richtig: 1, erklärung: "Beide Trainingsformen senken Mortalität unabhängig. Am stärksten ist die Kombination (~40% geringeres Risiko)." },
+      { frage: "Warum soll man von Körperfettreduktion statt Abnehmen sprechen?", optionen: ["Weil Abnehmen verboten ist", "Weil das Körpergewicht nicht nur Fett ist -- es lässt sich leicht manipulieren (Wasser, Darm)", "Weil Ärzte das so verlangen", "Nur ein sprachlicher Trend"], richtig: 1, erklärung: "Körpergewicht ist nicht gleich Körperfett. Gewicht schwankt durch Wasser, Glykogen, Darminhalt. Daher präzise von Körperfettreduktion sprechen." },
+      { frage: "Was sind laut PFA-Skript die vier Ziele für Training?", optionen: ["Kraft, Ausdauer, Gewichtsabnahme, Spass", "Prävention, Rehabilitation, Leistungssteigerung, Körperformung -- sowie psychische Effekte", "Wettkampf, Gesundheit, Ästhetik, Regeneration", "Muskelaufbau, Fettverlust, Flexibilität, Gleichgewicht"], richtig: 1, erklärung: "Trainingsziele laut Skript: 1) Prävention, 2) Rehabilitation, 3) Leistungssteigerung, 4) Körperformung -- und: psychische Effekte." },
+      { frage: "Was sagt das PFA-Skript über den Planungsprozess?", optionen: ["Man startet mit einzelnen Übungen und plant dann den Jahresplan", "Zuerst Assessment & SMART-Ziele, dann Jahresplan, dann Mesozyklus, dann Mikrozyklus", "Man braucht keinen strukturierten Prozess", "Erst Ernährungsplan, dann Trainingsplan"], richtig: 1, erklärung: "Planungsprozess: 1) Assessment, 2) SMART-Ziele + Milestones, 3) Messmethoden, 4) vom Groben (Jahresplan) zum Feinen (Trainingseinheit). SMART = Spezifisch, Messbar, Attraktiv, Realistisch, Terminisiert." },
+      { frage: "Was ist das wichtigste Grundprinzip beim Beweglichkeitstraining?", optionen: ["So viel dehnen wie möglich -- maximale Beweglichkeit anstreben", "Nicht maximal, sondern optimal ausbilden", "Nur passiv-statisches Dehnen verwenden", "Beweglichkeit vor jedem Training trainieren"], richtig: 1, erklärung: "Wichtigstes Prinzip Beweglichkeit: Nicht maximal, sondern optimal ausbilden! Methoden: dynamisch-aktiv, passiv-statisch, PNF-Stretching." },
+      { frage: "Was ist PNF-Stretching?", optionen: ["Passives Dehnen mit Partner", "Propriozeptive Neuromuskuläre Fazilitation -- komplexere Methode des Beweglichkeitstrainings", "Progressives Netzwerk Flexibilitätstraining", "Eine Form des dynamischen Dehnens"], richtig: 1, erklärung: "PNF = Propriozeptive Neuromuskuläre Fazilitation: nutzt neuromuskuläre Reflexmechanismen um eine größere Bewegungsreichweite zu erreichen." }
     ]
   }
 ];
