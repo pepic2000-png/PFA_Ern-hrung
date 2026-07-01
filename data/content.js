@@ -909,4 +909,122 @@ export const themen = [
       }
     ]
   }
+  ,
+  {
+    id: "trainingsplanung",
+    titel: "Trainingsplanung",
+    farbe: "#0f766e",
+    icon: "📋",
+    karten: [
+      {
+        frage: "Was ist der Unterschied zwischen Bewegung und Training?",
+        antwort: "Training ist immer zielgerichtet -- Fortschritt ist messbar und erkennbar.\n\nBewegung (z.B. Spazieren, Alltag) kann anstrengend sein, ist aber nicht zielgerichtet.\n\nMerke: Ohne Ziel = Bewegung. Mit Ziel = Training."
+      },
+      {
+        frage: "Was sind die 3 Kerninformationen im Erstgespraech?",
+        antwort: "1. Ziel -- Was will der Klient erreichen?\n2. Trainingserfahrung -- Wie viel Erfahrung hat er/sie?\n3. Gesundheitliche Einschraenkungen -- Verletzungen, Erkrankungen?\n\nWichtig: Offene Fragen stellen, keine Suggestivfragen!\nZ.B. Wie schaut dein Schlaf aus? -- statt: Schlaefst du gut?"
+      },
+      {
+        frage: "Was gilt als Krafttrainingserfahrung -- und was nicht?",
+        antwort: "Zaehlt NICHT als Krafterfahrung:\n- Yoga\n- Pilates\n- Ausdauertraining\n- Nur Maschinentraining (gilt bei Freigewichten als Anfaenger)\n\nZaehlt als Krafterfahrung:\n- Regelmaessiges Freigewichtstraining mit progressiver Belastung"
+      },
+      {
+        frage: "Was sind die 6 Bewegungsmuster eines Ganzkoeperplans?",
+        antwort: "1. Squat -- Quadrizeps + Gluteus (z.B. Kniebeuge)\n2. Hinge -- Hamstrings + Gluteus (z.B. Deadlift, RDL)\n3. Push horizontal -- Brust (z.B. Bankdruecken)\n4. Push vertikal -- Schultern (z.B. Overhead Press)\n5. Pull horizontal -- Trapezius/Ruecken (z.B. Rudern)\n6. Pull vertikal -- Latissimus (z.B. Klimmzug, Latzug)",
+        tipp: "Squat = Quad-dominiert · Hinge = Hueift-dominiert"
+      },
+      {
+        frage: "Wie unterscheidet sich Squat von Hinge?",
+        antwort: "Squat (knie-dominiert):\n- Hauptmuskel: Quadrizeps + Gluteus\n- Beispiele: Kniebeuge, Goblet Squat, Box Squat\n\nHinge (hueft-dominiert):\n- Hauptmuskel: Hamstrings + Gluteus\n- Beispiele: Deadlift, RDL, Hip Thrust, Leg Curl\n\nFaustregel: Knie beugt sich stark = Squat. Huefte scharniert = Hinge."
+      },
+      {
+        frage: "Was ist der Standard bei Saetzen und Wiederholungen?",
+        antwort: "Saetze: 3 pro Uebung als Standard\n- Unilaterale Uebungen: eher 2 (je Seite)\n- Ausnahmen: 4 Saetze moeglich\n\nWiederholungen fuer Hypertrophie: 5-25 Wdh.\n- Das enge 8-12-Fenster ist ueberholt\n- Bei ausreichender Intensitaet ist Hypertrophie ueber 5-30 Wdh. gleichwertig\n\nAnfaenger bei komplexen Uebungen: 5x5 (Technikfokus, fast ohne Gewicht)"
+      },
+      {
+        frage: "Was sind die Belastungszonen -- Kraft, Hypertrophie, Kraftausdauer?",
+        antwort: "Maximalkraft:\n- 90-100% 1RM · 1-5 Wdh. · Pause >5 min\n\nHypertrophie:\n- Anfaenger 60-70%, Fortgeschrittene 70-90% 1RM\n- 6-20 Wdh. · Pause 2-5 min\n\nKraftausdauer:\n- Bis 60% 1RM · >20-40 Wdh. · Pause 0,5-1 min",
+        tipp: "Schwerer = mehr Kraft. Mittleres Gewicht = Muskelmasse. Leicht + viel = Ausdauer."
+      },
+      {
+        frage: "Was ist Superkompensation?",
+        antwort: "Nach einer Trainingsbelastung sinkt die Leistung (Ermuedung).\nDann erholt sich der Koerper und steigert die Leistung UEBER das Ausgangsniveau.\n\nAblauf:\n1. Belastung -- Ermuedung\n2. Erholung\n3. Superkompensation (Leistung > Ausgangsniveau)\n4. Bei fehlender Belastung: Rueckgang auf Ausgangsniveau\n\nFazit: Ohne erneuten Reiz geht der Trainingseffekt verloren!"
+      },
+      {
+        frage: "Was ist NEAT und warum ist es beim Abnehmen wichtig?",
+        antwort: "NEAT = Non-Exercise Activity Thermogenesis\nUnbewusste Alltagsbewegung: Zappeln, Stehen, Gehen, Treppe...\n\nProblem im Kaloriendefizit:\n- NEAT sinkt unbewusst um ~100-400 kcal/Tag\n- Das erklaert viele Plateaus beim Abnehmen\n\nGegenmaßnahme: Schritte bewusst hochhalten (Zielwert setzen!)"
+      },
+      {
+        frage: "Was ist die optimale Rate of Loss beim Abnehmen?",
+        antwort: "0,5-1% des Koerpergewichts pro Woche\n- Bei stark Uebergewichtigen: bis 1,5% moeglich\n\nWarum nicht mehr?\n- Hoeherer Verlust = mehr Muskelverlust\n- 0,5-1% maximiert den Muskelerhalt\n\nBeispiel: 80 kg Person -- 400-800 g Verlust/Woche ist ideal"
+      },
+      {
+        frage: "Was sind die 4 Hauptprinzipien der Trainingslehre?",
+        antwort: "1. Spezifitaet -- Training muss zum Ziel passen\n2. Ueberladung / trainingswirksamer Reiz -- Reiz muss stark genug sein\n3. Variation -- Abwechslung fuer kontinuierliche Anpassung\n4. Progression -- Belastung muss langfristig steigen\n\nDazu weitere Prinzipien:\nIndividualisierung · Periodisierung · Prioritaetsprinzip · Wechsel von Belastung & Erholung"
+      },
+      {
+        frage: "Was sind SMART-Ziele?",
+        antwort: "S -- Spezifisch (klar formuliert)\nM -- Messbar (Fortschritt erkennbar)\nA -- Attraktiv (motivierend)\nR -- Realistisch (erreichbar)\nT -- Terminisiert (mit Datum)\n\nBeispiel statt Ich will abnehmen:\nIch nehme bis 01.09. 5 kg Koerperfett ab, gemessen mit Fotos + Waage woechentlich."
+      },
+      {
+        frage: "Warum schwankt das Koerpergewicht taeglich?",
+        antwort: "Taeglich schwankende Faktoren:\n- Wassereinlagerungen\n- Glykogenspeicher (jedes g Glykogen bindet 3-4 g Wasser)\n- Darminhalt (Verstopfung kann +2 kg machen!)\n\nMuskeln und Fett veraendern sich nur langfristig.\n\nFazit: Nicht jede Waagen-Schwankung bedeutet Fettveraenderung. Trend ueber Wochen zaehlt."
+      },
+      {
+        frage: "Was ist Beweglichkeit -- und welches Grundprinzip gilt?",
+        antwort: "Beweglichkeit = Bewegungsausmass in einem Gelenk\n\nWichtigstes Prinzip: NICHT maximal, sondern OPTIMAL ausbilden!\n\nMethoden:\n- Dynamisch-aktiv (Schwunggymnastik) -- vor dem Training\n- Passiv-statisch (Dehnen) -- nach dem Training\n- PNF-Stretching (Propriozeptive Neuromuskulaere Fazilitation) -- fortgeschrittene Methode"
+      },
+      {
+        frage: "Was sind die 4 Trainingsziele laut PFA-Skript?",
+        antwort: "1. Praevention -- Verletzungen und Krankheiten vorbeugen\n2. Rehabilitation -- Wiederherstellung nach Verletzung\n3. Leistungssteigerung -- sportliche Performance verbessern\n4. Koerperformung -- Aesthetik, Koerperzusammensetzung\n\nDazu: Psychische Effekte (Stressabbau, Selbstvertrauen, Wohlbefinden)"
+      }
+    ],
+    quiz: [
+      { frage: "Wie viel Prozent braucht man pro Pruefungsabschnitt, um die praktische Pruefung zu bestehen?", optionen: ["50%", "60%", "70%", "80%"], richtig: 1, erklaerung: "Laut Seminar sind 60% pro Pruefungsabschnitt noetig." },
+      { frage: "Was wird in der Pruefung erstellt?", optionen: ["Wochen-/Monatsplan", "Konzept fuer die erste Trainingsstunde", "Jahresplan", "Ernaehrungsplan"], richtig: 1, erklaerung: "In der Pruefung wird ein Ganzkoeprper-Trainingskonzept fuer die erste Stunde erstellt -- kein Langzeitplan." },
+      { frage: "Was ist der Unterschied zwischen Konzept und Plan?", optionen: ["Es gibt keinen Unterschied", "Ein Konzept ist grober und flexibler; der Plan entsteht nach dem ersten Training", "Ein Plan ist kuerzer als ein Konzept", "Ein Konzept gilt fuer einen Monat"], richtig: 1, erklaerung: "Das Konzept ist grober/flexibler fuer die erste Stunde; der detaillierte Plan entsteht erst nachdem man die Person beim Training gesehen hat." },
+      { frage: "Was zaehlt NICHT als Begruendung bei der Pruefung?", optionen: ["Anatomische Begruendung", "Das haben wir so gelernt", "Trainingsprinzipien", "Wissenschaftliche Studien"], richtig: 1, erklaerung: "Phrasen wie Das haben wir so gelernt zaehlen nicht -- jede Entscheidung muss inhaltlich begruendbar sein." },
+      { frage: "Was ist der wertvollste Weg, Trainingsfortschritt zu messen?", optionen: ["BIA-Messung", "DEXA-Scan", "Fotos + Koerpergewicht", "Bluttest"], richtig: 2, erklaerung: "Fotos + Koerpergewicht sind laut Seminar am wertvollsten. BIA/DEXA-Zahlen sind wenig aussagekraeftig." },
+      { frage: "Was ist der Unterschied zwischen Bewegung und Training?", optionen: ["Bewegung ist anstrengender", "Training ist zielgerichtet, Bewegung nicht", "Training findet nur im Gym statt", "Es gibt keinen Unterschied"], richtig: 1, erklaerung: "Training ist immer zielgerichtet und die Zielerreichung ist erkennbar. Bewegung im Alltag kann anstrengend sein, ist aber nicht zielgerichtet." },
+      { frage: "Welche drei Kerninformationen muessen im Erstgespraech erhoben werden?", optionen: ["Alter, Gewicht, Groesse", "Ziel, Trainingserfahrung, gesundheitliche Einschraenkungen", "Beruf, Schlaf, Ernaehrung", "Budget, Zeit, Wohnort"], richtig: 1, erklaerung: "Die drei wichtigsten Kerninformationen sind: Ziel, Trainingserfahrung und gesundheitliche Einschraenkungen." },
+      { frage: "Gilt Yoga oder Pilates als Krafttrainingserfahrung?", optionen: ["Ja, vollstaendig", "Ja, teilweise", "Nein -- zaehlt nicht als Krafterfahrung", "Nur Pilates zaehlt"], richtig: 2, erklaerung: "Nein -- Yoga, Pilates und Ausdauer zaehlen nicht als Krafterfahrung. Wer nur an Maschinen trainiert hat, gilt bei Freigewichten als Anfaenger." },
+      { frage: "Was soll ein Trainer bei Schmerzen oder Verletzungen tun?", optionen: ["Uebung komplett verbieten", "Zum Arzt schicken und nichts machen", "Bewegungen anpassen statt verbieten", "Schmerzen ignorieren"], richtig: 2, erklaerung: "Bewegungen anpassen statt verbieten -- Keine Bewegung ist keine Loesung. Trainer sind keine Therapeuten, aber sie passen an." },
+      { frage: "Welche Art von Fragen soll man im Erstgespraech bevorzugen?", optionen: ["Geschlossene Ja/Nein-Fragen", "Offene Fragen", "Suggestivfragen", "Multiple-Choice-Fragen"], richtig: 1, erklaerung: "Offene Fragen statt Suggestivfragen -- z.B. Wie schaut dein Schlaf aus? statt: Schlaefst du gut?" },
+      { frage: "Wie viele Bewegungsmuster bilden einen Ganzkoeperplan?", optionen: ["4", "5", "6", "8"], richtig: 2, erklaerung: "6 Bewegungsmuster: Squat, Hinge, Push horizontal, Push vertikal, Pull horizontal, Pull vertikal." },
+      { frage: "Welche Muskeln trainiert das Squat-Muster hauptsaechlich?", optionen: ["Hamstrings + Gluteus", "Quadrizeps + Gluteus", "Ruecken + Core", "Waden + Adduktoren"], richtig: 1, erklaerung: "Squat trainiert primaer Quadrizeps + Gluteus. Hinge trainiert Hamstrings + Gluteus." },
+      { frage: "Welche Uebungen gehoeren zum Hinge-Muster?", optionen: ["Goblet Squat, Box Squat", "RDL, Hip Thrust, Deadlift, Leg Curl", "Bankdruecken, Dips", "Rudern, Klimmzug"], richtig: 1, erklaerung: "Zum Hinge-Muster gehoeren: RDL, Hip Thrust, Deadlift, Leg Curl -- alle fokussieren Hamstrings + Gluteus." },
+      { frage: "Was entscheidet beim Pull-Muster, ob Trapezius oder Latissimus trainiert wird?", optionen: ["Die Griffweite", "Die Schulterblattbewegung", "Die Ellbogenposition", "Das Gewicht"], richtig: 1, erklaerung: "Schulterblätter zusammenziehen = Trapezius. Schulterblätter unten halten, Ellbogen koerpernah nach unten = Latissimus." },
+      { frage: "Was soll zuerst gemacht werden, wenn beim Squat die Ferse abhebt?", optionen: ["Sofort Keil unterlegen", "Squat verbieten", "Zuerst saubere Ausfuehrung einfordern, dann Stand verbreitern, erst danach Keil", "Gewichtheber-Schuhe kaufen"], richtig: 2, erklaerung: "Reihenfolge: 1. Ausfuehrung korrigieren, 2. Stand verbreitern, 3. Keil/Ramp -- langfristig Mobility oder Gewichtheber-Schuhe." },
+      { frage: "Wie viele Saetze pro Uebung sind der Standard?", optionen: ["1-2 Saetze", "3 Saetze", "5 Saetze", "6 Saetze"], richtig: 1, erklaerung: "3 Saetze pro Uebung als Standard; bei unilateralen Uebungen eher 2 (je Seite); 4 nur in Ausnahmen." },
+      { frage: "Ueber welches Wiederholungsspektrum findet Hypertrophie statt?", optionen: ["Nur 8-12", "Nur 1-5", "5-25 Wiederholungen", "15-30 Wiederholungen"], richtig: 2, erklaerung: "5-25 Wiederholungen -- das enge 8-12-Fenster ist ueberholt. Bei ausreichender Intensitaet ist Hypertrophie ueber ~5-30 Wdh. gleichwertig." },
+      { frage: "Warum verwendet man bei Anfaengern bei komplexen Uebungen eher 5x5?", optionen: ["Weil 5x5 mehr Muskelaufbau bringt", "Weil der Fokus auf der Technik liegt, nicht auf Arbeitssaetzen", "Weil Anfaenger staerker sind", "Weil es kuerzer dauert"], richtig: 1, erklaerung: "Bei Technik-Fokus geht es um das Erlernen der Bewegung -- fast ohne Gewicht, Technikprimat, nicht um Hypertrophie-Reize." },
+      { frage: "Ist Reps in Reserve (RIR) / Muskelversagen fuer Anfaenger pruefungsrelevant?", optionen: ["Ja, sehr wichtig", "Nein -- nicht pruefungsrelevant und fuer Anfaenger ungeeignet", "Ja, aber nur fuer Fortgeschrittene im Pruefungsplan", "Nur RIR ist relevant, Versagen nicht"], richtig: 1, erklaerung: "Nein -- RIR/Muskelversagen ist laut Seminar nicht pruefungsrelevant und fuer Anfaenger ungeeignet. Anfaenger schaetzen die Reserve schlecht ein." },
+      { frage: "Was ist das Ziel beim Lower-Back-Training?", optionen: ["Nur den Rueckenstrecker trainieren", "Alle stabilisierenden Strukturen staerken, damit der Rueckenstrecker nicht allein arbeitet", "Situps fuer den Ruecken", "Hyperextensions taeglich"], richtig: 1, erklaerung: "Ganzheitliche Stabilitaet: nicht nur der Rueckenstrecker, sondern alle stabilisierenden Strukturen staerken." },
+      { frage: "Warum wird belastete Rotation (z.B. Russian Twist) abgelehnt?", optionen: ["Weil es zu schwer ist", "Bandscheiben halten Axialbelastung gut aus, aber Rotation schlecht", "Weil es keine Muskeln aufbaut", "Wegen Gleichgewichtsproblemen"], richtig: 1, erklaerung: "Bandscheiben sind sehr belastbar unter Axialkraft, aber schlecht fuer Rotationsbelastung. Ziel ist Anti-Rotation (z.B. Pallof Press), keine belastete Rotation." },
+      { frage: "Warum schwankt das Koerpergewicht taeglich ohne Fettveraenderung?", optionen: ["Weil Muskeln wachsen", "Wegen Wasser, Glykogen und Darminhalt", "Wegen Hormonschwankungen im Grundumsatz", "Wegen schlechtem Schlaf"], richtig: 1, erklaerung: "Wasser, Glykogen und Darminhalt schwanken kurzfristig -- Muskeln und Fett aendern sich nur langfristig. Verstopfung kann z.B. +2 kg machen." },
+      { frage: "Wie funktioniert der schnelle Gewichtsverlust bei Keto?", optionen: ["Ketose verbrennt direkt mehr Fett", "Entleerte Glykogenspeicher verlieren gebundenes Wasser -- kein echter Fettverlust ohne Defizit", "Keto erhoeht den Grundumsatz", "Ketone unterdruecken den Hunger immer"], richtig: 1, erklaerung: "Keto entleert Glykogenspeicher -- jedes g Glykogen bindet ~3-4 g Wasser. Der schnelle Gewichtsverlust ist Wasserverlust, kein Fettverlust." },
+      { frage: "Was ist die Grundumsatz-Faustformel aus dem Seminar?", optionen: ["30 x Koerpergewicht", "22 x Koerpergewicht", "BMI x 100", "Alter x 20"], richtig: 1, erklaerung: "22 x Koerpergewicht (kg) als grobe Schaetzung; dann PAL-Faktor multiplizieren. Mifflin-St Jeor ist genauer und geschlechtsspezifisch." },
+      { frage: "Was bedeutet NEAT und warum ist es relevant?", optionen: ["Normale Ernaehrungs-Anpassungs-Technik", "Non-Exercise Activity Thermogenesis -- unbewusste Alltagsbewegung, die im Defizit sinkt", "Nacht-Essen-Anpassung", "Nichts -- kaum relevant"], richtig: 1, erklaerung: "NEAT = unbewusste Alltagsbewegung. Im Defizit sinkt NEAT unbewusst (~100-400 kcal/Tag) -- Plateaus. Gegenmassnahme: Schritte bewusst hochhalten." },
+      { frage: "Welcher Makronährstoff hat den höchsten thermischen Effekt (TEF)?", optionen: ["Fett (~0-3%)", "Kohlenhydrate (~5-10%)", "Protein (~20-30%)", "Alkohol (~15%)"], richtig: 2, erklaerung: "Protein hat den hoechsten TEF (~20-30%). 300 kcal extra essen ist nicht gleich 300 kcal Ueberschuss -- besonders bei Protein." },
+      { frage: "Welche PAL-Werte gelten fuer eine ueberwiegend sitzende Person?", optionen: ["1,1-1,2", "1,3-1,5", "1,7-1,9", "2,0-2,2"], richtig: 1, erklaerung: "PAL 1,3-1,5 fuer sitzende Taetigkeit; + gehen ~1,6; stehend/Handwerker ~1,8." },
+      { frage: "Wie viel % Koerpergewicht pro Woche ist die optimale Rate of Loss?", optionen: ["0,1-0,3%", "0,5-1% (bei stark Uebergewichtigen bis 1,5%)", "2-3%", "So viel wie moeglich"], richtig: 1, erklaerung: "0,5-1% pro Woche maximiert den Muskelerhalt. Bei stark Uebergewichtigen bis 1,5% moeglich." },
+      { frage: "Wie viel Protein empfiehlt das Seminar im Defizit?", optionen: ["0,8 g/kg", "1,0 g/kg", "~2 g/kg (Bereich 1,6-2,5 g/kg)", "4 g/kg"], richtig: 2, erklaerung: "~2 g/kg als Empfehlung (Bereich 1,6-2,5 g/kg). Hoeheres Protein schuetzt im Defizit die Muskelmasse." },
+      { frage: "Wie viel Ueberschuss braucht man fuer Muskelaufbau?", optionen: ["Gar keinen Ueberschuss", "Moderater Ueberschuss 300-500 kcal; viele essen zu wenig", "1.000-2.000 kcal Ueberschuss", "Nur Protein erhoehen reicht"], richtig: 1, erklaerung: "300-500 kcal moderater Ueberschuss. Das groesste Problem: die meisten essen zu wenig. Anfaenger koennen anfangs auch ohne Ueberschuss Recomposition machen." },
+      { frage: "Welche vier Hauptprinzipien der Trainingslehre nennt das PFA-Skript?", optionen: ["Kraft, Ausdauer, Schnelligkeit, Koordination", "Spezifitaet, Ueberladung/trainingswirksamer Reiz, Variation, Progression", "Warm-up, Training, Cool-down, Dehnen", "Periodisierung, Intensitaet, Volumen, Pause"], richtig: 1, erklaerung: "4 Hauptprinzipien: 1) Spezifitaet, 2) Ueberladung/trainingswirksamer Reiz, 3) Variation, 4) Progression. Dazu: Individualisierung, Periodisierung, Prioritaetsprinzip." },
+      { frage: "Was zeigt das Superkompensationsmodell?", optionen: ["Dass mehr Training immer besser ist", "Belastung -- Ermuedung -- Erholung -- Leistung steigt ueber Ausgangsniveau", "Dass Anfaenger schneller Fortschritte machen als Fortgeschrittene", "Dass Erholung unnoetig ist"], richtig: 1, erklaerung: "Superkompensation: Belastung -- Ermuedung -- Erholung -- Leistung steigt UEBER das Ausgangsniveau. Ohne erneuten Reiz faellt die Leistung wieder zurueck." },
+      { frage: "Was gilt fuer Anfaenger vs. Fortgeschrittene bei der Adaptationsreserve?", optionen: ["Fortgeschrittene haben mehr Potenzial als Anfaenger", "Anfaenger reagieren schnell auf fast jeden Reiz; Fortgeschrittene brauchen spezifischere Reize", "Es gibt keinen Unterschied", "Anfaenger sollten schwerer trainieren als Fortgeschrittene"], richtig: 1, erklaerung: "Anfaenger haben eine grosse Adaptationsreserve und reagieren stark auf fast jeden Reiz. Fortgeschrittene brauchen gezieltere, spezifischere Belastungen." },
+      { frage: "Welche Belastungskonfiguration gilt fuer Maximalkrafttraining?", optionen: ["60-70% 1RM, 6-20 Wdh., 2-5 min Pause", "90-100% 1RM, 1-5 Wdh., Pause >5 min", "50-60% 1RM, mehr als 20 Wdh., 0,5-1 min Pause", "70-80% 1RM, 8-12 Wdh., 3-4 Saetze"], richtig: 1, erklaerung: "Maximalkraft: Intensitaet 90-100% 1RM, 1-5 Wdh./Satz, 3-6 Saetze, Pause >5 min. Adaptationen: Kraftmaximum +++, Muskelmasse +." },
+      { frage: "Welche Belastungskonfiguration gilt fuer Hypertrophietraining?", optionen: ["90-100% 1RM, 1-5 Wdh., >5 min Pause", "60-70% (Anfaenger) bis 70-90% (Fortgeschrittene) 1RM, 6-20 Wdh., Pause 2-5 min", "50% 1RM, mehr als 40 Wdh., 30 Sek. Pause", "100% 1RM, 1 Wdh., maximale Pause"], richtig: 1, erklaerung: "Hypertrophie: 60-70% Anfaenger / 70-90% Fortgeschrittene, 6-20 Wdh., Pause 2-5 min, mind. 8 Wochen, 0-3 RIR." },
+      { frage: "Welche Belastungskonfiguration gilt fuer Kraftausdauertraining?", optionen: ["90% 1RM, 3 Wdh., 5 min Pause", "Bis 60% 1RM, mehr als 20-40 Wdh., Pause 0,5-1 Minute", "70-80% 1RM, 10-15 Wdh., 3 min Pause", "Kein Gewicht -- nur Koerpergewicht"], richtig: 1, erklaerung: "Kraftausdauer: bis 60% 1RM, >20-40 Wdh./Satz, 3-10 Saetze, Pause 0,5-1 min. Adaptation: anaerob-laktazide Energiebereitstellung, Ausdauer." },
+      { frage: "Was ist 1 kg Koerperfett tatsaechlich wert in kcal?", optionen: ["5.000 kcal", "7.000 kcal (Seminarzahl)", "~7.700 kcal (etablierter Wert)", "9.000 kcal"], richtig: 2, erklaerung: "Faktencheck: ~7.700 kcal/kg. Das Seminar nannte 7.000 -- rund 9% zu niedrig. Die lineare Rechnung ist ohnehin nur eine Faustregel." },
+      { frage: "Was sagt der Faktencheck zu realistischen Muskelaufbau-Raten fuer Anfaenger pro Monat?", optionen: ["2-2,5% Koerpergewicht (wie im Seminar)", "1-1,5% Koerpergewicht", "5% Koerpergewicht", "0,1% Koerpergewicht"], richtig: 1, erklaerung: "Faktencheck: ~1-1,5% Koerpergewicht/Monat fuer Anfaenger. Die Seminarzahl (2-2,5%) verwechselt reine Muskelmasse mit Gesamtgewichtszunahme inkl. Glykogen/Wasser/Fett." },
+      { frage: "Verbessert nur Krafttraining die Knochendichte?", optionen: ["Ja, nur Krafttraining", "Nein -- auch Impact-Ausdauer (Laufen, Springen) verbessert die Knochendichte", "Nur Schwimmen hilft", "Ausdauer ist besser als Kraft fuer Knochen"], richtig: 1, erklaerung: "Mechanische Belastung (Impact) entscheidet -- Krafttraining UND gewichtstragendes Ausdauertraining (Laufen, Springen) verbessern die Knochendichte. Schwimmen und Radfahren (low-impact) nicht." },
+      { frage: "Ist Krafttraining fuer die Gesundheit wichtiger als Ausdauertraining?", optionen: ["Ja, Krafttraining ist eindeutig ueberlegen", "Nein -- beide senken Mortalitaet; am staerksten ist die Kombination", "Ausdauer ist wichtiger", "Nur Kombination hat Effekt"], richtig: 1, erklaerung: "Beide Trainingsformen senken Mortalitaet unabhaengig. Am staerksten ist die Kombination (~40% geringeres Risiko)." },
+      { frage: "Warum soll man von Koerperfettreduktion statt Abnehmen sprechen?", optionen: ["Weil Abnehmen verboten ist", "Weil das Koerpergewicht nicht nur Fett ist -- es laesst sich leicht manipulieren (Wasser, Darm)", "Weil Aerzte das so verlangen", "Nur ein sprachlicher Trend"], richtig: 1, erklaerung: "Koerpergewicht ist nicht gleich Koerperfett. Gewicht schwankt durch Wasser, Glykogen, Darminhalt. Daher praezise von Koerperfettreduktion sprechen." },
+      { frage: "Was sind laut PFA-Skript die vier Ziele fuer Training?", optionen: ["Kraft, Ausdauer, Gewichtsabnahme, Spass", "Praevention, Rehabilitation, Leistungssteigerung, Koerperformung -- sowie psychische Effekte", "Wettkampf, Gesundheit, Aesthetik, Regeneration", "Muskelaufbau, Fettverlust, Flexibilitaet, Gleichgewicht"], richtig: 1, erklaerung: "Trainingsziele laut Skript: 1) Praevention, 2) Rehabilitation, 3) Leistungssteigerung, 4) Koerperformung -- und: psychische Effekte." },
+      { frage: "Was sagt das PFA-Skript ueber den Planungsprozess?", optionen: ["Man startet mit einzelnen Uebungen und plant dann den Jahresplan", "Zuerst Assessment & SMART-Ziele, dann Jahresplan, dann Mesozyklus, dann Mikrozyklus", "Man braucht keinen strukturierten Prozess", "Erst Ernaehrungsplan, dann Trainingsplan"], richtig: 1, erklaerung: "Planungsprozess: 1) Assessment, 2) SMART-Ziele + Milestones, 3) Messmethoden, 4) vom Groben (Jahresplan) zum Feinen (Trainingseinheit). SMART = Spezifisch, Messbar, Attraktiv, Realistisch, Terminisiert." },
+      { frage: "Was ist das wichtigste Grundprinzip beim Beweglichkeitstraining?", optionen: ["So viel dehnen wie moeglich -- maximale Beweglichkeit anstreben", "Nicht maximal, sondern optimal ausbilden", "Nur passiv-statisches Dehnen verwenden", "Beweglichkeit vor jedem Training trainieren"], richtig: 1, erklaerung: "Wichtigstes Prinzip Beweglichkeit: Nicht maximal, sondern optimal ausbilden! Methoden: dynamisch-aktiv, passiv-statisch, PNF-Stretching." },
+      { frage: "Was ist PNF-Stretching?", optionen: ["Passives Dehnen mit Partner", "Propriozeptive Neuromuskulaere Fazilitation -- komplexere Methode des Beweglichkeitstrainings", "Progressives Netzwerk Flexibilitaetstraining", "Eine Form des dynamischen Dehnens"], richtig: 1, erklaerung: "PNF = Propriozeptive Neuromuskulaere Fazilitation: nutzt neuromuskulaere Reflexmechanismen um eine groessere Bewegungsreichweite zu erreichen." }
+    ]
+  }
 ];
