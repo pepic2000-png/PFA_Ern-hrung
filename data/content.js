@@ -935,7 +935,7 @@ export const themen = [
       },
       {
         frage: "Wie unterscheidet sich Squat von Hinge?",
-        antwort: "Squat (knie-dominiert):\n- Hauptmuskel: Quadrizeps + Gluteus\n- Beispiele: Kniebeuge, Goblet Squat, Box Squat\n\nHinge (hüft-dominiert):\n- Hauptmuskel: Hamstrings + Gluteus\n- Beispiele: Deadlift, RDL, Hip Thrust, Leg Curl\n\nFaustregel: Knie beugt sich stark = Squat. Hüfte scharniert = Hinge."
+        antwort: "Squat (knie-dominiert):\n- Hauptmuskel: Quadrizeps + Gluteus\n- Beispiele: Kniebeuge, Goblet Squat, Box Squat\n\nHinge (hüft-dominiert):\n- Hauptmuskel: Hamstrings + Gluteus\n- Beispiele: Deadlift, RDL, Hip Thrust\n\nFaustregel: Knie beugt sich stark = Squat. Hüfte scharniert = Hinge."
       },
       {
         frage: "Was ist der Standard bei Saetzen und Wiederholungen?",
