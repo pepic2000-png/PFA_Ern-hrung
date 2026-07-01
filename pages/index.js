@@ -163,12 +163,66 @@ export default function App() {
               </div>
             </div>
           ))}
+
+          {/* Sportverletzungen — rot */}
+          {themen.filter(t => t.id === 'sportverletzungen').map(t => (
+            <div key={t.id} className="topic-card topic-card-featured" style={{ background: 'linear-gradient(135deg, #dc2626, #b91c1c)', boxShadow: '0 6px 24px rgba(220,38,38,0.4)', marginBottom: 0 }}>
+              <div style={{ display: 'flex', alignItems: 'center', gap: 10, marginBottom: 6 }}>
+                <span style={{ fontSize: '2rem' }}>{t.icon}</span>
+                <div>
+                  <div style={{ fontSize: '0.65rem', fontWeight: 800, textTransform: 'uppercase', letterSpacing: 1.5, opacity: 0.85 }}>Prävention & Rehab · prüfungsrelevant</div>
+                  <h3 style={{ fontSize: '1.05rem', marginTop: 2 }}>{t.titel}</h3>
+                </div>
+              </div>
+              <p className="count" style={{ marginBottom: 12 }}>{t.karten.length} Karten · {t.quiz.length} Quiz</p>
+              <div className="topic-card-btns">
+                <button className="topic-card-btn" onClick={() => openTopic(t.id, 'flashcards')}>📖 Lernen</button>
+                <button className="topic-card-btn" onClick={() => openTopic(t.id, 'quiz')}>✏️ Quiz</button>
+              </div>
+            </div>
+          ))}
+
+          {/* Spotting — lila */}
+          {themen.filter(t => t.id === 'spotting').map(t => (
+            <div key={t.id} className="topic-card topic-card-featured" style={{ background: 'linear-gradient(135deg, #7c3aed, #6d28d9)', boxShadow: '0 6px 24px rgba(124,58,237,0.4)', marginBottom: 0 }}>
+              <div style={{ display: 'flex', alignItems: 'center', gap: 10, marginBottom: 6 }}>
+                <span style={{ fontSize: '2rem' }}>{t.icon}</span>
+                <div>
+                  <div style={{ fontSize: '0.65rem', fontWeight: 800, textTransform: 'uppercase', letterSpacing: 1.5, opacity: 0.85 }}>One2one Spotting · prüfungsrelevant</div>
+                  <h3 style={{ fontSize: '1.05rem', marginTop: 2 }}>{t.titel}</h3>
+                </div>
+              </div>
+              <p className="count" style={{ marginBottom: 12 }}>{t.karten.length} Karten · {t.quiz.length} Quiz</p>
+              <div className="topic-card-btns">
+                <button className="topic-card-btn" onClick={() => openTopic(t.id, 'flashcards')}>📖 Lernen</button>
+                <button className="topic-card-btn" onClick={() => openTopic(t.id, 'quiz')}>✏️ Quiz</button>
+              </div>
+            </div>
+          ))}
+
+          {/* Marketing & Sales — blau */}
+          {themen.filter(t => t.id === 'marketing_sales').map(t => (
+            <div key={t.id} className="topic-card topic-card-featured" style={{ background: 'linear-gradient(135deg, #2563eb, #1d4ed8)', boxShadow: '0 6px 24px rgba(37,99,235,0.4)', marginBottom: 0 }}>
+              <div style={{ display: 'flex', alignItems: 'center', gap: 10, marginBottom: 6 }}>
+                <span style={{ fontSize: '2rem' }}>{t.icon}</span>
+                <div>
+                  <div style={{ fontSize: '0.65rem', fontWeight: 800, textTransform: 'uppercase', letterSpacing: 1.5, opacity: 0.85 }}>Verkauf & Selbstmarketing · prüfungsrelevant</div>
+                  <h3 style={{ fontSize: '1.05rem', marginTop: 2 }}>{t.titel}</h3>
+                </div>
+              </div>
+              <p className="count" style={{ marginBottom: 12 }}>{t.karten.length} Karten · {t.quiz.length} Quiz</p>
+              <div className="topic-card-btns">
+                <button className="topic-card-btn" onClick={() => openTopic(t.id, 'flashcards')}>📖 Lernen</button>
+                <button className="topic-card-btn" onClick={() => openTopic(t.id, 'quiz')}>✏️ Quiz</button>
+              </div>
+            </div>
+          ))}
         </div>
 
         {/* ── Weitere Themen ── */}
         <p className="section-title">📚 Weitere Themen</p>
         <div className="topic-grid">
-          {themen.filter(t => t.id !== 'pruefungsrelevant' && t.id !== 'trainingsplanung').map(t => (
+          {themen.filter(t => !['pruefungsrelevant', 'trainingsplanung', 'sportverletzungen', 'spotting', 'marketing_sales'].includes(t.id)).map(t => (
             <div key={t.id} className="topic-card" style={{ background: t.farbe }}>
               <div className="icon">{t.icon}</div>
               <h3>{t.titel}</h3>
