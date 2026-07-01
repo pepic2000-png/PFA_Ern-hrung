@@ -1061,5 +1061,98 @@ export const themen = [
       { frage: "Was ist das wichtigste Grundprinzip beim Beweglichkeitstraining?", optionen: ["So viel dehnen wie möglich -- maximale Beweglichkeit anstreben", "Nicht maximal, sondern optimal ausbilden", "Nur passiv-statisches Dehnen verwenden", "Beweglichkeit vor jedem Training trainieren"], richtig: 1, erklärung: "Wichtigstes Prinzip Beweglichkeit: Nicht maximal, sondern optimal ausbilden! Methoden: dynamisch-aktiv, passiv-statisch, PNF-Stretching." },
       { frage: "Was ist PNF-Stretching?", optionen: ["Passives Dehnen mit Partner", "Propriozeptive Neuromuskuläre Fazilitation -- komplexere Methode des Beweglichkeitstrainings", "Progressives Netzwerk Flexibilitätstraining", "Eine Form des dynamischen Dehnens"], richtig: 1, erklärung: "PNF = Propriozeptive Neuromuskuläre Fazilitation: nutzt neuromuskuläre Reflexmechanismen um eine größere Bewegungsreichweite zu erreichen." }
     ]
+  },
+  {
+    id: "spotting",
+    titel: "One2one Spotting",
+    farbe: "#7c3aed",
+    icon: "🎯",
+    karten: [
+      {
+        frage: "Was ist Spotting? Nenne alle 7 Aufgaben.",
+        antwort: "1. Übungen richtig anleiten und vermitteln\n2. Verständnis für Technik einer Übung\n3. Fehler bei Bewegungsausführung erkennen\n4. Korrigieren von falschen Bewegungsmustern\n5. Prävention von Verletzungen und Unfällen\n6. Professionalität zeigen\n7. Körpergefühl fördern",
+        tipp: "Spotting = du bist Augen, Schutz und Lehrer gleichzeitig"
+      },
+      {
+        frage: "Was beobachten wir beim Spotting? (7 Punkte)",
+        antwort: "1. Haltung\n2. Stabilität\n3. ROM (Range of Motion) -- Bewegungsumfang\n4. Atmung (Achtung: Luft anhalten ist ein häufiger Fehler!)\n5. Geschwindigkeit\n6. Wiederholungen\n7. Sätze",
+        tipp: "Atmung besonders wichtig: Luft anhalten erhöht den Blutdruck und ist gefährlich"
+      },
+      {
+        frage: "Welche 3 Kanäle nutzen wir beim Spotten?",
+        antwort: "1. Verbal -- klare Anweisung zu Technik, Haltung, Bewegungsablauf + Feedback\n2. Visuell -- Übung vorzeigen, auf Kunden konzentrieren, Haltung beobachten\n3. Taktil (Berühren) -- gezielter Körperkontakt zur Korrektur\n\nReihenfolge: erst verbal und visuell, taktil nur wenn nötig",
+        tipp: "Taktil immer zuletzt und NUR wenn verbal/visuell nicht reicht"
+      },
+      {
+        frage: "Was sind die Regeln für taktiles Spotting (Berühren)?",
+        antwort: "Regeln:\n- VOR der Berührung IMMER fragen!\n- Nur einen taktilen Reiz setzen wenn es notwendig ist\n- \"Fest und bestimmt\" -- nicht \"soft\"\n- Gib Acht, wo du berührst\n\nBerührungsarten: Fingerspitzen, Handballen, Handrücken, Faust",
+        tipp: "Immer fragen bevor du berührst -- das ist Professionalität und Respekt"
+      },
+      {
+        frage: "Wo und wie setzen wir einen taktilen Reiz ein? Nenne Beispiele.",
+        antwort: "Berührungsarten:\n- Fingerspitzen, Handballen, Handrücken, Faust\n\nPraxisbeispiele:\n- Arme des Übenden führen\n- Becken fixieren\n- Schultern absenken\n- Knieposition stabilisieren\n\nMerke: Rein verbales Vermitteln führt oft NICHT zum gewünschten Erfolg",
+        tipp: "Taktiler Reiz = direktes Körperfeedback -- viel wirksamer als nur reden"
+      },
+      {
+        frage: "Was wollen wir mit Spotting erreichen?",
+        antwort: "- Erlernen der richtigen Technik (Bewegungskontrolle)\n- Kennen und Verstehen korrekter Bewegungsmuster\n- Professionelles Vermitteln von einfachen bis komplexen Übungen\n- Fokus auf Mobilität, Haltung und Funktion\n\nGrundsatz: Geschulte Trainer müssen FEHLER SEHEN und KORRIGIEREN können.\nDas erfordert viel Übung!",
+        tipp: "Fehler sehen + korrigieren ist eine Fähigkeit -- sie kommt mit Erfahrung"
+      },
+      {
+        frage: "Was sind die DO's und DON'Ts beim Personal Training?",
+        antwort: "DO (unbedingt machen):\n- Pünktlich sein\n- Immer fokussiert agieren\n- Proaktive Haltung zeigen\n- Max. 3 Fehler pro Übung korrigieren\n- Mit Händen Richtlinien setzen und Haltung korrigieren\n\nDON'T (besser nicht):\n- Essen während eines PT\n- Unaufmerksam oder gelangweilt sein\n- Mit dem Handy rumspielen\n- Unpünktlich sein",
+        tipp: "Max. 3 Fehler korrigieren -- zu viel auf einmal überfordert den Kunden"
+      }
+    ],
+    quiz: [
+      {
+        frage: "Welche 3 Kanäle nutzt man beim Spotting?",
+        optionen: ["Verbal, Visuell, Taktil", "Verbal, Auditiv, Physisch", "Direkt, Indirekt, Passiv", "Verbal, Digital, Taktil"],
+        richtig: 0,
+        erklärung: "Die 3 Spotting-Kanäle sind: Verbal (Anweisung, Feedback), Visuell (Vorzeigen, Beobachten) und Taktil (gezieltes Berühren zur Korrektur)."
+      },
+      {
+        frage: "Was muss man VOR einer taktilen Korrektur (Berühren) IMMER tun?",
+        optionen: ["Einfach loslegen -- es geht schnell", "Zuerst fragen!", "Die Übung stoppen lassen", "Den Trainingsplan anpassen"],
+        richtig: 1,
+        erklärung: "Vor jeder Berührung immer erst fragen! Das ist Professionalität, Respekt und Pflicht als PT."
+      },
+      {
+        frage: "Wie viele Fehler sollte man maximal pro Übung korrigieren?",
+        optionen: ["1", "2", "3", "5"],
+        richtig: 2,
+        erklärung: "Maximal 3 Fehler pro Übung korrigieren -- mehr überfordert den Kunden und ist kontraproduktiv."
+      },
+      {
+        frage: "Was beobachten wir beim Spotting NICHT?",
+        optionen: ["Haltung und Stabilität", "ROM und Atmung", "Den Trainingsplan des Kunden", "Geschwindigkeit und Wiederholungen"],
+        richtig: 2,
+        erklärung: "Beim aktiven Spotten beobachten wir: Haltung, Stabilität, ROM, Atmung, Geschwindigkeit, Wiederholungen und Sätze -- nicht den Trainingsplan."
+      },
+      {
+        frage: "Welche Berührungsform gehört NICHT zum taktilen Spotting?",
+        optionen: ["Fingerspitzen", "Handballen", "Ellenbogen", "Faust"],
+        richtig: 2,
+        erklärung: "Beim taktilen Spotting nutzen wir: Fingerspitzen, Handballen, Handrücken und Faust. Der Ellenbogen gehört nicht dazu."
+      },
+      {
+        frage: "Wann sollte taktiles Spotting eingesetzt werden?",
+        optionen: ["Bei jeder Übung standardmäßig", "Nur wenn verbal und visuell nicht ausreichen", "Nur bei Anfängern", "Immer als erstes"],
+        richtig: 1,
+        erklärung: "Taktil nur wenn es notwendig ist -- erst verbal und visuell versuchen. Taktil ist das letzte Mittel."
+      },
+      {
+        frage: "Was ist beim Spotting Profi-Tipp Nr. 1 -- was darf ein PT NICHT tun?",
+        optionen: ["Zu viele Übungen einbauen", "Mit dem Handy rumspielen oder unaufmerksam sein", "Zu wenig Sätze vorgeben", "Pause machen"],
+        richtig: 1,
+        erklärung: "Handy, Unaufmerksamkeit und Unpünktlichkeit sind absolute NO-GOs. Personal Training ist ein exklusiver Service -- volle Konzentration auf den Kunden."
+      },
+      {
+        frage: "Was ist das Hauptziel von Spotting laut PFA-Skript?",
+        optionen: ["Den Kunden möglichst viele Übungen beibringen", "Fehler SEHEN und KORRIGIEREN können -- richtige Technik und Bewegungsmuster vermitteln", "Den Trainingsplan optimieren", "Maximale Trainingslast erreichen"],
+        richtig: 1,
+        erklärung: "Hauptziel: Geschulte Trainer müssen Fehler SEHEN und KORRIGIEREN können. Fokus auf Mobilität, Haltung und Funktion -- nicht auf Quantität."
+      }
+    ]
   }
 ];
