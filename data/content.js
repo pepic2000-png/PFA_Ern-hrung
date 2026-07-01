@@ -1265,6 +1265,60 @@ export const themen = [
         optionen: ["Eine akute Muskelverletzung", "Entzündung durch Infekt", "Degenerative Gelenksabnützung -- Knorpelverschleiß", "Knochenbruch durch Überlastung"],
         richtig: 2,
         erklärung: "Arthrose = degenerative (verschleißbedingte) Gelenksabnützung. Knorpel verliert Elastizität, es kommt zum Abrieb -- ein Teufelskreis aus Schmerz und Schonhaltung."
+      },
+      {
+        frage: "Was sind sichere Zeichen einer Fraktur (Knochenbruch)?",
+        optionen: ["Leichte Schwellung und Kribbeln", "Starke Schmerzen, abnorme Beweglichkeit, Verformung, Knochenreiben", "Blaue Verfärbung ohne Schmerzen", "Bewegungseinschränkung ohne Schwellung"],
+        richtig: 1,
+        erklärung: "Sichere Frakturzeichen: starke Schmerzen + Schwellung, abnorme Beweglichkeit, Verformung, Knochenreiben. Erste Maßnahme: schmerzfreie Lagerung + RÖNTGEN!"
+      },
+      {
+        frage: "Was ist ein Ermüdungsbruch?",
+        optionen: ["Bruch durch einmaligen starken Sturz", "Bruch durch Osteoporose", "Bruch durch chronische Überbeanspruchung", "Bruch durch Vitaminmangel"],
+        richtig: 2,
+        erklärung: "Ermüdungsbruch = Fraktur durch chronische Überbeanspruchung -- kein einzelnes Trauma, sondern wiederholte Belastung über die Belastbarkeit hinaus."
+      },
+      {
+        frage: "Was sind die Symptome einer Zerrung (Distension Muskel)?",
+        optionen: ["Kein Schmerz, nur Steifheit", "Ziehender bis stechender Schmerz, Muskelverkrampfung, Schonhaltung", "Sofortige Bewusstlosigkeit", "Nur Rötung ohne Schmerz"],
+        richtig: 1,
+        erklärung: "Zerrung: ziehender bis stechender Schmerz, Muskelverkrampfung/-verhärtung, Schonhaltung, eventuell Hämatom. Vorbeugung: aufwärmen, Ermüdung beachten, Auskühlung vermeiden."
+      },
+      {
+        frage: "Was ist das Schubladenphänomen und wofür steht es?",
+        optionen: ["Schmerz beim Treppensteigen -- Kniearthrose", "Schienbein lässt sich nach vorne/hinten verschieben -- Kreuzbandverletzung", "Knie knickt nach innen -- Meniskusriss", "Knie schwillt an -- Schleimbeutelentzündung"],
+        richtig: 1,
+        erklärung: "Schubladeneffekt: Das Schienbein lässt sich gegenüber dem Oberschenkel verschieben wie eine Schublade -- typisches Zeichen einer Kreuzbandverletzung."
+      },
+      {
+        frage: "Was ist Impingement an der Schulter?",
+        optionen: ["Muskelfaserriss im Bizeps", "Einklemmung im Schultergelenk -- Arm über 90° heben schmerzhaft", "Luxation des Schultergelenks", "Entzündung der Bizepssehne"],
+        richtig: 1,
+        erklärung: "Impingement (Anschlagsperresyndrom): Schmerzen beim Heben des Arms über 90° seitlich. Therapie: Schulter in neutrale Position, Kräftigung und Dehnung des Trapezius."
+      },
+      {
+        frage: "Was ist Plantarfaszitis und wie erkennst du sie?",
+        optionen: ["Entzündung der Kniescheibensehne -- Schmerz vorne am Knie", "Schmerz an der Ferse / Fußsohle, besonders morgens oder bei Belastung", "Riss der Achillessehne -- Knall hörbar", "Sehnenentzündung an der Schulter"],
+        richtig: 1,
+        erklärung: "Plantarfaszitis: Schmerz am Ursprung der Plantarfaszie an der Ferse -- v.a. belastungsabhängig, Druckschmerz besonders morgens oder bei Ausdauersport/Barfußgehen."
+      },
+      {
+        frage: "Was ist ITBS und wen betrifft es vor allem?",
+        optionen: ["Innenbandverletzung -- Kontaktsportler", "Iliotibiales Bandsyndrom (Runners Knee) -- Ziehen Knieaußenseite, v.a. Läufer", "Innenmeniskusriss -- Fußballer", "Achillessehnenentzündung -- Sprinter"],
+        richtig: 1,
+        erklärung: "ITBS = Iliotibiales Bandsyndrom = 'Runners Knee': Ziehen an der Knieaußenseite durch Überlastung und Stabilitätsschwäche im Hüftbereich. Häufig bei Läufern."
+      },
+      {
+        frage: "Was steht auf dem Anamnesebogen eines PT?",
+        optionen: ["Nur Trainingsplan und Übungen", "Körperdaten, Gesundheitsstatus, Vorerkrankungen, Medikamente, Verletzungen, Unterschriften", "Nur Name und Gewicht", "Ernährungsprotokoll der letzten Woche"],
+        richtig: 1,
+        erklärung: "Anamnesebogen: Körperdaten (Größe, Gewicht, BMI), Gesundheitsstatus, Vorerkrankungen, Medikamente, frühere Verletzungen/Operationen, Stress, Schlaf -- mit Unterschrift von Trainer und Kunde."
+      },
+      {
+        frage: "Was sollte in der Grundausrüstung (Sporttasche) eines PT immer dabei sein?",
+        optionen: ["Nur Trainingspläne und Stift", "Erste-Hilfe-Sackerl, Desinfektionsmittel, Pflaster, Dreiecktuch, Notrufnummern, Anamnese-relevante Medikamente", "Proteinriegel und Shaker", "Nur Handy für Notfälle"],
+        richtig: 1,
+        erklärung: "PT-Grundausrüstung: Erste-Hilfe-Sackerl mit Verbandszeug, Desinfektionsmittel, Pflaster, Dreiecktuch, Notrufnummern, und vom Kunden genannte Medikamente (Asthmaspray, Epipen, Traubenzucker)."
       }
     ]
   },
