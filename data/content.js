@@ -977,6 +977,41 @@ export const themen = [
       {
         frage: "Was sind die 4 Trainingsziele laut PFA-Skript?",
         antwort: "1. Praevention -- Verletzungen und Krankheiten vorbeugen\n2. Rehabilitation -- Wiederherstellung nach Verletzung\n3. Leistungssteigerung -- sportliche Performance verbessern\n4. Koerperformung -- Aesthetik, Koerperzusammensetzung\n\nDazu: Psychische Effekte (Stressabbau, Selbstvertrauen, Wohlbefinden)"
+      },
+      {
+        frage: "Was ist das Fitness-Fatigue-Modell?",
+        antwort: "Jeder Trainingsreiz erzeugt gleichzeitig zwei Effekte:\n+ Fitness (langfristig aufgebaut)\n- Fatigue (kurzfristig erhoehte Muedigkeit)\n\nAktuelle Leistung = Fitness MINUS Fatigue\n\nDarum: nach harter Einheit kurz erholt => Superkompensation moeglich",
+        tipp: "Erklaert warum Regeneration so wichtig ist -- ohne Erholung keine Leistungssteigerung"
+      },
+      {
+        frage: "Was sind die 7 Belastungskomponenten im Training?",
+        antwort: "1. Reizintensitaet -- Gewicht/Geschwindigkeit\n2. Reizdauer -- Zeit unter Spannung\n3. Reizumfang -- Gesamtvolumen (Saetze x Wdh)\n4. Reizdichte -- Pause zwischen Saetzen\n5. Trainingshaeufigkeit -- Einheiten pro Woche\n6. Subjektives Belastungsempfinden -- RPE/RIR/Borg-Skala\n7. Uebungsauswahl -- Grunduebungen vs. Isolation",
+        tipp: "Alle 7 Komponenten zusammen bestimmen den Trainingsreiz -- aendere eine, aendert sich alles"
+      },
+      {
+        frage: "Wie ist eine Krafttrainingseinheit sinnvoll aufgebaut?",
+        antwort: "Reihenfolge nach Prioritaet:\n1. Wichtigstes zuerst (Prioritaetsprinzip)\n2. Hohe Geschwindigkeiten vor hohen Lasten (Explosiv vor Schwer)\n3. Hohe Lasten vor geringeren (Schwere Grunduebungen zuerst)\n4. Hauptuebungen vor assistierenden Uebungen\n5. Grosse Muskelgruppen vor kleinen\n\nBeispiel: Kniebeugen vor Beinstrecker, Bank vor Trizeps",
+        tipp: "Primaer = was du am wichtigsten findest, kommt IMMER zuerst"
+      },
+      {
+        frage: "Was bedeutet RAMP beim Warm-up und warum ist Cool-down wichtig?",
+        antwort: "RAMP = Raise, Activate, Mobilise, Potentiate\n- Raise: Koerpertemperatur erhoehen\n- Activate: Ziel-Muskeln ansteuern\n- Mobilise: relevante Gelenke mobilisieren\n- Potentiate: aufgabenspezifische Vorbereitung\n\nCool-down: parasympathisches NS aktivieren, Herzfrequenz senken, Laktat abbauen\n\nMerksatz: So kurz wie moeglich, aber so lang wie noetig",
+        tipp: "RAMP ist moderner als altes statisches Dehnen vor dem Training"
+      },
+      {
+        frage: "Was ist Periodisierung und wie sieht die Anfaenger-Pyramide aus?",
+        antwort: "Periodisierung = Trainingsphasen systematisch planen, Belastung steuern, Ueberlastung vermeiden\n\nAnfaenger-Pyramide (Intensitaet aufsteigend):\n1. Gewoehnung (4-6 Wo, ~30% 1RM)\n2. Kraftausdauer (4 Wo, 30-60%)\n3. Muskelaufbau/Hypertrophie (10-12 Wo, 60-80%)\n4. Maximalkraft (6-8 Wo, 80-100%)\n\nZiel: Langfristiger Fortschritt durch strukturierten Aufbau",
+        tipp: "Grundidee: Belastung -> Anpassung -> hoehere Belastung -- kein Chaos, sondern Plan"
+      },
+      {
+        frage: "Was sind konditionelle vs. koordinative Faehigkeiten?",
+        antwort: "Konditionelle Faehigkeiten (energetisch bestimmt):\n- Kraft, Ausdauer, Schnelligkeit, Beweglichkeit\n\nKoordinative Faehigkeiten (nervlich bestimmt):\n- Gleichgewicht, Reaktion, Rhythmisierung\n- Differenzierungsfaehigkeit, Kopplungsfaehigkeit\n\nBeide Bereiche im Training beruecksichtigen!",
+        tipp: "Konditionell = Wie viel Energie? Koordinativ = Wie praezise die Bewegung?"
+      },
+      {
+        frage: "Was sind die 4 Faktoren fuer erfolgreiche Koerperfettreduktion?",
+        antwort: "1. Training -- Kraft- und Ausdauertraining\n2. Ernaehrung -- Kalorien- und Makro-Steuerung\n3. Alltagsbewegung -- NEAT (Non-Exercise Activity Thermogenesis)\n4. Schlaf, Stress & Metabolismus -- Hormone (Cortisol, Ghrelin, Leptin)\n\nAlle 4 muessen beruecksichtigt werden -- Training allein reicht nicht!",
+        tipp: "NEAT oft unterschaetzt: Treppe statt Aufzug kann 200-400 kcal/Tag ausmachen"
       }
     ],
     quiz: [
