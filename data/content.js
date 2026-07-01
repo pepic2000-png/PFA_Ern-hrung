@@ -1154,5 +1154,118 @@ export const themen = [
         erklärung: "Hauptziel: Geschulte Trainer müssen Fehler SEHEN und KORRIGIEREN können. Fokus auf Mobilität, Haltung und Funktion -- nicht auf Quantität."
       }
     ]
+  },
+  {
+    id: "sportverletzungen",
+    titel: "Sportverletzungen",
+    farbe: "#dc2626",
+    icon: "🩹",
+    karten: [
+      {
+        frage: "Was bedeuten Kontusion, Distorsion, Luxation und Fraktur?",
+        antwort: "Kontusion = Prellung / Quetschung\nDistorsion/Distension = Überdehnung, Zerrung, Zerreißung\nLuxation = Verrenkung / Ausrenkung\nFraktur = Knochenbruch\n\nMerkhilfe: K-D-L-F = Kann Dein Leid Folgen?",
+        tipp: "Diese 4 Begriffe unbedingt auswendig kennen!"
+      },
+      {
+        frage: "Was ist der Unterschied zwischen Distension und Distorsion?",
+        antwort: "Distension = Sehne oder Muskel betroffen\n(Zerrung, Faserriss, Muskelriss)\n\nDistorsion = Band oder Gelenkkapsel betroffen\n(Bänder überdehnt oder gerissen)\n\nBeide = Gewebe über seine Dehnfähigkeit hinaus belastet",
+        tipp: "Distension = D wie 'Dehnung vom Muskel', Distorsion = D wie 'Drehung im Gelenk'"
+      },
+      {
+        frage: "Erstversorgung bei Kontusion (Prellung) — was tun und was NICHT tun?",
+        antwort: "TUN:\n- Hochlagern\n- Kühlen (Kinesio Taping)\n\nNICHT tun:\n- Keine Wärme\n- Kein Alkohol\n- Keine Massage (außer spezielle Techniken)\n\nBelastung kann fortgesetzt werden, wenn Schmerzen nicht zu groß sind",
+        tipp: "Keine Wärme + kein Alkohol = beide erweitern Blutgefäße und verstärken den Bluterguss"
+      },
+      {
+        frage: "Zerrung / Muskelverletzung — Symptome und Vorbeugung?",
+        antwort: "Symptome:\n- Muskelverkrampfung / -verhärtung\n- Ziehender bis stechender Schmerz\n- Schonhaltung, evtl. Hämatom (blauer Fleck)\n\nVorbeugung:\n- Aufwärmen!\n- Ermüdungssymptome beachten\n- Auskühlung vermeiden\n- Muskuläre Dysbalancen beseitigen",
+        tipp: "Häufigste Ursache: nicht aufgewärmte oder übermüdete Muskulatur"
+      },
+      {
+        frage: "Luxation (Verrenkung) — was ist VERBOTEN und warum?",
+        antwort: "VERBOTEN: Selbst einrenken!\n\nWarum: Gefahr von Nerven- und Gefäßschäden\n\nRichtig:\n1. Gelenk ruhigstellen (schmerzfreie Position)\n2. Sofort zum Arzt -- Reposition NUR durch Arzt!\n3. Ärztliche Untersuchung auf Begleitverletzungen\n\nSymptome: starke Schmerzen, abnorme Gelenklage, totale Bewegungseinschränkung",
+        tipp: "Luxation = immer Arzt! Kein Einrenken durch PT"
+      },
+      {
+        frage: "Fraktur (Knochenbruch) — sichere Zeichen und Erstmaßnahmen?",
+        antwort: "Sichere Zeichen:\n- Starke Schmerzen + Schwellung\n- Abnorme Beweglichkeit oder Verformung\n- Knochenreiben\n- Bewegungseinschränkung\n\nErstmaßnahmen:\n- Schmerzfreie Lagerung\n- RÖNTGEN!\n\nArten: Verletzungsbedingt, Krankheitsbedingt (Osteoporose), Ermüdungsbruch",
+        tipp: "Bei Verdacht Fraktur: immer Röntgen -- besser einmal zu viel als zu wenig"
+      },
+      {
+        frage: "Entzündungen & Infekte — was gilt fürs Training?",
+        antwort: "Grundregel: BEI KRANKHEIT KEIN TRAINING!\n\nWarum:\n- Körper kämpft gegen Entzündung -- Training stört Regeneration\n- Virale Infekte können zu Myokarditis führen (Herzmuskelentzündung!)\n- Bakterielle Infekte können zu Endokarditis führen (Herzklappen)\n\nBei Verkühlung, Husten, Schnupfen, entzündetem Zahn: PAUSE",
+        tipp: "Myokarditis durch Training bei Infekt kann lebensbedrohlich sein!"
+      },
+      {
+        frage: "Anamnese & Versicherung — was braucht ein PT?",
+        antwort: "Anamnese: Von jedem Kunden ein Anamneseblatt!\nInhalt: Körperdaten, Gesundheitsstand, Vorerkrankungen, Medikamente, Verletzungen, Operationen\n\nVersicherung:\n- Berufshaftpflichtversicherung: gesetzlich NICHT verpflichtend, aber SEHR empfohlen\n- Auch Unfallversicherung empfehlenswert\n- Achten auf: gedeckte Fälle, korrekte Bezeichnung, Schadenssumme",
+        tipp: "Keine Anamnese = kein Training! Rechtlich und fachlich unverantwortlich"
+      },
+      {
+        frage: "Häufige Knieverletzungen — Meniskus und Kreuzband kurz erklärt",
+        antwort: "Meniskus:\n- Innenmeniskus häufiger verletzt (weniger beweglich)\n- Durch Drehbewegung im gebeugten Knie\n- Therapie: ärztl. Abklärung, evtl. Arthroskopie\n\nKreuzband:\n- Bei Verdrehung + Kraft von innen/außen\n- Zeichen: Schubladeneffekt, blutiger Gelenkserguss\n- Therapie: ärztl. Abklärung, evtl. OP\n\nVorbeugung beider: starke Oberschenkelmuskulatur!",
+        tipp: "Schubladeneffekt = Schienbein lässt sich nach vorne/hinten verschieben = Kreuzband"
+      },
+      {
+        frage: "Schulter: Rotatorenmanschette und Impingement",
+        antwort: "Rotatorenmanschette = 4 Muskeln:\n- M. Subscapularis\n- M. teres minor\n- M. infraspinatus\n- M. Supraspinatus (am häufigsten verletzt!)\n\nImpingement (Anschlagsperresyndrom):\n- Schmerz beim Heben des Arms > 90° seitlich\n- Therapie: Schulter in neutrale Position, Kräftigung + Dehnung Trapezius\n\nVorbeugung: ausgewogenes Schultertraining",
+        tipp: "Merkhilfe Rotatorenmanschette: SITS = Supraspinatus, Infraspinatus, Teres minor, Subscapularis"
+      },
+      {
+        frage: "Überbelastungsschäden + Häufige chronische Beschwerden",
+        antwort: "Überbelastungsschäden (chronisch):\nSchleimbeutel- und Sehnenscheidenentzündungen\nUrsache: zu viel Belastung, falsche Technik, schlechte Vorbereitung\nTherapie: Stützverband, Kinesio Taping, Bewegungsmuster korrigieren\n\nHäufige Beschwerden:\n- ITBS (Runners Knee): Ziehen Knieaußenseite bei Läufern\n- Plantarfaszitis: Fersenschmerz, v.a. morgens\n- Unterer Rücken: Dysbalance Hüftbeuger/Bauch/Rücken\n- Achillessehnenentzündung: schlechte Technik, falsches Schuhwerk",
+        tipp: "Chronisch = schleichend, kein einzelnes Trauma -- entsteht durch Wiederholung"
+      }
+    ],
+    quiz: [
+      {
+        frage: "Was bedeutet 'Luxation'?",
+        optionen: ["Knochenbruch", "Prellung", "Verrenkung / Ausrenkung des Gelenks", "Muskelzerrung"],
+        richtig: 2,
+        erklärung: "Luxation = Verrenkung/Ausrenkung. Die Gelenkteile werden gewaltsam getrennt. Reposition NUR durch Arzt -- nie selbst einrenken!"
+      },
+      {
+        frage: "Was darf bei einer Kontusion (Prellung) NICHT gemacht werden?",
+        optionen: ["Hochlagern", "Kühlen", "Wärme anwenden", "Ruhen"],
+        richtig: 2,
+        erklärung: "Bei Kontusion: KEINE Wärme, kein Alkohol, keine Massage -- all das erweitert Blutgefäße und verstärkt den Bluterguss. Richtig: Hochlagern + kühlen."
+      },
+      {
+        frage: "Was ist der Unterschied zwischen Distension und Distorsion?",
+        optionen: ["Kein Unterschied, beides dasselbe", "Distension = Sehne/Muskel, Distorsion = Band/Kapsel", "Distension = Band, Distorsion = Knochen", "Distension = Gelenk, Distorsion = Muskel"],
+        richtig: 1,
+        erklärung: "Distension betrifft Sehnen oder Muskeln (Zerrung, Faserriss). Distorsion betrifft Bänder oder Gelenkkapseln (Bänder überdehnt oder gerissen)."
+      },
+      {
+        frage: "Darf ein Personal Trainer eine Luxation (Verrenkung) selbst einrenken?",
+        optionen: ["Ja, wenn er gut ausgebildet ist", "Ja, in Notfällen", "Nein, niemals -- nur ein Arzt darf einrenken", "Ja, bei leichten Fällen"],
+        richtig: 2,
+        erklärung: "Niemals selbst einrenken! Gefahr von Nerven- und Gefäßschäden. Ruhigstellen und sofort zum Arzt."
+      },
+      {
+        frage: "Was gilt bei einem viralen Infekt (Erkältung, Grippe) und Sport?",
+        optionen: ["Leichtes Training ist ok", "Training hilft dem Immunsystem", "Kein Training -- Gefahr einer Myokarditis (Herzmuskelentzündung)", "Nur Krafttraining erlaubt"],
+        richtig: 2,
+        erklärung: "Bei viralen Infekten: KEIN Training! Virale Infekte können zu Myokarditis (Herzmuskelentzündung) führen -- das kann lebensbedrohlich sein."
+      },
+      {
+        frage: "Welcher Meniskus wird häufiger verletzt?",
+        optionen: ["Außenmeniskus", "Innenmeniskus", "Beide gleich oft", "Keiner -- Meniskus reißt nicht"],
+        richtig: 1,
+        erklärung: "Der Innenmeniskus ist häufiger verletzt, da er weniger beweglich ist und am Innenband befestigt ist."
+      },
+      {
+        frage: "Wie heißen die 4 Muskeln der Rotatorenmanschette?",
+        optionen: ["Bizeps, Trizeps, Deltoid, Trapezius", "Subscapularis, Teres minor, Infraspinatus, Supraspinatus", "Pectoralis, Serratus, Latissimus, Teres major", "Deltoid, Supraspinatus, Biceps, Infraspinatus"],
+        richtig: 1,
+        erklärung: "SITS: Supraspinatus, Infraspinatus, Teres minor, Subscapularis. Der Supraspinatus ist am häufigsten verletzt."
+      },
+      {
+        frage: "Was ist Arthrose?",
+        optionen: ["Eine akute Muskelverletzung", "Entzündung durch Infekt", "Degenerative Gelenksabnützung -- Knorpelverschleiß", "Knochenbruch durch Überlastung"],
+        richtig: 2,
+        erklärung: "Arthrose = degenerative (verschleißbedingte) Gelenksabnützung. Knorpel verliert Elastizität, es kommt zum Abrieb -- ein Teufelskreis aus Schmerz und Schonhaltung."
+      }
+    ]
   }
 ];
