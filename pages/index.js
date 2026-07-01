@@ -122,44 +122,60 @@ export default function App() {
           <p>Personal Trainer Prüfung · {totalCards} Karten · {totalQuiz} Quizfragen</p>
         </div>
 
-        <p className="section-title">Thema wählen</p>
+        {/* ── Prüfungsrelevante Themen ── */}
+        <p className="section-title">📋 Prüfungsrelevante Themen</p>
 
-        {/* Prüfungsrelevant highlight card — spans full width */}
-        {themen.filter(t => t.id === 'pruefungsrelevant').map(t => (
-          <div key={t.id} className="topic-card topic-card-featured" style={{ background: 'linear-gradient(135deg, #f59e0b, #d97706)' }}>
-            <div style={{ display: 'flex', alignItems: 'center', gap: 10, marginBottom: 6 }}>
-              <span style={{ fontSize: '2rem' }}>{t.icon}</span>
-              <div>
-                <div style={{ fontSize: '0.65rem', fontWeight: 800, textTransform: 'uppercase', letterSpacing: 1.5, opacity: 0.85 }}>Direkt prüfungsrelevant</div>
-                <h3 style={{ fontSize: '1.05rem', marginTop: 2 }}>{t.titel}</h3>
+        <div style={{ display: 'flex', flexDirection: 'column', gap: 10, marginBottom: 24 }}>
+          {/* Ernährung — gold */}
+          {themen.filter(t => t.id === 'pruefungsrelevant').map(t => (
+            <div key={t.id} className="topic-card topic-card-featured" style={{ background: 'linear-gradient(135deg, #f59e0b, #d97706)', marginBottom: 0 }}>
+              <div style={{ display: 'flex', alignItems: 'center', gap: 10, marginBottom: 6 }}>
+                <span style={{ fontSize: '2rem' }}>{t.icon}</span>
+                <div>
+                  <div style={{ fontSize: '0.65rem', fontWeight: 800, textTransform: 'uppercase', letterSpacing: 1.5, opacity: 0.85 }}>Ernährung · vom Dozenten bestätigt</div>
+                  <h3 style={{ fontSize: '1.05rem', marginTop: 2 }}>{t.titel}</h3>
+                </div>
+                <span className="badge-neu">NEU</span>
               </div>
-              <span className="badge-neu">NEU</span>
+              <p className="count" style={{ marginBottom: 12 }}>{t.karten.length} Karten · {t.quiz.length} Quiz</p>
+              <div className="topic-card-btns">
+                <button className="topic-card-btn" onClick={() => openTopic(t.id, 'flashcards')}>📖 Lernen</button>
+                <button className="topic-card-btn" onClick={() => openTopic(t.id, 'quiz')}>✏️ Quiz</button>
+              </div>
             </div>
-            <p className="count" style={{ marginBottom: 12 }}>{t.karten.length} Karten · {t.quiz.length} Quiz — vom Dozenten bestätigt</p>
-            <div className="topic-card-btns">
-              <button className="topic-card-btn" onClick={() => openTopic(t.id, 'flashcards')}>
-                📖 Lernen
-              </button>
-              <button className="topic-card-btn" onClick={() => openTopic(t.id, 'quiz')}>
-                ✏️ Quiz
-              </button>
-            </div>
-          </div>
-        ))}
+          ))}
 
-        <div className="topic-grid" style={{ marginTop: 10 }}>
-          {themen.filter(t => t.id !== 'pruefungsrelevant').map(t => (
+          {/* Trainingsplanung — teal */}
+          {themen.filter(t => t.id === 'trainingsplanung').map(t => (
+            <div key={t.id} className="topic-card topic-card-featured" style={{ background: 'linear-gradient(135deg, #0f766e, #0d9488)', boxShadow: '0 6px 24px rgba(15,118,110,0.4)', marginBottom: 0 }}>
+              <div style={{ display: 'flex', alignItems: 'center', gap: 10, marginBottom: 6 }}>
+                <span style={{ fontSize: '2rem' }}>{t.icon}</span>
+                <div>
+                  <div style={{ fontSize: '0.65rem', fontWeight: 800, textTransform: 'uppercase', letterSpacing: 1.5, opacity: 0.85 }}>Trainingslehre · vom Ausbilder bestätigt</div>
+                  <h3 style={{ fontSize: '1.05rem', marginTop: 2 }}>{t.titel}</h3>
+                </div>
+                <span className="badge-neu" style={{ color: '#0f766e' }}>NEU</span>
+              </div>
+              <p className="count" style={{ marginBottom: 12 }}>{t.karten.length} Karten · {t.quiz.length} Quiz</p>
+              <div className="topic-card-btns">
+                <button className="topic-card-btn" onClick={() => openTopic(t.id, 'flashcards')}>📖 Lernen</button>
+                <button className="topic-card-btn" onClick={() => openTopic(t.id, 'quiz')}>✏️ Quiz</button>
+              </div>
+            </div>
+          ))}
+        </div>
+
+        {/* ── Weitere Themen ── */}
+        <p className="section-title">📚 Weitere Themen</p>
+        <div className="topic-grid">
+          {themen.filter(t => t.id !== 'pruefungsrelevant' && t.id !== 'trainingsplanung').map(t => (
             <div key={t.id} className="topic-card" style={{ background: t.farbe }}>
               <div className="icon">{t.icon}</div>
               <h3>{t.titel}</h3>
               <p className="count">{t.karten.length} Karten · {t.quiz.length} Quiz</p>
               <div className="topic-card-btns">
-                <button className="topic-card-btn" onClick={() => openTopic(t.id, 'flashcards')}>
-                  📖 Lernen
-                </button>
-                <button className="topic-card-btn" onClick={() => openTopic(t.id, 'quiz')}>
-                  ✏️ Quiz
-                </button>
+                <button className="topic-card-btn" onClick={() => openTopic(t.id, 'flashcards')}>📖 Lernen</button>
+                <button className="topic-card-btn" onClick={() => openTopic(t.id, 'quiz')}>✏️ Quiz</button>
               </div>
             </div>
           ))}
