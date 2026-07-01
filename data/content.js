@@ -1267,5 +1267,132 @@ export const themen = [
         erklärung: "Arthrose = degenerative (verschleißbedingte) Gelenksabnützung. Knorpel verliert Elastizität, es kommt zum Abrieb -- ein Teufelskreis aus Schmerz und Schonhaltung."
       }
     ]
+  },
+  {
+    id: "marketing_sales",
+    titel: "Marketing & Sales",
+    farbe: "#2563eb",
+    icon: "💼",
+    karten: [
+      {
+        frage: "Was sind die 5 Sales-Phasen im Verkaufsgespräch?",
+        antwort: "1. Kontaktphase -- Rapport aufbauen, Qualifizierung\n2. Informationsphase -- Anamnese, Bedarf klären, das 'Warum' finden\n3. Präsentationsphase -- Lösungen anbieten, Motive in Praxis umwandeln\n4. Vereinbarungsphase -- Preispräsentation, Hindernisse ausräumen, Vertrag\n5. Empfehlungsphase -- Empfehlungen aktiv erfragen, Kreislauf schließen",
+        tipp: "K-I-P-V-E: Kontakt, Info, Präsentation, Vereinbarung, Empfehlung"
+      },
+      {
+        frage: "Was passiert in der Kontaktphase?",
+        antwort: "- Bewusst vs. unbewusst Kontakt herstellen\n- Qualifizierung: Name, Kontaktdaten, Wohnort, Trainingsziel, Interesse an PT\n- Warm-up mit Ice-Breaker\n- Kunden willkommen heißen, Angst nehmen\n- Rapport und Beziehung aufbauen\n- Anamnese einführen\n\nZiel: Vertrauen schaffen, bevor verkauft wird",
+        tipp: "Rapport = emotionale Verbindung -- ohne Vertrauen kein Verkauf"
+      },
+      {
+        frage: "Was ist das Ziel der Informationsphase und warum ist das 'Warum' so wichtig?",
+        antwort: "Ziel: Den wahren Bedarf und die echte Motivation des Kunden herausfinden\n\nInhalt:\n- Anamnese ausfüllen (7 W-Fragen: Wer, Was, Wann, Wo, Warum, Wie, Wozu)\n- Haupt- und Nebenziele mit Priorisierung\n- Gesundheitsstatus, soziales Umfeld\n\nWICHTIG: Kunde kennt sein 'Warum' oft selbst nicht!\n(intrinsisch vs. extrinsisch)\n\nAm Ende: Zusammenfassen und bestätigen lassen",
+        tipp: "Das 'Warum' ist der emotionale Kaufgrund -- finde es, dann verkauft es sich selbst"
+      },
+      {
+        frage: "Was passiert in Präsentations- und Vereinbarungsphase?",
+        antwort: "Präsentationsphase (Phase des Trainers):\n- Motive und Bedürfnisse in Praxis + Theorie umwandeln\n- Prio 1 (Hauptziel) zuerst abdecken\n- Weniger ist mehr -- z.B. max. 6 Übungen\n- Kunden aufwärmen, Zeit für Plan nutzen\n\nVereinbarungsphase:\n- Individuelles PT-Produkt + Preispräsentation\n- Hindernisse gemeinsam ausräumen\n- Alles Mündliche schriftlich festhalten\n- Vertrag mit Datum + Unterschrift\n- Du hast nur EINE Chance für den Abschluss!",
+        tipp: "Mündliche Absprachen IMMER schriftlich festhalten -- rechtlich wichtig"
+      },
+      {
+        frage: "Was ist die Empfehlungsphase und wie funktioniert sie?",
+        antwort: "Empfehlungsphase = letzter Schritt, schließt den Kreislauf\n\n- Mundpropaganda ist günstigster Weg zu Neukunden\n- Aktiv nach Empfehlungen fragen:\n  'Trainierst du alleine oder mit Partner?'\n  'Hast du Freunde mit ähnlichen Zielen?'\n- Empfohlene Kunden bekommen ein 'Abschlussgeschenk' (gratis PT-Einheit)\n- Zufriedene Kunden empfehlen gerne -- wenn man sie fragt!\n\nAchtung: Datenschutzgesetz beachten!",
+        tipp: "Empfehlung fragen = professionell, nicht aufdringlich -- der richtige Moment ist am Ende"
+      },
+      {
+        frage: "Was ist der Unterschied zwischen Einwand und Vorwand? Und die 6 Schritte?",
+        antwort: "Einwand = ehrlich gemeinte Aussage, warum Kunde nicht kaufen will\nVorwand = vorgeschobene Aussage, um nicht erklären zu müssen warum\n\nErst prüfen: Einwand oder Vorwand?\n\n6 Schritte Einwandbehandlung:\n1. Pause machen und den Kunden aufwerten\n2. Nachfragen: 'Erzähl mir mehr darüber...'\n3. Paraphrasieren (eigene Worte)\n4. Weitere Einwände sammeln, Verbindlichkeit herstellen\n5. Inhaltliche Antworten und Argumente geben\n6. Alles prüfen",
+        tipp: "Häufige Ausreden: zu teuer, keine Zeit, kein Bedarf, kann selbst -- lerne die Gegenargumente!"
+      },
+      {
+        frage: "Was ist ein USP und warum ist er für einen PT wichtig?",
+        antwort: "USP = Unique Selling Proposition = Alleinstellungsmerkmal\n\n- Dient der Abhebung und Unterscheidung von Mitbewerbern\n- Ziel: Identifizierungsfunktion\n- Kunde soll emotionale Bindung zur Marke aufbauen\n- Marke = Lebensgefühl / Lifestyle mit dem sich Kunde identifiziert\n\nUSP findest du bei:\n- Name, Logo, Design\n- Ausbildung, Schwerpunkte, Stärken\n- Emotionales 'Warum'\n\nMerke: Erst wenn DU deinen eigenen Wert kennst, werden auch andere ihn kennen!",
+        tipp: "USP = was macht DICH besonders? Ausbildung allein reicht nicht -- emotionales Warum!"
+      },
+      {
+        frage: "Was macht einen erfolgreichen Personal Trainer aus? (Auftreten + Selbstanalyse)",
+        antwort: "Auftreten:\n- Professionell, smart, dynamisch, lächelnd\n- Pro-aktiv und engagiert\n- Einfühlsam, hohe soziale Kompetenz\n- Tue Gutes und rede darüber (Testimonials!)\n- Wissenschaftlich arbeiten, Fortbildungen\n\nSelbstanalyse (Pflicht für jeden PT):\n- Wer bin ich? Stärken und Schwächen\n- Was ist meine Zielgruppe?\n- Was ist mein USP?\n- Welchen Nutzen haben Kunden durch mich?\n- Wo biete ich mein PT an? Preispolitik?",
+        tipp: "Branding Checkliste: Identität, USP, Abgrenzung, Selbstanalyse, Zielgruppe, Preispolitik"
+      }
+    ],
+    quiz: [
+      {
+        frage: "In welcher Reihenfolge laufen die 5 Sales-Phasen ab?",
+        optionen: [
+          "Präsentation → Kontakt → Info → Vereinbarung → Empfehlung",
+          "Kontakt → Info → Präsentation → Vereinbarung → Empfehlung",
+          "Info → Kontakt → Vereinbarung → Präsentation → Empfehlung",
+          "Kontakt → Präsentation → Info → Empfehlung → Vereinbarung"
+        ],
+        richtig: 1,
+        erklärung: "Die 5 Phasen in Reihenfolge: Kontakt → Information → Präsentation → Vereinbarung → Empfehlung. Merkhilfe: K-I-P-V-E."
+      },
+      {
+        frage: "Was ist das Hauptziel der Informationsphase?",
+        optionen: [
+          "Den Preis präsentieren",
+          "Den Trainingsplan erstellen",
+          "Das echte 'Warum' und den wahren Bedarf des Kunden herausfinden",
+          "Empfehlungen erfragen"
+        ],
+        richtig: 2,
+        erklärung: "Informationsphase: Anamnese ausfüllen, 7 W-Fragen stellen, das 'Warum' des Kunden finden. Der Kunde kennt sein Warum oft selbst nicht!"
+      },
+      {
+        frage: "Was bedeutet USP?",
+        optionen: [
+          "Universal Sales Process",
+          "Unique Selling Proposition -- Alleinstellungsmerkmal",
+          "Unique Sport Program",
+          "United Service Plan"
+        ],
+        richtig: 1,
+        erklärung: "USP = Unique Selling Proposition = Alleinstellungsmerkmal. Hebt dich von Mitbewerbern ab und gibt deiner Marke eine eigene Identität."
+      },
+      {
+        frage: "Was ist der Unterschied zwischen einem Einwand und einem Vorwand?",
+        optionen: [
+          "Kein Unterschied, beides ist dasselbe",
+          "Einwand = vorgeschobene Ausrede, Vorwand = echte Begründung",
+          "Einwand = ehrlich gemeinte Ablehnung, Vorwand = vorgeschobene Ausrede",
+          "Einwand = Preisfrage, Vorwand = Zeitfrage"
+        ],
+        richtig: 2,
+        erklärung: "Einwand = ehrlich und ernst gemeint (z.B. wirklich kein Budget). Vorwand = vorgeschobene Aussage um nicht erklären zu müssen, warum man nicht kaufen will."
+      },
+      {
+        frage: "Was ist der erste Schritt der 6-Schritte-Einwandbehandlung?",
+        optionen: [
+          "Sofort Argumente liefern",
+          "Den Preis senken",
+          "Pause machen und den Gesprächspartner aufwerten",
+          "Die Frage ignorieren"
+        ],
+        richtig: 2,
+        erklärung: "Schritt 1: Pause machen und den Kunden aufwerten -- nie direkt dagegen argumentieren! Dann nachfragen, paraphrasieren, weitere Einwände sammeln, Argumente geben, prüfen."
+      },
+      {
+        frage: "Was gilt für die Vereinbarungsphase?",
+        optionen: [
+          "Mündliche Absprachen reichen aus",
+          "Man kann immer nachverhandeln",
+          "Alle mündlichen Nebenabsprachen schriftlich festhalten -- du hast nur eine Chance!",
+          "Der Kunde entscheidet später in Ruhe"
+        ],
+        richtig: 2,
+        erklärung: "Vereinbarungsphase: Alle mündlichen Absprachen SCHRIFTLICH festhalten. Vertrag mit Datum und Unterschrift. Du hast nur EINE Chance für den Vertragsabschluss!"
+      },
+      {
+        frage: "Wie funktioniert die Empfehlungsphase am besten?",
+        optionen: [
+          "Einfach warten bis Kunden von alleine empfehlen",
+          "Aktiv fragen: 'Hast du Freunde mit ähnlichen Zielen?' + Empfohlene belohnen",
+          "Nur auf Social Media setzen",
+          "Rabatte für Neukunden anbieten"
+        ],
+        richtig: 1,
+        erklärung: "Aktiv fragen ist der Schlüssel! 'Trainierst du alleine oder mit Partner?' Empfohlene Kunden bekommen ein Abschlussgeschenk (z.B. gratis PT-Einheit). Mundpropaganda = günstigster Weg zu Neukunden."
+      }
+    ]
   }
 ];
