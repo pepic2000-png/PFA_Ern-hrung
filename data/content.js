@@ -25,7 +25,7 @@ export const themen = [
       },
       {
         frage: "Was ist der Leistungsumsatz und wie unterscheidet er sich vom Grundumsatz?",
-        antwort: "Grundumsatz (BMR) = Energieverbrauch im vollständigen Ruhezustand (Atmung, Herzschlag, Wärme).\n\nLeistungsumsatz (TDEE) = BMR x PAL-Faktor\n\nPAL = Physical Activity Level (Aktivitätsfaktor).\nz.B. 1,4 = Bürojob / kaum Bewegung\n1,75 = regelmässiger Sport\n1,9 = schwere körperliche Arbeit\n\nBeispiel: BMR 1.800 kcal x PAL 1,55 = TDEE ca. 2.790 kcal"
+        antwort: "Grundumsatz (GU) = Energie im vollständigen Ruhezustand (Atmung, Herzschlag, Organe).\n\nLeistungsumsatz (LU) = Energie, die ZUSÄTZLICH zum GU durch Bewegung und Aktivität verbraucht wird (Sport, Arbeit, Alltag, Hausarbeit).\n\nFormel: Gesamtumsatz = Grundumsatz + Leistungsumsatz\n\nBeispiel: GU 1.800 kcal + LU 900 kcal = Gesamtumsatz 2.700 kcal"
       },
       {
         frage: "Was ist Insulin — kurz erklärt?",
