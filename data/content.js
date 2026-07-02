@@ -28,6 +28,10 @@ export const themen = [
         antwort: "Grundumsatz (GU) = Energie im vollständigen Ruhezustand (Atmung, Herzschlag, Organe).\n\nLeistungsumsatz (LU) = Energie, die ZUSÄTZLICH zum GU durch Bewegung und Aktivität verbraucht wird (Sport, Arbeit, Alltag, Hausarbeit).\n\nFormel: Gesamtumsatz = Grundumsatz + Leistungsumsatz\n\nBeispiel: GU 1.800 kcal + LU 900 kcal = Gesamtumsatz 2.700 kcal"
       },
       {
+        frage: "Was sind Ballaststoffe und welche Wirkung haben sie?",
+        antwort: "Ballaststoffe sind unverdauliche Kohlenhydrate.\n\nSie...\n- reinigen den Darm wie ein Schwamm\n- erhöhen den Sättigungseffekt\n- wirken als natürliche Fettblocker\n- senken den Cholesterinspiegel\n- verringern das Krebsrisiko\n\nQuellen: Vollkornprodukte, Gemüse, Hülsenfrüchte, Obst."
+      },
+      {
         frage: "Was ist der TEF (Thermischer Effekt der Nahrung)?",
         antwort: "TEF = Thermischer Effekt der Nahrung\n\nEnergie, die der Körper für die Verarbeitung von Nahrung verbraucht:\n- Verdauung\n- Transport\n- Verstoffwechslung\n- Einlagerung\n\nCa. 10% der gesamten zugeführten Energiemenge.\n\nTEF je Makronährstoff:\n- Protein: 20-30% der aufgenommenen Kalorien\n- Kohlenhydrate: 5-10%\n- Fett: 3-7%\n\n-> Protein hat den höchsten thermischen Effekt!"
       },
