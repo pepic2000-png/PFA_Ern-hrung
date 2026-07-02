@@ -129,12 +129,12 @@ export const themen = [
         frage: "Was ist der Unterschied zwischen Grundumsatz und Leistungsumsatz?",
         optionen: [
           "Kein Unterschied, es sind Synonyme",
-          "Leistungsumsatz = Grundumsatz + Energie für Bewegung und Alltag",
+          "Leistungsumsatz = ZUSÄTZLICHE Energie für Bewegung; Gesamtumsatz = GU + LU",
           "Grundumsatz ist immer höher als der Leistungsumsatz",
           "Leistungsumsatz misst nur die Energie beim Sport"
         ],
         richtig: 1,
-        erklärung: "Grundumsatz = Ruheenergie. Leistungsumsatz (TDEE) = Grundumsatz + Alltagsbewegung + Sport. Je aktiver du bist, desto höher der Leistungsumsatz."
+        erklärung: "Grundumsatz (GU) = Ruheenergie. Leistungsumsatz (LU) = NUR die zusätzliche Energie für Bewegung und Aktivität. Gesamtumsatz = GU + LU. Je aktiver du bist, desto höher der Leistungsumsatz."
       },
       {
         frage: "Wie viele kcal liefert 1 Gramm Fett?",
@@ -282,8 +282,16 @@ export const themen = [
         antwort: "Der Energiebedarf des Körpers in Ruhe für lebenswichtige Funktionen:\n• Gehirn, Herz, Lungen, Nieren\n• Nervensystem, Verdauungstrakt\n• Muskeln, Haut\n\nEinflussfaktoren:\n• Genetik, Geschlecht (Männer höher)\n• Alter (sinkt mit dem Alter)\n• Gewicht, Körperfettanteil\n• Schilddrüse (Thyroxin)"
       },
       {
+        frage: "Was ist der BMI und wie berechnet man ihn?",
+        antwort: "BMI = Body Mass Index\n\nFormel: BMI = Körpergewicht (kg) ÷ Körpergröße² (m²)\n\nBeispiel: 75 kg, 1,75 m → BMI = 75 ÷ 3,06 = 24,5\n\nBewertung:\n< 18,5 = Untergewicht\n18,5–24,9 = Normalgewicht\n25–29,9 = Übergewicht\n≥ 30 = Adipositas\n\nLimitierung: BMI unterscheidet nicht zwischen Muskel und Fett! Ein Bodybuilder kann BMI 30 haben und trotzdem gesund sein."
+      },
+      {
         frage: "Harris-Benedict Formel zur Berechnung des Grundumsatzes (BMR)?",
         antwort: "Männer:\nBMR = 66 + (13,7 × kg) + (5 × cm) – (6,8 × Alter)\n\nFrauen:\nBMR = 655 + (9,6 × kg) + (1,8 × cm) – (4,7 × Alter)\n\nBeispiel Frau, 30 J., 162 cm, 58 kg:\nBMR = 655 + 556,8 + 291,6 – 141 = 1.362 kcal/Tag"
+      },
+      {
+        frage: "Mifflin-St. Jeor Formel (genauer als Harris-Benedict)?",
+        antwort: "Männer:\nBMR = (10 × kg) + (6,25 × cm) − (5 × Alter) + 5\n\nFrauen:\nBMR = (10 × kg) + (6,25 × cm) − (5 × Alter) − 161\n\nBeispiel Frau, 30 J., 162 cm, 58 kg:\nBMR = 580 + 1.012,5 − 150 − 161 = 1.281 kcal/Tag\n\nDann × PAL-Faktor = Gesamtumsatz\n\nMifflin-St. Jeor gilt als genaueste Formel für die Praxis!"
       },
       {
         frage: "Was ist TDEE und wie berechnet man ihn?",
